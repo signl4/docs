@@ -50,4 +50,4 @@ The value for X-S4-ExternalID is the same as for the previously opened alert.
 
 This is it and an incoming alert will look like this.
 
-![Wazuh Alert in SIGNL4](signl4-wazuh.jpg)
+![Wazuh Alert in SIGNL4](signl4-wazuh.png)
