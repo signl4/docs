@@ -1,3 +1,9 @@
 
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: dark
+
 title: SIGNL4 Technical Documentation
 description: A set of technical documentations about SIGNL4.
