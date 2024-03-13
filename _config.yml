@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme
 title: SIGNL4 Technical Documentation
 description: A set of technical documentations about SIGNL4.
