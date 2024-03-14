@@ -1,5 +1,5 @@
 
-remote_theme: "godalming123/minimal"
+remote_theme: "cotes2020/jekyll-theme-chirpy"
 plugins:
 - jekyll-remote-theme
 
