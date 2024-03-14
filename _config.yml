@@ -2,7 +2,7 @@
 title: SIGNL4 Technical Documentation
 description: A set of technical documentations about SIGNL4.
 
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "godalming123/minimal"
 plugins:
 - jekyll-remote-theme
 
