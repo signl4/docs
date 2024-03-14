@@ -1,5 +1,5 @@
 
-remote_theme: "tomjoht/documentation-theme-jekyll"
+remote_theme: "emilbaehr/automatic-app-landing-page"
 # With side bar and dark: "vaibhavvikas/jekyll-theme-minimalistic"
 # Nice and light: "pages-themes/slate"
 # Dark "flancast90/millidocs-dark"
