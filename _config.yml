@@ -2,7 +2,9 @@
 title: SIGNL4 Technical Documentation
 description: A set of technical documentations about SIGNL4.
 
-theme: jekyll-theme-chirpy
+remote_theme: "jekyll-theme-chirpy"
+plugins:
+- jekyll-remote-theme
 
 # remote_theme: "godalming123/minimal"
 # plugins:
