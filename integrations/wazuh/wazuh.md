@@ -1,4 +1,4 @@
-# Wazuh
+# Integration: Wazuh
 
 ## SIGNL4 Integration with Wazuh
 
