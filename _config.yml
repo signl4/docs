@@ -1,5 +1,5 @@
 
-remote_theme: "liamg/jekyll-theme-abysm"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # With side bar and dark: "vaibhavvikas/jekyll-theme-minimalistic"
 # Nice and light: "pages-themes/slate"
 # Dark "flancast90/millidocs-dark"
