@@ -1,27 +1,10 @@
 
-remote_theme: "vaibhavvikas/jekyll-theme-minimalistic"
+remote_theme: "piharpi/jekyll-klise"
+# With side bar and dark: "vaibhavvikas/jekyll-theme-minimalistic"
 # Nice and light: "pages-themes/slate"
 # Dark "flancast90/millidocs-dark"
 plugins:
 - jekyll-remote-theme
-
-
-platforms:
-  - name: GitHub
-    icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/vaibhavvikas
-  - name: LinkedIn
-    icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/vaibhavvikas
-
-navigation:
-  - name: Readme
-    link: ./index.html
-    sublist:
-      - name: Image
-        link: ./index.html#small-image
-  - name: Another Page
-    link: ./another-page.html
 
 title: SIGNL4 Technical Documentation
 description: A set of technical documentations about SIGNL4.
