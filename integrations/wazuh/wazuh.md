@@ -1,4 +1,6 @@
-# SIGNL4 Integration with Wazuh
+# Wazuh
+
+## SIGNL4 Integration with Wazuh
 
 You can configure the Wazuh integration with SIGNL4 as follows.
 
