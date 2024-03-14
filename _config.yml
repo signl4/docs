@@ -1,5 +1,7 @@
 
-remote_theme: "pages-themes/slate" # "flancast90/millidocs-dark"
+remote_theme: "vaibhavvikas/jekyll-theme-minimalistic"
+# Nice and light: "pages-themes/slate"
+# Dark "flancast90/millidocs-dark"
 plugins:
 - jekyll-remote-theme
 
