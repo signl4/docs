@@ -1,5 +1,5 @@
 
-remote_theme: "flancast90/millidocs-dark"
+remote_theme: "remote_theme: songzivong/dark-minima" # "flancast90/millidocs-dark"
 plugins:
 - jekyll-remote-theme
 
