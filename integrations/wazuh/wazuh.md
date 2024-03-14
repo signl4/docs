@@ -52,8 +52,3 @@ This is it and an incoming alert will look like this.
 
 ![Wazuh Alert in SIGNL4](signl4-wazuh.png)
 
----
-layout: page
-title: Wazuh
-navigation: 1
----
