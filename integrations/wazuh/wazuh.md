@@ -18,7 +18,7 @@ The header value Content-Type is application/json.
 
 You can also send a test alert here.
 
-![Wazuh Notificatio Channel](wazuh-notificatio-channel.png)
+![Wazuh Notification Channel](wazuh-notificatio-channel.png)
 
 Under Alerting -> Monitors create a new monitor that triggers when you would like to send an alert. You need to configure the Trigger accordingly.
 
