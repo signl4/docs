@@ -1,4 +1,9 @@
-# Integration: Wazuh
+---
+title: Wazuh
+description: SIGNL4 Integration with Wazuh.
+---
+
+# SIGNL4 Integration with Wazuh
 
 ## SIGNL4 Integration with Wazuh
 
