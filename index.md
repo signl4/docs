@@ -5,7 +5,13 @@ nav_order: 1
 permalink: /
 ---
 
-SIGNL4 technical documentations.
+# SIGNL4 Technical Docs
 
-Integrations:
-[Integrations](/integrations/index.md)
+Here you find a selection of technical documentations for SIGNL4, e.g. about [integrations]((/integrations/index.md).
+
+![SIGNL4](signl4-phone.png)
+
+https://www.signl4.com
+
+For more information you can also go to [signl4.com](https://www.signl4.com).
+
