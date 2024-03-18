@@ -7,7 +7,7 @@ parent: Integrations
 
 You can configure the Autotask integration with SIGNL4 as follows.
 
-## Connector App
+## Connector App (Two-Way)
 
 This is the recommended approach offering two-way integration of SIGNL4 with Datto (Kaseya) Autotask.
 
