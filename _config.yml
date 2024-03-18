@@ -9,6 +9,10 @@ plugins:
 
 color_scheme: dark
 
+aux_links:
+  "View on GitHub":
+    - "https://github.com/signl4/docs"
+
 title: SIGNL4 Docs
 description: A set of technical documentations about SIGNL4.
 url: "https://signl4.github.io/docs/integrations"
