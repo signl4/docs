@@ -24,6 +24,9 @@ The connector communicates using the Autotask REST API to read ticket details or
 
 You can install and configure the integration in the SIGNL4 web portal under Integrations -> Gallery -> Autotask (please make sure to select the two-way integration here <- / -> ).
 
+![Autotask Integration in SIGNL4](autotask-signl4.png)
+
+
 Here you need to configure your Autotask API username and secret with sufficient access rights. You can find more information [here](https://www.autotask.net/help/Content/4_Admin/1CompanySettings_Users/ResourcesUsersHR/Resources/API_User_Add_Edit.htm). The other parameters are optional, and you can find more information when hovering over the (?) symbol of the according item.
 
 ## Simple Email Integration
