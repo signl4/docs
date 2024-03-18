@@ -1,5 +1,6 @@
 ---
 title: PRTG
+parent: Integrations
 ---
 
 # SIGNL4 Integration with PRTG
