@@ -1,5 +1,6 @@
 ---
 title: Wazuh
+parent: Integrations
 ---
 
 # SIGNL4 Integration with Wazuh
