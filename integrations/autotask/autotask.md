@@ -1,5 +1,6 @@
 ---
 title: Autotask
+parent: Integrations
 ---
 
 # SIGNL4 Integration with Autotask
