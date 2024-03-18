@@ -1,5 +1,6 @@
 ---
 title: Integrations
+has_children: true
 ---
 
 # SIGNL4 Integrations
