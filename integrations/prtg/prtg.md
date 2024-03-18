@@ -1,6 +1,8 @@
-# Integration: PRTG
+---
+title: PRTG
+---
 
-## SIGNL4 Integration with PRTG
+# SIGNL4 Integration with PRTG
 
 You can configure the PRTG integration with SIGNL4 as follows.
 
