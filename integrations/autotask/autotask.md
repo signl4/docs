@@ -9,6 +9,23 @@ You can configure the Autotask integration with SIGNL4 as follows.
 
 ## Connector App
 
+This is the recommended approach offering two-way integration of SIGNL4 with Datto (Kaseya) Autotask.
+
+The Autotask connector app makes 2-way integration with Autotask a child's play and responding to service desk tickets can be done conveniently via the SIGNL4 mobile app.
+
+Feature overview
+- Forwarding tickets of your choice to SIGNL4
+- Status synchronization between both systems
+- Agent assignment when Signl is acknowledged and or closed
+- Ticket notes on status changes in SIGNL4
+
+How does it work?
+The connector communicates using the Autotask REST API to read ticket details or to update them. An API user with according permissions must be used and created in Autotask.
+
+You can install and configure the integration in the SIGNL4 web portal under Integrations -> Gallery -> Autotask (please make sure to select the two-way integration here <- / -> ).
+
+Here you need to configure your Autotask API username and secret with sufficient access rights. You can find more information [here](https://www.autotask.net/help/Content/4_Admin/1CompanySettings_Users/ResourcesUsersHR/Resources/API_User_Add_Edit.htm). The other parameters are optional, and you can find more information when hovering over the (?) symbol of the according item.
+
 ## Simple Email Integration
 
 Using the email integration you can forward any ticket to your SIGNL4 team for a quick response and resolution to an open issue.
