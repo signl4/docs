@@ -1,11 +1,8 @@
 ---
 title: Wazuh
-description: SIGNL4 Integration with Wazuh.
 ---
 
 # SIGNL4 Integration with Wazuh
-
-## SIGNL4 Integration with Wazuh
 
 You can configure the Wazuh integration with SIGNL4 as follows.
 
