@@ -57,3 +57,7 @@ DEVC OK
 
 You can find a sample in GitHub:
 [https://github.com/signl4/signl4-integration-ixon](https://github.com/signl4/signl4-integration-ixon)
+
+The alert in SIGNL4 might look like this.
+
+![SIGNL4 Alert](signl4-iot.png)
