@@ -53,6 +53,8 @@ You can also automatically close alerts is the status in Wazuh is OK again. In t
 
 The value for X-S4-ExternalID is the same as for the previously opened alert.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oryARdRV2es?si=otmQ-9wYh21ays4i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 This is it and an incoming alert will look like this.
 
 ![Wazuh Alert in SIGNL4](signl4-wazuh.png)
