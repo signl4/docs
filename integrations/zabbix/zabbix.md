@@ -1,4 +1,9 @@
-# Zabbix
+---
+title: Zabbix
+parent: Integrations
+---
+
+# SIGNL4 Integration with Zabbix
 
 Since Zabbix 5.0 SIGNL4 is an integral part of Zabbix and available as a Media Type for Alerting. SIGNL4 can also be added as Media Type for previous Zabbix versions. The SIGNL4 Media Type allows you to forward problems from Zabbix to a SIGNL4 team.
 
