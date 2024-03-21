@@ -29,6 +29,7 @@ Under Alerting -> Monitors create a new monitor that triggers when you would lik
 
 The Action will trigger the SIGNL4 alert. You select the SIGNL4 notification channel that you have created in the previous step. The message is in JSON format and might look like follows.
 
+{% raw %}
 ```json
 {
 "AlertMonitor": "{{ctx.monitor.name}} just entered alert status. Please investigate the issue.",
@@ -41,15 +42,18 @@ The Action will trigger the SIGNL4 alert. You select the SIGNL4 notification cha
 "X-S4-Status": "new"
 }
 ```
+{% endraw %}
 
 You can also automatically close alerts is the status in Wazuh is OK again. In this case you specify a Trigger for the OK condition and the message in the SIGNL4 action might look like this.
 
+{% raw %}
 ```json
 {
 "X-S4-ExternalID": "Wazuh: {{ctx.trigger.name}}",
 "X-S4-Status": "resolved"
 }
 ```
+{% endraw %}
 
 The value for X-S4-ExternalID is the same as for the previously opened alert.
 
