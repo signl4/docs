@@ -28,6 +28,8 @@ Password: The application password for the TOPdesk account.
 
 After saving, current (last hour) tickets are retrieved from TOPdesk and an alert is sent to the appropriate SIGNL4 team.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zaWgjGCcfI8?si=ftWQgbkaSPaNVMlZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Alternative Method
 
 A simple alternative (but one-way) method is to use a simple webhook integration as described below.
