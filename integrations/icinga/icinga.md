@@ -11,42 +11,56 @@ We provide a ready-made alerting integration for Icinga2. The integration allows
 
 On the command line, we first add the SIGNL4 send script. To do this, we download it and move it to the appropriate directory:
 
-markdown ``` wget https://raw.githubusercontent.com/signl4/signl4-integration-icinga2/master/signl4-notification.sh
+```bash
+wget https://raw.githubusercontent.com/signl4/signl4-integration-icinga2/master/signl4-notification.sh
 chmod +x signl4-notification.sh
-mv signl4-notification.sh /etc/icinga2/scripts/ ```
+mv signl4-notification.sh /etc/icinga2/scripts/
+```
 
 ## SIGNL4 Configuration
 
 Now we can add the configuration file to the configuration directory and adjust it accordingly.
 
-markdown ``` wget https://raw.githubusercontent.com/signl4/signl4-integration-icinga2/master/signl4-icinga2.conf
-mv signl4-icinga2.conf /etc/icinga2/conf.d/ ```
+```bash
+wget https://raw.githubusercontent.com/signl4/signl4-integration-icinga2/master/signl4-icinga2.conf
+mv signl4-icinga2.conf /etc/icinga2/conf.d/
+```
 
 This file contains the alarm logic and creates the user “signl4”. In this user you still have to enter your SIGNL4 team secret in the field “pager”. This is the last part of your webhook URL or the first part of your SIGNL4 email address. To do this, you have to adjust the following line accordingly.
 
-markdown ``` pager = "team-secret" ```
+```
+pager = "team-secret"
+```
 
 ## Activate SIGNL4 Alerting
 
 The file “templates.conf” in the directory “/etc/icinga2/conf.d/” contains entries “template Host” for “generic-host” and “generic-service”. Here you need to add the following line:
 
-markdown ``` vars.enable_signl4 = true```
+```
+vars.enable_signl4 = true
+```
 
 This is an example:
 
-markdown ``` template Host "generic-host" {
+```
+template Host "generic-host" {
 vars.enable_signl4 = true
-} ```
+}
+```
 
-markdown ``` template Service "generic-service" {
+```
+template Service "generic-service" {
 vars.enable_signl4 = true
-} ```
+}
+```
 
 ## Service Restart
 
 Now you can restart the Icinga2 service in order to apply the changes.
 
-markdown ``` service icinga2 restart ```
+```
+service icinga2 restart
+```
 
 ## Test it
 
