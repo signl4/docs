@@ -27,6 +27,7 @@ You can then create a trigger to send the notification.
 
 The JSON body might look like follows:
 
+{% raw %}
 ```
 {
 "Subject": "{{ticket.title}}",
@@ -35,5 +36,6 @@ The JSON body might look like follows:
 "X-S4-ExternalID": "Zendesk: {{ticket.id}}"
 }
 ```
+{% endraw %}
 
 ![Zendesk Trigger](zendesk-trigger.png)
