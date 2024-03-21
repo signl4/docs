@@ -78,3 +78,6 @@ In order to use the Connector you need to make sure you have the Icinga API enab
 
 (![aIcinga Two Way Integration with SIGNL4](icinga-two-way-integration-with-signl4.png))
 
+The alert in SIGNL4 might look like this.
+
+![SIGNL4 Alert](signl4-icinga.png)
