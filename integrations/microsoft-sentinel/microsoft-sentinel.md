@@ -1,8 +1,8 @@
 
 Configure the app parameters as described in the table below.
 
-| --- | --- |
 | Configuration parameter | Description |
+| --- | --- |
 | Subscription Id | Azure Subscription ID of the subscription you want to get security events from |
 | Tenant Id | Your Azure tenant ID |
 | Client Id | Client Id that was created and displayed when creating the SPN in Azure using the PS script |
@@ -12,4 +12,3 @@ Configure the app parameters as described in the table below.
 | Read security events from | You can select the Azure API that is used to read security alerts / incidents from.<br><br>If Microsoft Sentinel is your single pane of glass solution for SIEM and all security events are fed into Sentinel, select "Microsoft Sentinel API" here.<br><br>If on the other hand, you have assets in Azure that are not integrated with Sentinel and rather use solutions like Defender for Cloud to manage security of those assets, you may select "Microsoft Graph Security API" here. Graph Security API also provides access to security alerts from different sources such as MS Sentinel or Defender for Cloud. |
 | Filter Severity | Select incident severities you wish to get Signls for in SIGNL4. you may e.g. deselect low severity. |
 | Tags for Sentinel incident after Signl creation | Once an incident was received by SIGNL4, a tag can be added to it. This allows you to keep track of the items that were polled by SIGNL4 inside Sentinel. You can leave this field empty. |
-
