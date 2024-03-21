@@ -27,13 +27,11 @@ You can then create a trigger to send the notification.
 
 The JSON body might look like follows:
 
-```
 {
 "Subject": "{{ticket.title}}",
 "Body": "{{ticket.description}}",
 "URL": "{{ticket.url}}",
 "X-S4-ExternalID": "Zendesk: {{ticket.id}}"
 }
-```
 
 ![Zendesk Trigger](zendesk-trigger.png)
