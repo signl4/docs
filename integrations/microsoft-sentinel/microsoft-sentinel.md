@@ -5,6 +5,52 @@ parent: Integrations
 
 # SIGNL4 Integration with Microsoft Sentinel
 
+SIGNL4 integrates with Microsoft Sentinel via an advanced 2-way connector allowing for remote alert management.
+
+For a detailed step-by-step description, please follow this [link](https://support.signl4.com/hc/en-us/articles/6483306495645-Integration-with-Microsoft-Sentinel) to our knowledge base.
+
+## Setup step 1 - Creating a service principal for SIGNL4 in Azure
+
+SIGNL4 uses a service principal in Azure ("App registration") when making calls to the Azure APIs. In addition, this principal is added to a custom user role which tailors access permissions to a minimum of required resources. And the best ist that you don't need to create all these things manually. Instead you can use a PowerShell script to have this done in a few moments.
+
+## Creating service principal and user role
+
+Follow these steps to create the service principal in Azure:
+
+Download the PowerShell deployment script from [here](https://github.com/signl4/signl4-integration-azuresentinel/blob/master/registerSIGNL4Client.ps1).
+
+Review the script and the roles and permission scopes it deploys for the new app registration. If you don't want to use the connector with Azure Sentinel, you could remove all role creation and role assignment code and only use it to create the app registration (SPN) in your Azure Active Directory. Make sure you have all dependent modules installed, which are listed on top of the script.
+Run the script.
+
+Initially, you are prompted to select the subscription in Azure that holds your Sentinel assets. Afterwards, the provisioning of the SPN and the according IAM role is completed automatically. 
+At the end it outputs information that you need to enter in the connector app configuration which is explained in the next chapter. Please make a note of this information.
+
+In Azure AD, click on 'App Registrations'. Find the app with the name **'AzureSentinel and LogAnalytics Client for SIGNL4'**.
+
+Note: If you are service provider and want to attach multiple customer Azure tenants, you must run this script for each of your clients and create multiple connector apps in SIGNL4.
+
+## Optionally assign GraphAPI permissions
+
+The connector app can use Graph Security API to further, non-Sentinel integrated security events from your Azure Subscriptions. If you want to use that functionality (maybe in another connector instance), please open "API permissions" from the details of the registered application and click add permission. Select Graph API on the displayed blade and add the permissions that are displayed in this image:
+
+![Configured Permissions in Microsoft Sentinel](configured-permissions-in-microsoft-sentinel.png)
+
+Finally, make sure to press the button "Grant admin consent".
+
+## Setup step 2 - Create and configure the connector app in SIGNL4
+
+With setup step 1 you have created a service principal in Azure that is used by the connector app when accessing Azure APIs. The service principal credential data consists of the following and must be entered in the connector app configuration:
+
+- Azure tenant ID
+- Azure subscription ID
+- App client ID
+- App client secret
+
+## Create a new connector app in SIGNL4
+In SIGNL4, open the Apps menu of your team and search for "Azure Sentinel, SC, etc." and click "Create".
+
+![Azure Sentinel Connector](azure-sentinel-connector.png)
+
 Configure the app parameters as described in the table below.
 
 | Configuration parameter | Description |
@@ -18,3 +64,23 @@ Configure the app parameters as described in the table below.
 | Read security events from | You can select the Azure API that is used to read security alerts / incidents from.<br><br>If Microsoft Sentinel is your single pane of glass solution for SIEM and all security events are fed into Sentinel, select "Microsoft Sentinel API" here.<br><br>If on the other hand, you have assets in Azure that are not integrated with Sentinel and rather use solutions like Defender for Cloud to manage security of those assets, you may select "Microsoft Graph Security API" here. Graph Security API also provides access to security alerts from different sources such as MS Sentinel or Defender for Cloud. |
 | Filter Severity | Select incident severities you wish to get Signls for in SIGNL4. you may e.g. deselect low severity. |
 | Tags for Sentinel incident after Signl creation | Once an incident was received by SIGNL4, a tag can be added to it. This allows you to keep track of the items that were polled by SIGNL4 inside Sentinel. You can leave this field empty. |
+
+Once ready, click the "Create" button.
+
+The connector attempts to initialize and to read security events from the according API. If that is successful it will be in an OK status. Otherwise you may see an error status with results, e.g. indicating that the credentials did not work when accessing the API.
+
+![Azure Sentinel connector enabled](azure-sentinel-connector-enabled.png)
+
+## Which incidents are retrieved?
+
+In general, only the following Sentinel incidents matching all the below criteria are retrieved by the connector:
+
+- Must be in the status "New"
+- Must not be older than 24 hours (created date)
+- Must have one of the configured severities
+
+Incidents matching the criteria above are polled and are available as an event in SIGNL4 which creates Signls for your teams as configured in your SIGNL4 tenant.
+
+We also recommend this video on the integration of SIGNL4 with Microsoft Sentinel:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/krRJGTxXIHY?si=IC1seK90heGoN2GT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
