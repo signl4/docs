@@ -1,3 +1,9 @@
+---
+title: Microsoft Sentinel
+parent: Integrations
+---
+
+# SIGNL4 Integration with Microsoft Sentinel
 
 Configure the app parameters as described in the table below.
 
