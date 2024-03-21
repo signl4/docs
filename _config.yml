@@ -8,6 +8,7 @@ plugins:
 - jekyll-remote-theme
 
 color_scheme: dark
+nav_sort: case_insensitive
 
 aux_links:
   "View on GitHub":
