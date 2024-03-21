@@ -28,7 +28,7 @@ You can then create a trigger to send the notification.
 The JSON body might look like follows:
 
 {% raw %}
-```
+```json
 {
 "Subject": "{{ticket.title}}",
 "Body": "{{ticket.description}}",
