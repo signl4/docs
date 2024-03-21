@@ -29,10 +29,10 @@ The JSON body might look like follows:
 
 ```json
 {
-“Subject”: “{{ticket.title}}”,
-“Body”: “{{ticket.description}}”,
-“URL”: “{{ticket.url}}”,
-“X-S4-ExternalID”: “Zendesk: {{ticket.id}}”
+"Subject": "{{ticket.title}}",
+"Body": "{{ticket.description}}",
+"URL": "{{ticket.url}}",
+"X-S4-ExternalID": "Zendesk: {{ticket.id}}"
 }
 ```
 
