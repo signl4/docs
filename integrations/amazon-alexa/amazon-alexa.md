@@ -5,8 +5,6 @@ parent: Integrations
 
 # SIGNL4 Integration with Amazon Alexa
 
-## How it works
-
 SIGNL4 has a native [Amazon Alexa](https://developer.amazon.com/alexa?cid=a) app to provide a conversational interface to interact, manage and use SIGNL4.
 
 ![SIGNL4 Alert in Alex](signl4-alexa.png)
