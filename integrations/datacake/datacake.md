@@ -37,4 +37,4 @@ The parameter "X-S4-ExternalID" must have the same value for alert creation and 
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-datacake.png)
+![SIGNL4 Alert](signl4-iot.png)
