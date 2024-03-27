@@ -25,5 +25,4 @@ You can add the parameters within the action. In order to resolve / close and al
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-albato.jpg)
-
+![SIGNL4 Alert](signl4-albato.png)
