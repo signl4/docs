@@ -24,3 +24,7 @@ You can also find the integration scripts on GitHub: [https://github.com/signl4/
 The following video shows how to integrate SIGNL4 with Checkmk 2.0:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/umL1a63EBJc?si=SRpo5lKRQLBajTuy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+The alert in SIGNL4 might look like this.
+
+![SIGNL4 Alert](signl4-checkmk.png)
+
