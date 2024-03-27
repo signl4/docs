@@ -84,3 +84,7 @@ Incidents matching the criteria above are polled and are available as an event i
 We also recommend this video on the integration of SIGNL4 with Microsoft Sentinel:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/krRJGTxXIHY?si=IC1seK90heGoN2GT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+The alert in SIGNL4 might look like this.
+
+![SIGNL4 Alert](signl4-microsoft-sentinel.png)
