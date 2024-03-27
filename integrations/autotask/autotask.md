@@ -45,7 +45,7 @@ Input the SIGNL4 team email address in the other Email(s) section.
 
 Click Save & Close.
 
-![SIGNL4 Email](s4email.png)
+![SIGNL4 Email](signl4-email.png)
 
 ## Simple Webhook Integration
 
@@ -86,3 +86,7 @@ Select SIGNL4 Webhook.
 Click Save.
 
 ![Execute Callout](execute_callout.png)
+
+The alert in SIGNL4 might look like this.
+
+![SIGNL4 Alert](signl4-alert.png)
