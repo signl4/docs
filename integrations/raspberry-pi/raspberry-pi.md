@@ -11,7 +11,7 @@ Here is what the C# code looks like.
 
 First of all, we need to define the webhook URL:
 
-```C#
+```csharp
 private const string Signl4APIUrl = "https://connect.signl4.com/webhook/{team-secret}";
 ```
 
@@ -19,7 +19,7 @@ Note that {team-secret} represents the unique identifier of the team you wish to
 
 Then, we need to define our JSON object which will contain the data for the webhook call:
 
-```C#
+```csharp
  [JsonObject]
         public class Data
         {
@@ -38,7 +38,7 @@ Then, we need to define our JSON object which will contain the data for the webh
 
 The next sniplet is where you assemble the JSON object and fill it with values:
 
-```C#
+```csharp
 var data = new Data 
 {
  // this is a specific object containing data read from the sensor
@@ -66,7 +66,7 @@ catch (Exception ex)
 
 Above code contains a reference to a method “PostAsync”. Here it is:
 
-```C#
+```csharp
 public static async Task<HttpResponseMessage> PostAsync<T>(string strUrl, T content)
 {
   var client = new HttpClient(new HttpClientHandler { AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate });
@@ -81,7 +81,7 @@ public static async Task<HttpResponseMessage> PostAsync<T>(string strUrl, T cont
 
 BTW, you need to include the following use statements:
 
-```C#
+```csharp
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
