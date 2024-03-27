@@ -8,7 +8,7 @@ parent: Integrations
 The integration of SIGNL4 with AppGyver is possible via a SIGNL4 Flow Function. This can be added directly from the Marketplace.
 
 Now you can use the SIGNL4 Flow Function. At least the following input parameters are required:
-- Team Secret| SIGNL4 team secret.
+- Team Secret: SIGNL4 team secret.
 - Title: Alarm Title.
 - Message: Alarm message.
 
