@@ -59,7 +59,7 @@ You can now go to the Web IDE at [https://build.particle.io/build](https://buil
 
 The two main lines to send the SIGNL4 alert are the following.
 
-```
+```javascript
 String data = “{ “subject”: “Motion detected.”, “temperature”: “” + temperature() + “” }”;
 
 Particle.publish(“photon-motion”, data, 60, PUBLIC); 
