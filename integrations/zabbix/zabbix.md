@@ -18,3 +18,7 @@ For older Zabbix versions SIGNL4 provides a dedicated integration for Zabbix [he
 Here is a video showing this integration:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oryARdRV2es?si=zlcrqfT_6V3XklZG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+The alert in SIGNL4 might look like this.
+
+![SIGNL4 Alert](signl4-zabbix.png)
