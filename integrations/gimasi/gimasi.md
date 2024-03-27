@@ -5,8 +5,6 @@ parent: Integrations
 
 # SIGNL4 Integration with Gimasi Service Button
 
-## ## How to Integrate
-
 For integrating SIGNL4 with the Gimasi Service Button you can create a new REST Endpoint in the Service Button portal.
 
 In your Service Button portal you create a new Endpoint under Endpoints -> Add and choose type REST.
