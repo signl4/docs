@@ -39,3 +39,7 @@ The JSON body might look like follows:
 {% endraw %}
 
 ![Zendesk Trigger](zendesk-trigger.png)
+
+The alert in SIGNL4 might look like this.
+
+![SIGNL4 Alert](signl4-alert.png)
