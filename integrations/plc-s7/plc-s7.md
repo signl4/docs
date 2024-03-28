@@ -1,6 +1,6 @@
 
 ---
-title: PLC - S7
+title: PLC (S7)
 parent: Integrations
 ---
 
