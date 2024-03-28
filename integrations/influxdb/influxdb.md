@@ -1,9 +1,9 @@
 ---
-title: Autocode
+title: InfluxDB
 parent: Integrations
 ---
 
-# SIGNL4 Integration with Autocode
+# SIGNL4 Integration with InfluxDB
 
 [InfluxDB](https://www.influxdata.com/) is an open-source time series database developed by [InfluxData](https://www.influxdata.com/). It is optimized for fast, high-availability storage and retrieval of time series data in fields such as operations monitoring, application metrics, Internet of Things (IoT) sensor data, and real-time analytics.
 
