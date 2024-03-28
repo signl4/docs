@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with Icinga
 
+[Icinga2](https://icinga.com/) is a monitoring tool that monitors availability and performance. It gives you simple access to relevant data. SIGNL4 enables Icinga2 to notify mobile teams in the field or on call in real-time. This speeds up their response significantly and frees resources in the operations.
+
 We provide a ready-made alerting integration for Icinga2. The integration allows you to send alerts directly and automatically to your SIGNL4 team for issues detected by Icinga2.
 
 ## SIGNL4 Script
