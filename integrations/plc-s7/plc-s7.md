@@ -1,4 +1,3 @@
-
 ---
 title: PLC (S7)
 parent: Integrations
