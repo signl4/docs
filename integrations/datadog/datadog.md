@@ -23,7 +23,9 @@ You can alert your SIGNL4 team about new Alerts in Datadog. Alerts that get reso
 
 4. Under “New Webhook”, enter a meaningful “Name” and use this SIGNL4 Webhook “URL” including your team secret, for example:
 
+```
 https://connect.signl4.com/webhook/[team-secret]?ExtIDParam=alertId&ExtStatusParam=alertTransition&ResolvedStatus=Recovered
+```
 
 Replace [team-secret] with your SIGNL4 team secret here.
 
