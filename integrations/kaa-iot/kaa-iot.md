@@ -15,7 +15,7 @@ In our example we use a device connected to the IoT platform [Kaa IoT](http://k
 
 ![Kaa IoT](kaa-iot.png)
 
-Kaa IoT uses the [Kibana dashboard](https://www.elastic.co/kibana) for visualization and alerting. On our [Kibana integration page](https://www.signl4.com/blog/portfolio_item/elasticsearch-kibana-mobile-alert-notification-duty-schedule-escalation/) you can find more information on how to integrate SIGNL4. In the following you can find a brief summary about the integration.
+Kaa IoT uses the [Kibana dashboard](https://www.elastic.co/kibana) for visualization and alerting. On our Kibana integration page you can find more information on how to integrate SIGNL4. In the following you can find a brief summary about the integration.
 
 ![Kaa IoT Alert Destination](kaa-iot-alert-destination.png)
 
