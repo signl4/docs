@@ -43,7 +43,7 @@ In case my monitored site becomes unresponsive, Application Insights will fire 
 
 ## Metrics and smart detection
 
-In this blog post I’ve setup SIGNL4 as notification channel for website availability monitoring with Azure Application Insights. However, availability tests are just one source for alerts  in Application Insights. You can setup the same alert flow for your Metric alerts and for Application Insights’ Smart Detection capabilities:
+In this article we have setup SIGNL4 as notification channel for website availability monitoring with Azure Application Insights. However, availability tests are just one source for alerts  in Application Insights. You can setup the same alert flow for your Metric alerts and for Application Insights’ Smart Detection capabilities:
 
 - **Availability tests**: Availability -> Add test
 - **Smart Detection**: Smart Detection -> Settings -> Failure Anomalies
