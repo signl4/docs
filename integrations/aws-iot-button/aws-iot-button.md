@@ -125,13 +125,13 @@ Click “Create Subscription”.
 
 AWS SNS will now call the webhook and request a confirmation. SIGNL4 will turn this confirmation request into an alert which looks like this:
 
-![SIGNL4 1](signl4-1.jpg)
+![SIGNL4 1](signl4-1.png)
 
 Click the blue link under “Subscribeurl”. SIGNL4 opens the mobile browser and the SNS subscription is confirmed. It is important to do this, otherwise AWS will not call the webhook.
 
 Now, whenever you press your IoT button, you create an alert in SIGNL4. Well done!
 
-![SIGNL4 2](signl4-2.jpg)
+![SIGNL4 2](signl4-2.png)
 
 ## Step 5: Adding more buttons
 
