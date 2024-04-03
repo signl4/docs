@@ -9,7 +9,7 @@ Whether you are an MSP or an IT professional, everything is about speed of respo
 
 SIGNL4 pulls detailed ticket information from [Kaseya BMS](https://www.kaseya.com/), providing a smooth and seamless integration experience by offering a built-in 2-way connector. Based on the information retrieved, we trigger automated workflows linking such information to the responsible engineers or technicians, enabling them to interact and respond, feeding status updates, assignments and work notes back into Kaseya BMS.
 
-<iframe title="How to Use SIGNL4 to enhance your Kaseya BMS alerting and ticket response" src="https://player.vimeo.com/video/753864198?dnt=1&amp;app_id=122963" width="1200" height="675" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
+<iframe title="How to Use SIGNL4 to enhance your Kaseya BMS alerting and ticket response" src="https://player.vimeo.com/video/753864198?dnt=1&amp;app_id=122963" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
 
 The alert in SIGNL4 might look like this.
 
