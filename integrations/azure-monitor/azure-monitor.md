@@ -52,7 +52,7 @@ When you acknowledge or close a Signl in the SIGNL4 mobile app, it updates the s
 
 Our have a look at your integration video:
 
-<iframe data-placeholder-image="https://www.signl4.com/wp-content/plugins/complianz-gdpr/assets/images/placeholders/default-minimal.jpg" data-category="statistics" data-service="vimeo" class="cmplz-placeholder-element cmplz-iframe cmplz-iframe-styles cmplz-video " data-cmplz-target="src" data-src-cmplz="https://player.vimeo.com/video/377799830?title=0&amp;byline=0&amp;portrait=0"  src="about:blank"  width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+<iframe data-cmplz-target="src" data-src-cmplz="https://player.vimeo.com/video/377799830?title=0&amp;byline=0&amp;portrait=0"  src="about:blank" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
 
 The alert in SIGNL4 might look like this.
 
