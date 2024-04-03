@@ -153,7 +153,7 @@ Well, once you have the buttons raising an alert with SIGNL4 you can now go ahea
 
 Also, see the video below.
 
-<iframe title="Mobile maintenance call on the shop floor" src="https://player.vimeo.com/video/242933548?h=eb6de0a430&amp;dnt=1&amp;app_id=122963" width="1200" height="675" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Mobile maintenance call on the shop floor" src="https://player.vimeo.com/video/242933548?h=eb6de0a430&amp;dnt=1&amp;app_id=122963" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 The alert in SIGNL4 might look like this.
 
