@@ -1,9 +1,9 @@
 ---
-title: Autocode
+title: Instana
 parent: Integrations
 ---
 
-# SIGNL4 Integration with Autocode
+# SIGNL4 Integration with Instana
 
 [Instana](https://www.instana.com/) is a monitoring platform for application performance monitoring, application performance analysis, root cause analysis and distributed tracing and analysis. Pairing Instana with SIGNL4 can enhance your daily operations with an extension to your team wherever it is. The integration does not only allow you to know when a critical issue has occurred but also when it was resolved no matter where you are.
 
