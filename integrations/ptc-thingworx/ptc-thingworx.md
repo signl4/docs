@@ -1,5 +1,5 @@
 ---
-title: PTC
+title: PTC ThingWorx
 parent: Integrations
 ---
 
