@@ -9,7 +9,7 @@ Mobile workers are not able to sit in front of their Azure IoT solution dashboar
 
 Watch our video to see how we integrated with Azure IoT and Pycom.
 
-<iframe title="Azure IoT and Pycom" src="https://player.vimeo.com/video/278524512?h=f483682ae7&amp;dnt=1&amp;app_id=122963" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe title="Azure IoT and Pycom" src="https://player.vimeo.com/video/278524512?h=f483682ae7&amp;dnt=1&amp;app_id=122963" width="80%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 The alert in SIGNL4 might look like this.
 
