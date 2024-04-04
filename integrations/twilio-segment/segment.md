@@ -1,11 +1,11 @@
 ---
-title: Segment
+title: Twilio Segment
 parent: Integrations
 ---
 
-# SIGNL4 Integration with Segment
+# SIGNL4 Integration with Twilio Segment
 
-The integration of Segment and SIGNL4 is done either using a Webhook destination or using a dedicated destination function. In our example we send an customer information from a Python script and then send an alert to our SIGNL4 team.
+The integration of Twilio Segment and SIGNL4 is done either using a Webhook destination or using a dedicated destination function. In our example we send an customer information from a Python script and then send an alert to our SIGNL4 team.
 
 ![segment-connections](segment-connections.png)
 
