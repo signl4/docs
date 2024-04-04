@@ -5,6 +5,12 @@ parent: Integrations
 
 # SIGNL4 Integration with PLC's via S7
 
+When a machine has a problem or needs maintenance it is often just indicated by an indicator lamp or by a small display attached to the machine. However, during daily operations the plant manager cannot check each machine all the time. For a smooth and uninterrupted production processes it is essential to know when a machine is in a critical status or needs maintenance.
+
+Take your PLC display with you. Pairing PLC’s with SIGNL4 can enhance your daily operations by informing maintenance teams, production managers, or engineers on the shop floor or in the field about critical machine states no matter where they are.
+
+A Programmable Logic Controller (PLC) is  is an industrial, often ruggedized, device for the controlling manufacturing processes, such as machines, assembly lines, or robots. PLC’s can have various digital and analogue inputs and outputs for connecting sensors and actors. They can thus be used for consolidating data from temperature, humidity or vibration sensors, light barriers or from I/O contacts.
+
 In our example we use a PLC with a couple of I/O contacts connected. We retrieve the I/O information from the PLC and send an alert to our SIGNL4 team in case an I/O contact is closed.
 
 ![PLC Diagram](plc-diagram.png)
