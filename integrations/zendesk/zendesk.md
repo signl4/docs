@@ -5,6 +5,12 @@ parent: Integrations
 
 # SIGNL4 Integration with Zendesk
 
+When critical issues arise, SIGNL4 is the fastest way to alert your staff, engineers, IT admins on call and “in the field”. SIGNL4 provides reliable notifications via mobile app push, SMS text and voice calls with tracking, escalations, and duty scheduling.
+
+[Zendesk](https://www.zendesk.com/) is a ticketing system that provides detailed information on critical incidents.  SIGNL4 easily enables Zendesk to notify mobile teams in the field or on call in real-time as tickets are opened. This speeds up their response significantly and frees resources in the operations. You can even close or annotate existing tickets direckly from within your SIGNL4 app.
+
+Pairing Zendesk Ticketing with SIGNL4 can enhance your daily operations with an extension to your team wherever it is. The integration does not only allow you to know when a critical issue has occurred but also when it was resolved no matter where you are.
+
 ## SIGNL4 app for Zendesk
 
 You can install the SIGNL4 app from the Zendesk Marketplace. During the installation you need to enter your SIGNL4 team secret and then you are ready to go.
