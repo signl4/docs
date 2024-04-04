@@ -16,6 +16,8 @@ SIGNL4 is a mobile alert notification app for powerful alerting, alert managemen
 - A SIGNL4 ([https://www.signl4.com](https://www.signl4.com/)) account
 - An Alertra ([https://www.alertra.com/](https://www.alertra.com/)) account
 
+## How to Integrate
+
 Let’s customize a webhook integration within Alertra to make sure that we are sending an alerts that are raised to our SIGNL4 team. From the Main Menu, select Alerts and then choose Integrations.  From the system icon select integrations.
 
 ![Alertra Webhook 1](alertra-webhook1.png)
