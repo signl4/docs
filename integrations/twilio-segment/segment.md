@@ -5,6 +5,12 @@ parent: Integrations
 
 # SIGNL4 Integration with Twilio Segment
 
+When critical events happen, SIGNL4 is the fastest way to alert your staff, engineers, or other teams on call and "in the field". SIGNL4 provides reliable notifications via mobile app push, text and voice calls with tracking, escalations and duty scheduling.
+
+[Segment](https://segment.com/) is a leading customer data platform offering software and APIs to collect, clean, and control customer data. Segment collects user events from your web & mobile apps and provides a complete data toolkit to different teams (e.g. customer services, sales, marketing, product or engineering) in your company.
+
+Pairing Segment with SIGNL4 can enhance your daily operations with an extension to your team wherever it is. The integration allows you to know when a critical issue has occurred.
+
 The integration of Twilio Segment and SIGNL4 is done either using a Webhook destination or using a dedicated destination function. In our example we send an customer information from a Python script and then send an alert to our SIGNL4 team.
 
 ![segment-connections](segment-connections.png)
