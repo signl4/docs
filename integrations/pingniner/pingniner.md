@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with Pingniner
 
+[Pingniner](https://pingniner.com/) is an agent less monitoring site that checks server and application availability. Pingniner monitors your website uptime, domain name expiry, performs SSL certificate checks and monitors cron jobs all in one web interface.  SIGNL4 alerts your server team when a machine is unreachable or your application team when one or more of your websites is experiencing an outage.  Pingniner will generate the emails but SIGNL4 puts those alerts into the hands of the technicians, no matter where they are.
+
 In our example we are using Pingniner to monitor the up time of critical servers and applications.  We will use the SIGNL4 webhook to receive incident data and generate alerts.
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items.  Get the app at [https://www.signl4.com](https://www.signl4.com/)
