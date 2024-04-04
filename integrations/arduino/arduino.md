@@ -5,6 +5,12 @@ parent: Integrations
 
 # SIGNL4 Integration with Arduino
 
+When critical systems fail, SIGNL4 is the fastest way to alert your staff, engineers, IT admins on call and “in the field”. SIGNL4 provides reliable notifications via mobile app push, text and voice calls with tracking, escalations and duty scheduling.
+
+[Arduino](https://www.arduino.cc/) is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers and kits for building digital devices. It can be used for prototyping and IoT projects. Arduino also offers an all-in-one IoT platform.
+
+Pairing Arduino with SIGNL4 can enhance your daily operations with an extension to your team wherever it is. The integration does not only allow you to know when a critical issue has occurred but also when it was resolved no matter where you are.
+
 The integration of Arduino and SIGNL4 is done by sending an HTTP Post request.
 
 ## Prerequisites
