@@ -42,4 +42,4 @@ To generate an alert, we simply need to turn the machine off. We have alert rule
 
 Alert will be received via the SIGNL4 mobile app.
 
-![Pingniner SIGNL4 Alert](pingniner_s4_alert1.png)
+![Pingniner SIGNL4 Alert](pingniner-s4-alert.png)
