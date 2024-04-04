@@ -1,5 +1,5 @@
 
-remote_theme: "just-the-docs/just-the-docs"
+remote_theme: "pages-themes/slate" #"just-the-docs/just-the-docs"
 # Find the documentation here: https://just-the-docs.com/docs/customization/
 # With side bar and dark: "vaibhavvikas/jekyll-theme-minimalistic"
 # Nice and light: "pages-themes/slate"
