@@ -4,6 +4,8 @@ parent: Integrations
 ---
 # SIGNL4 Integration with Workato
 
+[Workato](https://workato.com/) is a single platform to integrate anything and automate everything including IT, sales, marketing, finance, support, etc. Various triggers and actions allow you to assemble your own workflows quickly and conveniently. Workato helps developers with time-consuming integration and maintenance tasks. Pairing this powerful platform with SIGNL4 can enhance your daily operations with an extension to your team wherever it is.
+
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com(https://www.signl4.com).
 
 In the recipe below we send information from Airtable to SIGNL4. For example, this can be a service request or work order.
