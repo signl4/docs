@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with ThingsBoard
 
+[ThingsBoard](https://thingsboard.io/) is an open-source IoT platform for device management, data collection, processing and visualization for your IoT projects. It enables device connectivity via industry standard IoT protocols, e.g. MQTT, CoAP and HTTP and supports both cloud and on-premises deployments. ThingsBoard combines scalability, fault-tolerance and performance. Pairing this powerful IoT platform with SIGNL4 can enhance your daily operations with an extension to your team on the shop floor or in the field.
+
 In our example we ThingsBoard installed on Linux and we simulate a temperature alert. When the temperature is too high we send an alert to our SIGNL4 team.
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com](https://www.signl4.com/).
