@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with n8n
 
+[n8n](https://n8n.io/) is a free and open workflow automation tool. It helps you to automate your daily tasks, synchronize data, or to react to certain events. The platform offers various integrations and helps you to create your own no-code / low-code workflows in no time. Pairing the n8n platform with SIGNL4 can enhance your daily operations with an extension to your team wherever it is.
+
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com](https://www.signl4.com/).
 
 In the workflow below we send information from a file to SIGNL4. For example, this can be data from a monitoring tool.
