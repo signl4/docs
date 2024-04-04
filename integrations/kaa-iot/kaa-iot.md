@@ -5,11 +5,17 @@ parent: Integrations
 
 # SIGNL4 Integration with Kaa IoT
 
+[Kaa](http://kaaiot.com/) is an enterprise IoT platform for device management, data collection, analytics and visualization, remote control, software updates and more.
+
+Pairing Kaa IoT with SIGNL4 can enhance your daily operations with an extension to your team wherever it is. The integration does not only allow you to know when a critical issue has occurred but also when it was resolved no matter where you are.
+
 The integration of Kaa IoT and SIGNL4 is done using a webhook. In our example we monitor a temperature. If the temperature is too high we generate an alert and send it to our SIGNL4-Team.
 
 ## Prerequisites
 - A SIGNL4 account ([https://www.signl4.com](https://www.signl4.com/))
 - Kaa IoT (kaaiot.com) in the cloud or on premise
+
+## How to Integrate
 
 In our example we use a device connected to the IoT platform [Kaa IoT](http://kaaiot.com/) to get temperature data. You can find more information at [kaaiot.com](http://kaaiot.com/).
 
