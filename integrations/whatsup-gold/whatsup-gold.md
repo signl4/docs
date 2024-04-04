@@ -4,6 +4,8 @@ parent: Integrations
 ---
 # SIGNL4 Integration with WhatsUp Gold
 
+[WhatsUpGold](https://www.whatsupgold.com/) provides complete visibility into the status and performance of applications, network devices and servers in the cloud or on-premises.  Detailed dashboards report warnings and alarms across your entire network.  SIGNL4 is a great compliment to this monitoring tool by adding an automated communication layer which notifies users, teams and stakeholders of critical incidents.  Persistent notifications and tier escalation within SIGNL4 ensures that critical alarms are not missed. Issues are taken beyond the dashboard and inbox and delivered vis Push, SMS, and Voice.
+
 In this example we will use WhatsUpGold to send an email to the SIGNL4 team alerting them of a device that is down.
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com](https://www.signl4.com).
