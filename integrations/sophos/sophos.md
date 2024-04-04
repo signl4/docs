@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with Sophos
 
+[Sophos](https://www.sophos.com/) provides endpoint protection with artificial intelligence and EDR, giving you defense against malware, exploits, and ransomware.
+
 In our example we are using Sophos to monitor critical servers for suspicious activity.  We are setting up a new user within Sophos with the SIGNL4 Team email address and will receive the alerts in real time.
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items.  Get the app at [https://www.signl4.com](https://www.signl4.com/)
