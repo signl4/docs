@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with Tray.io
 
+[Tray.io](https://www.tray.io/) is an integration platform that allows you to automate processes across any cloud stack. It helps to reduce your own integration efforts significantly. Pairing this powerful platform with SIGNL4 can enhance your daily operations with an extension to your team wherever it is.
+
 In our example we will send information about a new Task in Salesforce to our SIGNL4 team.
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com](https://www.signl4.com/).
