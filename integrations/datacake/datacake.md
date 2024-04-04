@@ -5,6 +5,10 @@ parent: Integrations
 
 # SIGNL4 Integration with Datacake
 
+[Datacake](https://datacake.co/) is a multi-purpose, low-code IoT platform that requires no programming skills and minimal time to create custom IoT applications that can be brought into a white label IoT solution easily.
+
+Mobile workers are not able to sit in front of a dashboard and actively monitor problems. SIGNL4 enables Datacake to notify the mobile teams in the field or on call in real-time. This speeds up their response significantly and frees resources in the operations.
+
 For integrating SIGNL4 with Datacake you can create a new rule that sends an HTTP request on certain sensor conditions.
 
 In the Datacake portal under Rules you create a new rule. In your rule you specify the sensor conditions (if) as well as the webhook for the data to be sent to SIGNL4 (then).
