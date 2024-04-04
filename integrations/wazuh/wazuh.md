@@ -5,6 +5,10 @@ parent: Integrations
 
 # SIGNL4 Integration with Wazuh
 
+[Wazuh](https://wazuh.com/) is an open-source security platform offering unified XDR and SIEM protection for endpoints and cloud workloads. It is used to collect, aggregate, index and analyze security data, helping organizations detect intrusions, threats and behavioral anomalies.
+
+SIGNL4 adds app-based alerting and incident response. This includes alerts app-push, text and voice call and strategic escalations when needed. The integration of Wazuh and SIGNL4 introduces an advanced duty scheduling system, ensuring that on-call responsibilities are efficiently allocated and allows you to see who is on duty at any given time.
+
 You can configure the Wazuh integration with SIGNL4 as follows.
 
 In the Wazuh web portal log in as a admin to configure SIGNL4 alerting.
