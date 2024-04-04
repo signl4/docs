@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with SteelCentral by Riverbed
 
+Installing the agent on a VM machine will collect vital information such as memory and CPU usage. Alert definitions set within Steel Central will gather this information and display it through widgets on the dashboard as well as send an email out to responsible parties.  This is where SIGNL4 comes in. Rather than having the email get lost in the inbox, SIGNL4 sends this critical data out to team members, immediately alerting them of mission critical issues.
+
 Set notifications by going to Configure and Alert Definitions.
 
 ![Configure Alert Definitions](configure-alert-definitions.png)
