@@ -69,13 +69,13 @@ HTTP Method should be set to POST:
 - Data Format should be XML
 - Click Save and Close
 
-![New Resource](New_Resource.png)
+![New Resource](new-resource.png)
 
 **Editing WorkFlow Rules** 
 
 From the Admin Menu select Workflow Rules.
 
-![Edit Workflow](Edit_workflow.png)
+![Edit Workflow](edit-workflow.png)
 
 Edit the rule that you wish to go out for alerting (such as Critical Ticket Notification).
 
