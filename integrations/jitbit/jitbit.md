@@ -5,7 +5,7 @@ parent: Integrations
 
 # SIGNL4 Integration with JitBit
 
-[JitBit](https://www.jitbit.com/) is a cloud-based (or on-prem) ticketing system.  This tool is perfect for call centers and help desk to take incoming calls and log them in the portal.  The monitoring dashboard gives a great overview of your setup but where SIGNL4 comes in is at the alerting level.  JitBit has many integration methods for connecting to external applications.  We will direct tickets to the right people at the right time using the SIGNL4 webhook.  With on-call duty scheduling and a tiered escalation to a manager, SIGNL4 ensures that the email will not be lost in a sea of emails.^
+[JitBit](https://www.jitbit.com/) is a cloud-based (or on-prem) ticketing system.  This tool is perfect for call centers and help desk to take incoming calls and log them in the portal.  The monitoring dashboard gives a great overview of your setup but where SIGNL4 comes in is at the alerting level.  JitBit has many integration methods for connecting to external applications. We will direct tickets to the right people at the right time using the SIGNL4 webhook.  With on-call duty scheduling and a tiered escalation to a manager, SIGNL4 ensures that the email will not be lost in a sea of emails.
 
 In our example we are going to forward JitBit ticket via webhook to the SIGNL4 team.  This will alert all team members on duty via Push, SMS and Voice notifications.
 
