@@ -21,4 +21,4 @@ If you should have any questions please feel free to contact us at hello [@] sig
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-IoT.png)
+![SIGNL4 Alert](signl4-iot.png)
