@@ -5,6 +5,10 @@ parent: Integrations
 
 # SIGNL4 Integration with Make.com
 
+[Make](https://www.make.com/) is a visual platform that lets you design, build, and automate anything from simple tasks to complex workflows in minutes. The advanced online automation platform is capable of connecting your Web apps as well as transferring and transforming your data. Pairing Make with SIGNL4 can enhance and automate your daily tasks with an extension to your mobile team no matter where they are.
+
+[![Technology Partner](technology-partner.png)](https://www.make.com/en/integrations/signl4?target=blank)
+
 You can add the SIGNL4 module to any of your scenarios in order to send out reliable alert notifications to your team. In our example we use a super simple weather alert.
 
 ![Make Scenario](make-scenario.png)
