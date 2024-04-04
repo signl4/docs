@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with UptimeRobot
 
+[UptimeRobot](https://uptimerobot.com/) is a cloud-based SaaS performance monitor with easy to configure dashboards and user setup.  SIGNL4 ensures that all on duty members receive, acknowledge and resolve critical alerts, all from their smartphones. With persistent notifications and escalation chains there will never be a critical alert that goes unattended. SIGNL4 also offers ad-hoc collaboration between team members for each and every alert, so Subject Matter Experts can be looped in to help resolve issues.
+
 In our example we are using UptimeRobot to monitor the up-time of critical servers.  We are setting up a SIGNL4 Webhook as the method of receiving the alerts.SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items.  Get the app at [https://www.signl4.com](https://www.signl4.com).
 
 ## Prerequisites
