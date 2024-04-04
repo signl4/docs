@@ -5,6 +5,12 @@ parent: Integrations
 
 # SIGNL4 Integration with UiPath
 
+When critical systems fail, SIGNL4 is the fastest way to alert your staff, engineers, IT admins on call and “in the field”. SIGNL4 provides reliable notifications via mobile app push, text and voice calls with tracking, escalations and duty scheduling.
+
+[UiPath](https://www.uipath.com/) is an RPS (Robotic Process Automation) system for automating repetitive tasks to increase efficiency and to free your teams to spend time on work with better returns.
+
+Pairing UiPath with SIGNL4 can enhance your daily operations with an extension to your team wherever it is. The integration does not only allow you to know when a critical issue has occurred but also when it was resolved no matter where you are.
+
 The integration of UiPath and SIGNL4 is done using a ready-to-use Custom Activity. This one generates an alert and sends it to a SIGNL4 team.
 
 ![uioath-studio](uipath-studio.png)
