@@ -1,11 +1,11 @@
 
-#remote_theme: "just-the-docs/just-the-docs"
+remote_theme: "just-the-docs/just-the-docs"
 # Find the documentation here: https://just-the-docs.com/docs/customization/
 # With side bar and dark: "vaibhavvikas/jekyll-theme-minimalistic"
 # Nice and light: "pages-themes/slate"
 # Dark "flancast90/millidocs-dark"
-#plugins:
-#- jekyll-remote-theme
+plugins:
+- jekyll-remote-theme
 
 color_scheme: dark
 nav_sort: case_insensitive
