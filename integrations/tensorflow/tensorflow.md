@@ -5,9 +5,16 @@ parent: Integrations
 
 # SIGNL4 Integration with TensorFlow
 
-TensorFlow can be used in quite a range of different scenarios.
+[TensorFlow](https://www.tensorflow.org/) is an open-source software library for for high performance numerical computation. It can be used from desktops to clusters of servers to mobile and edge devices such as Raspberry Pi. TensorFlow was originally developed by Google AI researchers and comes with strong support for machine learning and deep learning and the flexible numerical computation. Pairing TensorFlow with SIGNL4 can enhance your daily operations with an extension to your mobile team.
 
-The following integration demonstrates demonstrates the part of sending certain information to a SIGNL4 team via an HTTP POST request.
+There are various use cases possible with TensorFlow:
+
+- Video, image and sound recognition
+- Big data analysis (e.g. financial data)
+- Pre-processing of sensor data in the field
+- Deep learning, risk detection, predictive maintenance, fraud detection
+
+TensorFlow can be used in quite a range of different scenarios. The following integration demonstrates demonstrates the part of sending certain information to a SIGNL4 team via an HTTP POST request.
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com](https://www.signl4.com/).
 
