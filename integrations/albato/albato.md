@@ -5,6 +5,10 @@ parent: Integrations
 
 # SIGNL4 Integration with Albato
 
+[Albato](https://albato.com/) is a no-code automation platform for all business automations. You can connect any apps without coders.
+
+Pairing Albato with SIGNL4 can enhance your daily operations with an extension to your team wherever it is.
+
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com](https://www.signl4.com/).
 
 In the following sample workflow below we send information from a HTTP request to SIGNL4.
