@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with Particle
 
+[Particle](https://www.particle.io/) is a fully-integrated IoT platform that offers everything you need to deploy your IoT product, including hardware, software and connectivity. You can monitor sensors or environmental data in the field, do asset tracking, preventive maintenance, gather machine data or use it to improve your supply chain management. Pairing this powerful IoT platform with SIGNL4 can enhance your daily operations with an extension to your team on the shop floor or in the field.
+
 In our example we integrate a Particle Photon device with an IR motion sensor and a temperature sensor. Whenever a motion (e.g. an intruder) is detected we send an alert to our SIGNL4 team.
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com](https://www.signl4.com/).
