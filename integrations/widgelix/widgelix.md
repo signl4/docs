@@ -4,6 +4,10 @@ parent: Integrations
 ---
 # SIGNL4 Integration with Widgelix
 
+[GreenMesh](https://greenmesh.org/widgelix/) [Widgelix](https://widgelix.com/) is a cloud-based IoT platform that helps you to manage and control devices. Collect, analyze and visualize data from various devices, systems or protocols.
+
+Mobile workers are not able to sit in front of a dashboard and actively monitor problems. SIGNL4 enables Widglelix to notify the mobile teams in the field or on call in real-time. This speeds up their response significantly and frees resources in the operations.
+
 SIGNL4 is natively integrated in Widgelix. You can configure it in the Rule Engine.
 
 ![widgelixCard](widgelix-card.png)
