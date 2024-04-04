@@ -1,4 +1,4 @@
-    ---
+---
 title: Sematext
 parent: Integrations
 ---
@@ -22,7 +22,7 @@ SIGNL4 is a mobile alert notification app for powerful alerting, alert managemen
 
 In [SIGNL4](https://sematext.com/docs/integration/alerts-signl4-integration/) go to the Apps in the left menu and chose the Inbound Webhook to get the webhook URL.
 
-![Create SIGNL4 Integration Inbound Webhook](create-signl4-integration-inbound-webhook.png)
+![CreateSIGNL4 Integration Inbound Webhook](create-signl4-integration-inbound-webhook.png)
 
 Copy the SIGNL4 team’s webhook URL.
 
@@ -38,6 +38,10 @@ Next, click the Send Test Notification button. SIGNL4 should return status cod
 
 Once the notification is visible, click the Save Notification Hook button to save your configuration.
 
-You can find more information on the [Sematext site](https://sematext.com/docs/integration/alerts-signl4-integration/) as well.
+You can find more information on the [Sematext side](https://sematext.com/docs/integration/alerts-signl4-integration/) as well.
 
-![Create SIGNL4 Integration](create-signl4-integration.png)
+![create-signl4-integration](create-signl4-integration.png)
+
+The alert in SIGNL4 might look like this.
+
+![SIGNL4 Alert](signl4-alert.png)
