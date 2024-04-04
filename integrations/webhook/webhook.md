@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with Webhook
 
+The SIGNL4 webhook allows you to send events to your SIGNL4 team from external systems or applications. The base URL of the webhook is https://connect.signl4.com/webhook/. Other than the SIGNL4 API, authentication is based on an API key which is encoded in the request URI and matches your SIGNL4 team secret such as https://connect.signl4.com/webhook/{teamSecret}.
+
 In our example we are using the Raise Event API to send event data to SIGNL4.  These parameters will be parsed and separated automatically in the mobile app and with the use of SIGNL4 special parameters we will be able to trigger specific categories, specify a location and trigger a specific acknowledgement type.
 
 You can find more information about how to setup the webhooks in our [getting-started documentation](https://signl4.zendesk.com/hc/en-us/articles/9005939160093-Getting-started).
