@@ -21,7 +21,7 @@ Now you can use the SIGNL4 actions in your bundles. There are two actions availa
 
 You can add the parameters within the action. In order to resolve / close and alert the parameter “SIGNL4 External ID” in the “Resolve alert” action needs to be the same as for the previously called “Send alert” action.
 
-![Albato Bundle](albato-bundle-signl4.png)
+![Albato Bundle](albato-bundle.png)
 
 The alert in SIGNL4 might look like this.
 
