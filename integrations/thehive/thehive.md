@@ -5,7 +5,9 @@ parent: Integrations
 
 # SIGNL4 Integration with TheHive
 
-## How it works
+[TheHive](https://thehive-project.org/) is a scalable, cloud-based or on-premise Security Incident Response Platform, tightly integrated with MISP (Malware Information Sharing Platform). It is designed to makes life easier for SOCs, CSIRTs, CERTs and any information security practitioner when dealing with security incidents that need to be investigated and acted upon swiftly.
+
+SIGNL4 extends TheHive and adds app-based mobile alerting and incident response including push, SMS text, voice calls, escalations and collaboration. The integrated duty planning helps you to schedule your team’s on-call duties and allows you to see who is on duty at any given time.
 
 In the TheHive web portal log in as a user to configure SIGNL4 alerting.
 
