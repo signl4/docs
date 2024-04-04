@@ -4,6 +4,12 @@ parent: Integrations
 ---
 # SIGNL4 Integration with Soho Flow
 
+When critical events happen, SIGNL4 is the fastest way to alert your staff, engineers, or other teams on call and “in the field”. SIGNL4 provides reliable notifications via mobile app push, text and voice calls with tracking, escalations and duty scheduling.
+
+[Zoho Flow](https://www.zoho.com/flow/) helps you to automate your business workflows by connecting your apps. You can build smart integrations to break the information silos in your business.
+
+Pairing Zoho Flow with SIGNL4 can enhance your daily operations with an extension to your team wherever it is. The integration allows you to know when a critical issue has occurred.
+
 The integration of Zoho Flow and SIGNL4 is done using a custom function. In our example we send task information from a ClickUp to our SIGNL4 team.
 
 ![Flow Builder](zoho-flow-builder.png)
@@ -63,4 +69,4 @@ That is it and now you can test the alert. In our case we create a new task in C
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-icinga.png)
+![SIGNL4 Alert](signl4-alert.png)
