@@ -7,6 +7,8 @@ parent: Integrations
 
 SIGNL4 is your platform for adding targeted and persistent mobile incident response to your ServiceNow incidents and for effectively scheduling and managing on-call staff. SIGNL4 give you peace of mind while away from your desk and while on-call. Our comprehensive on-call management and built-in duty scheduling fully automate the communication of incidents by addressing them to the right people at the right time, reducing noise and alert fatigue. Using SIGNL4 helps you to resolve incidents up to 10x faster, ensuring that you meet your SLAs and user expectations.
 
+SIGNL4 integrates with ServiceNow via a ServiceNow app for pushing relevant incidents to SIGNL4. To update incidents in SIGNL4 uses a 2nd connector app to communicate with ServiceNow.  Any relevant incidents can then be communicated to on-call teams or engineers in the field leading to an instant anywhere response. Engineers can acknowledge, update, close and annotate incident tickets on-the-go using SIGNL4’s user-friendly, advanced mobile app.
+
 ## Installation and Account-Linking
 
 1. Install the SIGNL4 application in ServiceNow. You can install it e.g. [from the Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/74c6c9a91b1d9010a621ff72cd4bcbad/) or you can install the application directly in your ServiceNow instance under "System Applications" -> "All Available Applications" -> "All" by simply searching for "SIGNL4" there.
