@@ -5,8 +5,9 @@ parent: Integrations
 
 # SIGNL4 Integration with PRTG
 
-You can configure the PRTG integration with SIGNL4 as follows.
+PRTG Network Monitor is an agentless network monitoring software from Paessler AG. It can monitor and classify system conditions like bandwidth usage or uptime and collect statistics from miscellaneous hosts as switches, routers, servers and other devices and applications. A major issue about the mobile app is you cannot see who is on call or members from your team.  If an alert comes in and you need to collaborate with a team member, there is no way of knowing who is currently on call. SIGNL4 displays active team members directly on the app so you know who to contact if a critical alert comes in and you are not the subject matter expert.
 
+You can configure the PRTG integration with SIGNL4 as follows.
 
 We describe here two ways to integrate SIGNL4 with PRTG, via HTTP request and via email.
 
