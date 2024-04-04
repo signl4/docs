@@ -16,6 +16,8 @@ SIGNL4 is a mobile alert notification app for powerful alerting, alert managemen
 - A SIGNL4 ([https://www.signl4.com](https://www.signl4.com/)) account
 - An AppOptics ([https://www.appoptics.com/](https://www.appoptics.com/)) account
 
+## How to Integrate
+
 We will create a new rule that monitors the health of a Virtual Machine. Upon creating the rule, set the Name and Description of the alert.
 
 ![AppOptics Create Alert 1](appoptics-create-alert-1.png)
