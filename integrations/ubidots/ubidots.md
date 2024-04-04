@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with Ubidots
 
+[Ubidots](https://ubidots.com/) offers an IoT platform for data connectivity, analytics, processing and visualization. You can turn sensor data into information that matters for business-decisions, machine-to-machine interactions or educational research. Device connectivity is possible via HTTP, MQTT, TCP or UDP protocols. Pairing this powerful IoT platform with SIGNL4 can enhance your daily operations with an extension to your team on the shop floor or in the field.
+
 In our example we use a Raspberry Pi as a device and connect it to the Ubidots platform to simulate a temperature alert. When the temperature is too high we send an alert to our SIGNL4 team.
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com](https://www.signl4.com/).
@@ -47,4 +49,4 @@ You can find a sample in GitHub:
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](signl4-iot.png)
