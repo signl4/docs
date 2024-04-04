@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with Gimasi Service Button
 
+[Gimasi](https://www.gimasi.com/)‘s Service Button sends information to the Gimasi Cloud when it is pressed. There, the status is displayed in the form of an alarm, but it is only when embedded in business processes that this device unfolds its full potential. The addition of SIGNL4 makes it possible to quickly alert service or security teams. The ability of SIGNL4 to alert multiple people on duty and obtain acknowledgement means that even classic service call scenarios, where one person acknowledges and takes over the job, can be implemented in minutes.
+
 For integrating SIGNL4 with the Gimasi Service Button you can create a new REST Endpoint in the Service Button portal.
 
 In your Service Button portal you create a new Endpoint under Endpoints -> Add and choose type REST.
