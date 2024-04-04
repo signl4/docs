@@ -15,5 +15,5 @@ aux_links:
     - "https://github.com/signl4/docs"
 
 title: SIGNL4 Docs
-description: A set of technical documentations about SIGNL4.
+description: A set of technical documentations for SIGNL4.
 url: "https://signl4.github.io/docs/integrations"
