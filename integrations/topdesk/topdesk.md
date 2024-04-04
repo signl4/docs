@@ -7,6 +7,8 @@ parent: Integrations
 
 ## SIGNL4 Connector App
 
+[TOPdesk](https://www.topdesk.com/) is an IT help desk solution providing both a user and admin web portals.  TOPdesk tickets can be forwarded via email, SMS and to external systems via web-hooks.  This is where SIGNL4 comes in.  Help desk tickets will be identified sooner and resolved quicker, reducing downtime and saving money. Persistent notifications and tier escalation within SIGNL4 ensures that critical alarms are not missed. Issues are taken beyond the dashboard and inbox and delivered via Push, SMS, and Voice.
+
 The TOPdesk connector app makes two-way integration with TOPdesk  a child’s play and responding to service desk tickets can be done conveniently via the SIGNL4 mobile app.
 
 **Feature overview**:
