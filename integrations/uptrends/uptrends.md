@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with Uptrends
 
+Don’t just a get a text message or email when your website is down. [Uptrends](https://www.uptrends.com/) checks your website availability at one-minute intervals from 225 different locations worldwide. Uptrends can send out email and SMS alerts but where SIGNL4 comes in is the ease of managing an on-call team with instant collaboration and ownership of those alerts.   With persistent notifications and escalation chains there will never be a critical alert that goes unattended. SIGNL4 also offers ad-hoc collaboration between team members for each and every alert, so Subject Matter Experts can be looped in to help resolve issues.
+
 In our example we are using Uptrends to monitor the up-time of critical servers.  We are forwarding website down alerts via webhook to our SIGNL4 team.
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com](https://www.signl4.com)
