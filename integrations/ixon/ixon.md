@@ -5,6 +5,8 @@ parent: Integrations
 
 # SIGNL4 Integration with IXON Cloud
 
+[IXON](https://www.ixon.cloud/) is an all-in-one solution for seamless integration between cloud, edge connectivity and machine. The no-code IIoT platform offers remote access (VPN), cloud data logging, data visualization and more. Accessing machine data becomes quick and easy. Pairing this powerful IoT platform with SIGNL4 can enhance your daily operations with an extension to your team on the shop floor or in the field.
+
 In our example we use the IXagent, the software agent for IXON Cloud, to simulate temperature data. When the temperature is too high we send an alert to our SIGNL4 team. You can use an IXrouter, IXON’s edge gateway as well.
 
 SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com](https://www.signl4.com).
