@@ -5,7 +5,13 @@ parent: Integrations
 
 # SIGNL4 Integration with Prometheus Alertmanager
 
-he integration of Prometheus and SIGNL4 is done using the Alertmanager that is part of Prometheus.
+When critical systems fail, SIGNL4 is the fastest way to alert your staff, engineers, IT admins on call and “in the field”. SIGNL4 provides reliable notifications via mobile app push, text and voice calls with tracking, escalations and duty scheduling.
+
+[Prometheus](https://prometheus.io/) is an open-source monitoring tool that monitors availability and performance. It gives you simple access to relevant data for example using [Grafana](https://www.signl4.com/blog/portfolio_item/grafana-mobile-alert-notification-app-text-voice-call/). SIGNL4 easily enables Prometheus to notify mobile teams in the field or on call in real-time. This speeds up their response significantly and frees resources in the operations.
+
+Pairing Prometheus Alertmanager with SIGNL4 can enhance your daily operations with an extension to your team wherever it is. The integration does not only allow you to know when a critical issue has occurred but also when it was resolved no matter where you are.
+
+The integration of Prometheus and SIGNL4 is done using the Alertmanager that is part of Prometheus.
 
 ## Prerequisites
 
