@@ -7,7 +7,7 @@ permalink: /
 
 # SIGNL4 Technical Docs
 
-Here you find a selection of techical information and documentations about SIGNL4, including [integrations](/integrations/index.md).
+Here you find a selection of techical information and documentations about SIGNL4, including [integrations](./integrations/index.md).
 
 ![SIGNL4](signl4-phone.png)
 
