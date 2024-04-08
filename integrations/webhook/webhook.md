@@ -60,16 +60,15 @@ The following parameters will enrich your Signl or to influence its processing a
 
 You can also add query parameters which are each documented below. They are used to correlate the status of events in your 3rd party system with the Signl status in SIGNL4. You are thereby able to define when an event, sent to the webhook, should acknowledge or resolve a Signl that it has triggered earlier. An example is: https://connect.signl4.com/webhook/teamssecret?ExtIdParam=Id&ExtStatusParam=Status&ResolvedStatus=UP&AckStatus=PENDING
 
+You can use your own JSON parameters as appropriate, e.g. HostName, SensorId, etc. SIGNL4 will try to display them in a nice format. 
+
 You can try these steps out at the following URL:
 [https://connect.signl4.com/webhook/docs/index.html](https://connect.signl4.com/webhook/docs/index.html)
 
-Open the description by clicking the "POST" button.
-
-Enter in Your Team Secret.
-
-Enter in the event data.
-
-Click "Try it Out".
+- Open the description by clicking the "POST" button.
+- Enter in Your Team Secret.
+- Enter in the event data.
+- Click "Try it Out".
 
 ![SIGNL4 Alert 1](signl4-alert1.png)
 ![SIGNL4 Alert 2](signl4-alert2.png)
