@@ -7,6 +7,8 @@ parent: Integrations
 
 This document will provide the reader with information on how to integrate the SIGNL4 with the digital service management platform BMC Helix ITSM (formerly BMC Remedy). After consulting this document, the reader should have a clear understanding of how Helix and SIGNL4 will interact with each other.
 
+![BMC ISV Partner][(bmc-isv-partner.png)
+
 In our example we are going to be assigning a ticket to a user with the SIGNL4 team email address.
 
 First, you will need to create a SIGNL4 user.  This user’s email address should be the team specific email provided when creating the SIGNL4 account.
