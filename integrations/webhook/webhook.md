@@ -93,7 +93,7 @@ curl -d '{"Alert": "Hi.", "X-S4-ExternalId": "-1234", "X-S4-Status": "new"}' -H 
 https://connect.signl4.com/webhook/{team-secret}
 ```
 
-### Triggger Alert
+### Trigger Alert
 
 Trigger an alert.
 
