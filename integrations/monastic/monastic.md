@@ -1,9 +1,9 @@
 ---
-title: Monastic
+title: Montastic
 parent: Integrations
 ---
 
-# SIGNL4 Integration with Monastic
+# SIGNL4 Integration with Montastic
 
 [Montastic](https://montastic.com/) is a cloud-based monitoring system.  This tool is perfect monitoring the status of your servers and applications to make sure they are reachable.  The monitoring dashboard gives a great overview of your setup but where SIGNL4 comes in is at the alerting level.  Montastic has many integration methods for connecting to external applications.  We will direct tickets to the right people at the right time using the SIGNL4 webhook.  With on-call duty scheduling and a tiered escalation to a manager, SIGNL4 ensures that the email will not be lost in a sea of emails.
 
