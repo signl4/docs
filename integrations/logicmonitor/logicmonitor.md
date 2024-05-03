@@ -24,7 +24,7 @@ Here, {team-secret} is your SIGNL4 team secret.
 For resolving alerts in SIGNL4 when the alert gets closed in LogicMonitor you can use the following URL:
 
 ```
-https://connect.signl4.com/webhook/team-secret}?ExtIDParam=X-S4-ExterlanlID&ExtStatusParam=status&ResolvedStatus=clear
+https://connect.signl4.com/webhook/{team-secret}?ExtIDParam=X-S4-ExterlanlID&ExtStatusParam=status&ResolvedStatus=clear
 ```
 
 The Alert Data (Raw and in JSON format) might look like this:
