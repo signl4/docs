@@ -14,7 +14,7 @@ Integrating SIGNL4 with LibreNMS to forward critical alerts with detailed inform
 ## Prerequisites
 
 - A SIGNL4 ([https://www.signl4.com](https://www.signl4.com/)) account
-- LibreNMS (download from [https://www.alertra.com/](https://www.alertra.com/))
+- LibreNMS (download from [https://www.librenms.org](https://www.librenms.org/))
 
 ## How to Integrate
 
