@@ -5,7 +5,7 @@ parent: Integrations
 
 # SIGNL4 Integration with Zabbix
 
-When critical systems fail, SIGNL4 is the fastest way to alert your staff, engineers, IT admins on call and “in the field”. SIGNL4 provides reliable notifications via mobile app push, text and voice calls with tracking, escalations and duty scheduling. Discover how to integrate with [Zabbix](https://www.zabbix.com/) 5.0.
+When critical systems fail, SIGNL4 is the fastest way to alert your staff, engineers, IT admins on call and “in the field”. SIGNL4 provides reliable notifications via mobile app push, text and voice calls with tracking, escalations and duty scheduling. Discover how to integrate with [Zabbix](https://www.zabbix.com/integrations/signl4#signl4) 5.0.
 
 Mobile workers are not able to sit in front of a [Zabbix](https://www.zabbix.com/) dashboard and actively monitor problems. SIGNL4 enables Zabbix to notify the mobile teams in the field or on call in real-time. This speeds up their response significantly and frees resources in the operations.
 
