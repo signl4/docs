@@ -41,7 +41,7 @@ It is also possible to update the status of a button alarm in the Service Button
 In order to do so you need to make sure that the parameter “X-S4-ExternalID” is set to “{{event\_id}}” as in the above example. Also, you need to create an outbound webhook in SIGNL4 that sends back status updates to the Service Button. You can do this in the SIGNL4 web portal unter Integrations -> Gallery -> Webhook (Outbound). The URL to enter here is the following:
 
 ```
-https://your\_tenant.api.servicebutton.com/api/signl4/event?api-token=api\_token
+https://your_tenant.api.servicebutton.com/api/signl4/event?api-token=api_token
 ```
 
 You need to replace your\_tenant with your tenant name and api\_token with your Service Button API token. You can create the API token in the Service Button portal by clicking on the user menu and then going to the API Settings menu.
