@@ -42,9 +42,9 @@ Follow these steps to create the service principal in Azure:
 
 4. Run the script.
 
-    4.1 Initially, you are prompted to select the subscription in Azure that holds your Sentinel assets. Afterwards, the provisioning of the SPN and the according IAM role is completed automatically. 
+    1. Initially, you are prompted to select the subscription in Azure that holds your Sentinel assets. Afterwards, the provisioning of the SPN and the according IAM role is completed automatically. 
 
-    4.2 At the end it outputs information that you need to enter in the connector app configuration which is explained in the next chapter. Please make a note of this information.
+    2. At the end it outputs information that you need to enter in the connector app configuration which is explained in the next chapter. Please make a note of this information.
 
 5. In Azure AD, click on 'App Registrations'. Find the app with the name **'AzureSentinel and LogAnalytics Client for SIGNL4'**.
 
