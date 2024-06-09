@@ -28,7 +28,7 @@ SIGNL4 uses a dedicated Service Principal which is assigned to a custom user rol
 
 ## Setup step 1 - Creating a service principal for SIGNL4 in Azure
 
-SIGNL4 uses a service principal in Azure ("App registration") when making calls to the Azure APIs. In addition, this principal is added to a custom user role which tailors access permissions to a minimum of required resources. And the best ist that you don't need to create all these things manually. Instead you can use a PowerShell script to have this done in a few moments.
+SIGNL4 uses a service principal in Azure ("App registration") when making calls to the Azure APIs. In addition, this principal is added to a custom user role which tailors access permissions to a minimum of required resources. And the best is that you don't need to create all these things manually. Instead, you can use a PowerShell script to have this done in a few moments.
 
 ### Creating service principal and user role
 
