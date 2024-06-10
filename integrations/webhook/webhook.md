@@ -151,7 +151,7 @@ The following file formats are supported.
 | Document        | pdf                                 |
 | Video           | mov, mp4                            |
 
-Each attachment may be maximum 4MB in size.
+Each attachment may be maximum 4 MB in size.
 
 Here is a sample request:
 
