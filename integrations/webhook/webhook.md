@@ -15,7 +15,7 @@ The SIGNL4 webhook allows you to send events to your SIGNL4 team from external s
 
 You can find more infiormation about the SIGNL4 webhook API [here](https://connect.signl4.com/webhook/docs/index.html).
 
-### Trigger Alerts
+## Trigger Alerts
 
 The payload that we will pass through will be:
 
@@ -122,6 +122,80 @@ Content-Type: application/json
 }
 ```
 
-### Code Snippets
+## MIME Types for Images and Audio
+
+Besides JSON, SIGNL4 also supports other MIME types for the HTTP POST requests.
+
+Here is an example of x-www-form-urlencoded:
+
+```
+
+    POST The URL will be generated after creation. HTTP/1.1
+    Host: connect.signl4.com
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 73
+
+    Title=Fire%20alert&Message=Fire%20alert&Param1=Value%201&Param2=Value%202
+
+```
+
+If you want to also submit a file with the webhook, you can use the content type multipart/formdata. The example below sends an content file with an icon as content with the event to your team. The content needs to be encoded in Base64, but can also be send in Binary format. Supported file types are images and text files (e.g. png, jpg, txt). Max. file size is 4MB.
+
+```
+
+    POST The URL will be generated after creation. HTTP/1.1
+    Host: connect.signl4.com
+    Content-Type: multipart/form-data; boundary=----RandomGeneratedBoundary
+    Content-Length: 2286
+
+    ------RandomGeneratedBoundary
+    Content-Disposition: form-data; name="Title"
+
+    Fire alert
+    ------RandomGeneratedBoundary
+    Content-Disposition: form-data; name="Message"
+
+    Fire alert
+    ------RandomGeneratedBoundary
+    Content-Disposition: form-data; name="Param1"
+
+    Value 1
+    ------RandomGeneratedBoundary
+    Content-Disposition: form-data; name="Param2"
+
+    Value 2
+    ------RandomGeneratedBoundary
+    Content-Disposition: form-data; name="Logo"; filename="S4_Icon_32.png"
+    Content-Type: image/png
+    Content-Transfer-Encoding: base64
+
+    iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+    jwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAASBSURBVEhL1ZVdaFxFFIDPmXvv7r13b/Yn2d2S
+    pEna1NY0tBF/qaAggi+l/kGliIKgPigqgqggIigiivTRVlBonxR81AQi9MGiIIgKjeBPbVDapEmz
+    2W6yu9m/+zeeuXd2s+luMELy4Mche+bOzDlnzpw5gf89SEi1jfATzYQK58Dpb6D/V250wBAUBBVB
+    Y6AypCFZ9zh3fCDxhC5XbhFkZCOEC9Nk11AhpqGlCkVl4HNoeLDmwJoLNYc3fHD9YH2Xk3dh3QED
+    iCgQUzEVhayBGQNSUdQVcDmUbMjXeK7Gr9eh7PC6Jz5uESVIg8i2xtBUsc/AIYuNpdhEHwmOp9ge
+    C9MGeUIO6HBKFFKufE5hiV3/Koo4QaBS+IkIDsTg5iS7I4P3TOw78tzbB594Zf99x/o1W8tdIutV
+    VwhljHQ90Tvy5GvpR57vOXS3szDrlFdE0jpEUegMAYYCFP5IDx7uZfceHpl4d9I4cESJ96uZvcm7
+    HkxBuXzx50IDig6vuojxzNDJc/bEA96uUdh7i3X/4/VfvvNWroWm2qHMC+hHVUSKknQIE0ePv6gk
+    BgE0+iwEI9mHXh5OG2kdLU0ks/fRl2qpoXAvwXUrfuL1roVM4Yv8kAdRnQx0FawIGEPjcr4Ji2WT
+    2YyhUSZRXMdNt8uJJtrIuDAWJr5N5A2TUMI4R4+jTUWydFnua8Lr5fpKgQqUqpYj1pfm5EQTN3dF
+    7F+3LIXJ2wDxgqjGSw7k6rA4eRoalWCjZO382av5yqoNtaBG17465ds1OSeeul/68lRQj+vXG4qi
+    0iUHusLolWFUAap9tZKPX/3JHDzArJRfzpe//mjmsw9nrvuXirBQhSK5KSxXf/tBSe9mEd2Z/7Nw
+    5i37x2kR8AbjgehRuklBhEGPJp7YHgvGUjiWoAcBcSNi2+5i1Z8t8d9X+GyJHPDVhjiH6E4E5cD3
+    19tBB6jr0oECInZLAyqVfhP6TUzroltQ3snitZownatR+FSmIktbfMtoGBGpclFFUQamCnEN4hGM
+    qaAp4lZrrribks2pHdVd0fWE9U2D3gCaLQcBot+RKMITNT46OtmiQ9i+eMCkbD32EIyZUam2QXZ1
+    w8oefYrtv9NdWVqdPlu58ocoUDkviPYkM8eeZSOHnOX5wtSn9aXLXY/U3YEaNYbfn6r0HwyHzG0U
+    Tj7dmPkmHBLRRN/AB9PV5O5wyBqV/DvHnb9nwmE7shFtBFJHn2lZJ3w1ap54gxQ5j5B8+IWWdcKP
+    xszHXhVF2YHsRRtBPnqrVJuoA6OgyHqjTPF9t0m9iTo8Tv/7OpG96AZpLC/I+SZeYYl71EWDBQzr
+    uXk50cRdnqO6alloSdcUYXX6E79SlFsDypMfN/u6oDp1mtsNORe8OGoerc7fjkIvWeRuo0C1XLtw
+    HpO7WCzhLP5V/Pw979svxPbmAl7M13/9HvsGmR5z5i6unnnTv3BOmG8zIiURN8MoOvF9n5orcj8M
+    TX5dh3se9ykNmy4QYHJzB9tCs13vmHQt0+0EU4mYVHeGnU9Rx5dtFYB/AC0uoeMjRAaUAAAAAElF
+    TkSuQmCC
+
+    ------RandomGeneratedBoundary--
+```
+
+## Code Snippets
 
 You can find some sample code snippets [here](https://github.com/signl4/code-snippets).
