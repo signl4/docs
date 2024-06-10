@@ -122,9 +122,9 @@ Content-Type: application/json
 }
 ```
 
-## MIME Types for Images and Audio
+## Content-Types for Text, Images and Audio
 
-Besides JSON, SIGNL4 also supports other MIME types for the HTTP POST requests.
+Besides JSON, SIGNL4 also supports other content types for the HTTP POST requests.
 
 Here is an example of x-www-form-urlencoded:
 
