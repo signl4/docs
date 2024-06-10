@@ -139,7 +139,21 @@ Here is an example of x-www-form-urlencoded:
 
 ```
 
-If you want to also submit a file with the webhook, you can use the content type multipart/formdata. The example below sends an content file with an icon as content with the event to your team. The content needs to be encoded in Base64, but can also be send in Binary format. Supported file types are images and text files (e.g. png, jpg, txt). Max. file size is 4MB.
+If you want to also submit a file with the webhook, you can use the content type multipart/formdata. The example below sends an content file with an icon as content with the event to your team. The content needs to be encoded in Base64, but can also be send in Binary format.
+
+The following file formats are supported.
+
+| Attachment type | Supported file format(s)            |
+|-----------------|-------------------------------------|
+| Image           | png, tiff, tif, jpeg, jpg, gif, bmp |
+| Sound           | mp3, wav, aiff, m4a                 |
+| Text            | txt                                 |
+| Document        | pdf                                 |
+| Video           | mov, mp4                            |
+
+Each attachment may be maximum 4MB in size.
+
+Here is a sample request:
 
 ```
 
