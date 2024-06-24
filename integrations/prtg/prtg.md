@@ -90,11 +90,6 @@ At this point the next time something triggers an alarm, your SIGNL4 team will b
 
 You can find more information about PRTG [here](https://kb.paessler.com/en/topic/89558-how-can-i-integrate-derdack-signl4-into-prtg).
 
-See left how an alert looks in SIGNL4.
-
-More information about the integration can be found be [here](https://kb.paessler.com/en/topic/89558-how-can-i-integrate-derdack-signl4-into-prtg).
-
-
 This is it and an incoming alert will look like this.
 
 ![SIGNL4 Alert in PRTG](signl4-prtg.png)
