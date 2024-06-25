@@ -27,7 +27,7 @@ In your Auvik portal go to Admin -> Integrations and create a new Webhook integr
 As Webhook URL you can use your SIGNL4 webhook URL as follows:
 
 ```
-https://connect.signl4.com/webhook/{team-secret}?ExtIDParam=Entityid&ExtStatusParam=Alertstatusstring&ResolvedStatus=Cleared
+https://connect.signl4.com/webhook/{team-secret}?ExtIDParam=Alertname&ExtStatusParam=Alertstatusstring&ResolvedStatus=Cleared
 ```
 
 Replace {team-secret} with your SIGNL4 team secret.
