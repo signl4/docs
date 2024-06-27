@@ -1,3 +1,8 @@
+---
+title: Code Samples
+parent: Samples
+---
+
 # SIGNL4 Code Samples
 
 You can trigger SIGNL4 alerts by using the [inbound webhook](https://connect.signl4.com/webhook/docs/index.html).
