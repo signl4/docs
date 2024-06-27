@@ -6,7 +6,7 @@ This is an easy and reliable way to integrate with your backend systems. In orde
 
 You need to replace by your SIGNL4 team secret and you can add additional parameters to the alert data according to your needs.
 
-{: .no_toc .text-delta }
+{:toc}
 
 ## cURL
 
