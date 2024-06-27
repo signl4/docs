@@ -4,14 +4,13 @@ parent: Samples
 ---
 
 # SIGNL4 Code Samples
+{: .no_toc }
 
 You can trigger SIGNL4 alerts by using the [inbound webhook](https://connect.signl4.com/webhook/docs/index.html).
 
 This is an easy and reliable way to integrate with your backend systems. In order to do so we have listed some code samples on how to send webhook requests to SIGNL4.
 
 You need to replace by your SIGNL4 team secret and you can add additional parameters to the alert data according to your needs.
-
-{: .no_toc }
 
 ## Table of Contents
 {: .no_toc .text-delta }
