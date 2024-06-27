@@ -8,9 +8,6 @@ You need to replace by your SIGNL4 team secret and you can add additional parame
 
 {: .no_toc }
 <details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
   {: .text-delta }
 - TOC
 {:toc}
@@ -20,13 +17,13 @@ You need to replace by your SIGNL4 team secret and you can add additional parame
 
 ## cURL
 
-```
+```bash
 curl -X POST 'https://connect.signl4.com/webhook/{team-secret}' -H 'Content-Type:application/json' -d '{"Title":"Test Alert","Text":"Hello world."}'
 ```
 
 ## Bash Script
 
-```
+```bash
   # Send SIGNL4 alert from Bash
   
   # SIGNL4 team secret
@@ -48,7 +45,7 @@ curl -X POST 'https://connect.signl4.com/webhook/{team-secret}' -H 'Content-Type
 
 ## PowerShell
 
-```  
+```powershell
 # Send SIGNL4 alert from PowerShell
 
 # SIGNL4 team secret
@@ -64,7 +61,7 @@ Invoke-RestMethod "https://connect.signl4.com/webhook/$team_secret" -Method POST
 
 ## Node.js
 
-```
+```javascript
 // Send SIGNL4 alert from Node.js
 
 // Your SIGNL4 team secret
@@ -116,7 +113,7 @@ req.end()
 
 ## Python
 
-```
+```python
   # Send SIGNL4 alert from Python
   
   import requests
@@ -144,7 +141,7 @@ req.end()
 
 ## C#
 
-```
+```csharp
 using System;
 using System.IO;
 using System.Net;
@@ -217,7 +214,7 @@ public static void sendSIGNL4Alert(string strTeamSecret, string strData)
 
 ## Go
 
-```
+```go
 package main
 
 import (
@@ -265,7 +262,7 @@ func main() {
 
 ## PHP
 
-```
+```php
 <?php
 
 // Send SIGNL4 alert from PHP
@@ -318,7 +315,7 @@ curl_close($ch);
 
 ## Ruby
 
-```
+```ruby
 require 'net/http'
 require 'uri'
 require 'json'
@@ -361,7 +358,7 @@ end
 
 ## Flutter / Dart
  
-```
+```dart
   import 'dart:convert';
   import 'package:http/http.dart' as http;
   
@@ -401,4 +398,3 @@ end
     }
   }
 ```
-   
