@@ -7,6 +7,8 @@ parent: Integrations
 
 In industry and production scenarios a lot of machine data is gathered. This includes the temperature of certain machines, time spans of certain processes, system pressure, power consumption, vibration detection, etc. The data is (or can be made) available in database tables and sometimes it is already being displayed on dashboards on computer screens. In daily operations, it is hard to look at each relevant dashboard all the time. Therefore, it makes sense to send relevant information about critical situations to the responsible users in real time no matter where they are. That is where SIGNL4 comes in.
 
+![SIGNL4 Alert from SQLite Cloud](signl4-sqlite-cloud.gif)
+
 Integrating SIGNL4 with any database can enhance your daily operations with an extension to your mobile team in the field or on the shop floor.
 
 Gathering information from a database and sending team alerts in case of critical incidents is achieved with a simple script. In our case we use a PHP script that connect to the database, executes an SQL Select statement and sends an alert via SIGNL4 if necessary.
@@ -126,8 +128,6 @@ Now, create a webhook that triggers the above edge function. You need to specify
 ## Test It
 
 Now you can test the functionality by inserting or deleting a record. This will trigger and close an alert in SIGNL4.
-
-![SIGNL4 Alert from SQLite Cloud](signl4-sqlite-cloud.gif)
 
 Here are the sample SQL statements:
 
