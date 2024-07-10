@@ -22,6 +22,8 @@ SIGNL4 is a mobile alert notification app for powerful alerting, alert managemen
 - A [SIGNL4](https://www.signl4.com/) account
 - An account at [Make](https://www.make.com/en?utm_source=seliom&utm_medium=partner&utm_campaign=seliom-partner-program)
 
+## How to Integrate
+
 First, you need to create a new scenario in Make. In our example we just need two modules, Weather and SIGNL4.
 
 Now you will have to add the trigger. Our trigger is time based and we can just configure an interval of one hour here. As our initial action we add “Get current weather” from the Weather module.
@@ -40,7 +42,7 @@ You can use filters to send alert notifications only under certain conditions. I
 
 [![Make Filter](make-filter.png)
 
-Test it!
+## Test it
 
 That is it. Now you can save and activate your scenario. And you can test it. Testing is very convenient. You can run your whole scenario (maybe adapt your filter for testing). Or, you can just run the SIGNL4 module. You should then receive an alert on your SIGNL4 app.
 
