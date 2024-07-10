@@ -32,4 +32,4 @@ That is it. Now you can save the flow and test it. You should then receive an al
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-make.png)
+![SIGNL4 Alert](signl4-viasocket.png)
