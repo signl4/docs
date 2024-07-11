@@ -30,14 +30,14 @@ You can trigger an alert using a webhook from another Actor, e.g. when the Actor
 {% raw %}
 ```json
 {
-    "userId": {{userId}},
-    "createdAt": {{createdAt}},
-    "eventType": {{eventType}},
-    "eventData": {{eventData}},
-    "resource": {{resource}},
+    "userId": "{{userId}}",
+    "createdAt": "{{createdAt}}",
+    "eventType": "{{eventType}}",
+    "eventData": "{{eventData}}",
+    "resource": "{{resource}}",
     "secret": "your-signl4-team-or-integration-secret",
     "title": "Web Scraper Alert from Apify",
-    "data": {{eventData}}
+    "data": "{{eventData}}"
 }
 ```
 {% endraw %}
