@@ -5,7 +5,7 @@ parent: Integrations
 
 # SIGNL4 Integration with Uptime Kuma
 
-<font color="green">**Attention: This integration will be available in [Uptime Kuma 2.0](https://github.com/louislam/uptime-kuma/issues/4500) with will be released later on 2024.**</font>
+**<font color="red">Attention: This integration will be available in [Uptime Kuma 2.0](https://github.com/louislam/uptime-kuma/issues/4500) with will be released later on 2024.</font>**
 
 [Uptime Kuma](https://uptime.kuma.pet/) is an easy-to-use self-hosted monitoring tool that. It offers a variety of monitoring types, including web-site and certificate checks, as well as status pages.
 
