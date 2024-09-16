@@ -19,13 +19,13 @@ Feature overview
 - Agent assignment when Signl is acknowledged and or closed
 - Ticket notes on status changes in SIGNL4
 
-How does it work?
+## How does it work?
+
 The connector communicates using the Xurrent REST API to read ticket details or to update them. An API user with according permissions must be used and created in Xurrent.
 
 You can install and configure the integration in the SIGNL4 web portal under Integrations -> Gallery -> Xurrent.
 
 ![Xurrent Integration in SIGNL4](xurrent-signl4.png)
-
 
 You need to create your Xurrent Personal Access Token with access to Account, Me, Team, Note, Note reactions and Requests.
 
