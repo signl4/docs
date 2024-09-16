@@ -145,3 +145,11 @@ Now that you’ve created the SIGNL4 app in ServiceNow and also added the Servic
 ![ServiceNow 7b](servicenow-07b.png)
 
 ![ServiceNow 8](servicenow-08.png)
+
+## Compatibility
+
+The SIGNL4 application is at least compatible following ServiceNow versions:
+- Xanadu
+- Washington DC
+- Vancouver
+- Utah
