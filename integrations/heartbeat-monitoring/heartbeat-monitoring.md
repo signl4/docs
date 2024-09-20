@@ -31,6 +31,8 @@ The last part (e.g. ?param=sensor1) is the dynamic part. The first part is your 
 
 If a heartbeat is missing SIGNL4 will trigger an alert.
 
+You can find information about how to easily send heartbeats from Linux and Windows using cron jobs and the Windows Task Scheduler [here](https://docs.signl4.com/samples/heartbeat-cron/heartbeat-cron.html).
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
