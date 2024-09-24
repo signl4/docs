@@ -27,4 +27,4 @@ We are constantly adding new [SIGNL4 templates to Microsoft Power Automate](http
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](signl4-power-automate.png)
