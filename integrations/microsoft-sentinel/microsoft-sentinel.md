@@ -15,6 +15,8 @@ SIGNL4 provides a powerful 2-integration with Microsoft Sentinel. It allows to r
 - Owner assignment when Signl is acknowledged and or closed
 - Incidents notes on status changes in SIGNL4 or when users add annotations in SIGNL4
 - User friendly display of linked items (e.g. products or company names)
+- Configure the resolution classification and the classification comment which is passed along when closing an incident from SIGNL4
+- Configure the states of incidents in Sentinel that should be pulled (not only New)
 
 Learn more about the integration in the following video:
 
