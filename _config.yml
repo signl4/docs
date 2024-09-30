@@ -17,3 +17,6 @@ aux_links:
 title: SIGNL4 Docs
 description: A set of technical documentations for SIGNL4.
 url: "https://signl4.github.io/docs/integrations"
+
+favicon_ico: "/assets/images/favicon.ico"
+logo: "/assets/images/logo.png"
