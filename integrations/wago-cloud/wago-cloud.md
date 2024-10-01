@@ -10,7 +10,7 @@ parent: Integrations
 ## Prerequisites
 
 - A [SIGNL4](https://www.signl4.com/) account
-- An [WAGO Cloud](https://cloud.wago.com/) account
+- A [WAGO Cloud](https://cloud.wago.com/) account
 
 ## How to integrate?
 
