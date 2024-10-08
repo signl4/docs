@@ -7,7 +7,7 @@ parent: Integrations
 
 ## How to Integrate
 
-With [N-able](https://www.n-able.com/), a SolarWinds company, you can centralize and streamline notifications and ticketing for specific systems or services without the need for separate point solutions. It offers powerful 24×7 monitoring and management for scale. It your system has an API you can monitor it with N-able.
+With [N-able](https://www.n-able.com/) you can centralize and streamline notifications and ticketing for specific systems or services without the need for separate point solutions. It offers powerful 24×7 monitoring and management for scale. It your system has an API you can monitor it with N-able.
 
 SIGNL4 extends N-able and adds mobile alerting and incident response to N-able including push, SMS text, voice calls, escalations and collaboration. The integrated duty planning helps you to schedule your team’s on-call duties and allows you to see how is on duty at any given time.
 
