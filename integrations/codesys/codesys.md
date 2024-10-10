@@ -57,6 +57,8 @@ The parameter pwsPostValue is your alert content in JSON format, e.g.:
 
 This will allow you to send HTTP Post requests and thus trigger SIGNL4 alert.
 
+This [video](https://www.youtube.com/watch?v=Ibu4_FHtIHk) contains some helpful information about sending HTTP requests from CODESYS using the HTTP.HttpClient library. 
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-iot.png)
