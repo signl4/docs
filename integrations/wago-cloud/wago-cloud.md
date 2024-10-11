@@ -18,7 +18,7 @@ The integration of SIGNL4 with WAGO Cloud enables production staff and service t
 
 Triggering SIGNL4 alerts from WAGO Cloud is straightforward. In the WAGO Cloud portal Alarms -> Alarm Configurations. Here, you create a new alarm configuration. Specify the information under General, Rule and Devices according to your needs.
 
-Under Message you enter the alert text. You can also use placeholders. Here is an example.
+Under Message you enter the alert text, e.g. parameter / value pairs. You can also use placeholders. Here is an example.
 
 ```
 Workspace: { Workspace name }
