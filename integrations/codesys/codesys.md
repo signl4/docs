@@ -1,5 +1,5 @@
 ---
-title: Codesys
+title: CODESYS
 parent: Integrations
 ---
 
