@@ -24,7 +24,7 @@ For older versions of Checkmk Derdack provides a dedicated plugin for Checkmk he
 You can also find the integration scripts on GitHub: [https://github.com/signl4/signl4-integration-checkmk](https://github.com/signl4/signl4-integration-checkmk). Just go ahead, download the respective plugin from there and follow the instructions on the page.
 
 The following video shows how to integrate SIGNL4 with Checkmk 2.0:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/umL1a63EBJc?si=SRpo5lKRQLBajTuy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/umL1a63EBJc?si=SRpo5lKRQLBajTuy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The alert in SIGNL4 might look like this.
 
