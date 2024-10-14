@@ -26,7 +26,7 @@ The integration offers the following features:
 - Ability to close Dynatrace problems from the SIGNL4 mobile app (e.g. by on-call staff)
 - When problems are closed in Dynatrace, the corresponding alerts in SIGNL4 are closed as well
 
-<iframe width="1069" height="568" src="https://www.youtube.com/embed/tbyB4nEGlOs" title="Signl4 and Dynatrace 2 way integration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1069" height="568" src="https://www.youtube-nocookie.com/embed/tbyB4nEGlOs" title="Signl4 and Dynatrace 2 way integration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Alternative: One-Way Webhook Integration
 
