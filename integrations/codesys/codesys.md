@@ -13,7 +13,7 @@ SIGNL4 is a mobile alert notification app for powerful alerting, alert managemen
 
 ## Prerequisites
 - A [SIGNL4](https://www.signl4.com/) account
-- CODESYS (download at [https://www.codesys.com/](https://www.codesys.com/)
+- CODESYS (download at [https://www.codesys.com/](https://www.codesys.com/))
 
 ## How to Integrate
 
