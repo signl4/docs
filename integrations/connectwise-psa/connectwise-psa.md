@@ -245,7 +245,7 @@ To change how a ticket is updated when an alert is closed in SIGNL4, proceed in 
 
 The video provides a general overview of the integration of SIGNL4 with ConnectWise PSA.
 
-<iframe width="337" height="189" src="https://www.youtube.com/embed/h_IIUcT0a4k" title="Tutorial: Setting up a Signl4 2-way connection to ConnectWise Manage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="337" height="189" src="https://www.youtube-nocookie.com/embed/h_IIUcT0a4k" title="Tutorial: Setting up a Signl4 2-way connection to ConnectWise Manage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The alert in SIGNL4 might look like this.
 
