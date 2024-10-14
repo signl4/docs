@@ -32,4 +32,4 @@ Just say to Alexa “Alexa, open SIGNL4” (“signal four”).
 You can test SIGNL4 immediately and free of charge. Just download the app and register.
 
 Please watch our Integration Video:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LKm4-PbvSFY?si=GhIIh0GQX7I_H8aG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LKm4-PbvSFY?si=GhIIh0GQX7I_H8aG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
