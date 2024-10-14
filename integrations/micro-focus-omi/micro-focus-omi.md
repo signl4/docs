@@ -9,7 +9,7 @@ Micro Focus OMi is an operations automation tool that lacks mobile alerting capa
 
 Watch this video to establish your SIGNL4 integration with Micro Focus OMi.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7XJUZ4U84Ds?si=b_An2CNinz9XUCRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7XJUZ4U84Ds?si=b_An2CNinz9XUCRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The alert in SIGNL4 might look like this.
 
