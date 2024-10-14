@@ -24,7 +24,7 @@ To link the app with Teams you need to enter SIGNL4 credentials.
 
 See our video on how to to set up and use the SIGNL4 app in Microsoft Teams.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lr1cBNGd3g0?si=fa8SgBS_vZq0cgga" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lr1cBNGd3g0?si=fa8SgBS_vZq0cgga" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The alert in SIGNL4 might look like this.
 
