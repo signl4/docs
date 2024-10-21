@@ -45,4 +45,4 @@ Alerts can be augmented to display colors, icons and specific sounds.  These se
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](signl4-fortinet.png)
