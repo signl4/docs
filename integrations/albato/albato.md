@@ -13,19 +13,19 @@ SIGNL4 is a mobile alert notification app for powerful alerting, alert managemen
 
 In the following sample workflow below we send information from a HTTP request to SIGNL4.
 
-## SIGNL4 Connection
+## SIGNL4 App
 
-Fist, under Connections you need to create a new SIGNL4 connection, give it a name and enter your SIGNL4 team secret.
+Fist, under Apps you need to create a new SIGNL4 app, give it a name and enter your SIGNL4 team secret.
 
-![Add a Connection in Albato](add-a-connection-in-albato.png)
+![Add a App in Albato](add-a-app-in-albato.png)
 
-## User SIGNL4 in your Bundle
+## User SIGNL4 in your Automation
 
-Now you can use the SIGNL4 actions in your bundles. There are two actions available, one for sending alerts (“Send alert”) and one for resolving / closing alerts (“Resolve alert”).
+Now you can use the SIGNL4 actions in your automations. There are two actions available, one for sending alerts (“Send alert”) and one for resolving / closing alerts (“Resolve alert”).
 
 You can add the parameters within the action. In order to resolve / close and alert the parameter “SIGNL4 External ID” in the “Resolve alert” action needs to be the same as for the previously called “Send alert” action.
 
-![Albato Bundle](albato-bundle.png)
+![Albato Automation](albato-automation.png)
 
 The alert in SIGNL4 might look like this.
 
