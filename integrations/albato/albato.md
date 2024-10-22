@@ -27,6 +27,8 @@ You can add the parameters within the action. In order to resolve / close and al
 
 ![Albato Automation](albato-automation.png)
 
+You can find a detailed step-by-step guide for connecting the SIGNL4 app to Albato [here](https://albato.com/blog/publications/signl4-automation-to-optimize-your-alerting-system).
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-albato.png)
