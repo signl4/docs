@@ -5,7 +5,7 @@ parent: Integrations
 
 # SIGNL4 Integration with Keep
 
-[Keep](https://www.keephq.dev/) is an open-source alerts management and automation platform that helps you to connect, automate, and analyze alerts for any part of your observability stack with GitHub Action-like interfaces.
+[Keep](https://www.keephq.dev/) is an open-source AIOps and alerts management and automation platform that helps you to connect, automate, and analyze alerts for any part of your observability stack with GitHub Action-like interfaces.
 
 The SIGNL4 integration is available as a Provider in Keep.
 
