@@ -1,9 +1,9 @@
 ---
-title: Newrix
+title: Netwrix
 parent: Integrations
 ---
 
-# SIGNL4 Integration with Newrix
+# SIGNL4 Integration with Netwrix
 
 Netwrix is an IT security software company that develops change management software to help companies with security and compliance auditing.  Netwrix alerts can be forwarded via email and email-based SMS messages. These tools are useful however for critical alerting that needs immediate attention in the middle of the night is where SIGNL4 comes in.  Data breaches, security violations and potential mission critical threats are identified sooner and resolved quicker, reducing downtime, and saving money! Persistent notifications and tier escalation within SIGNL4 ensures that critical alarms are not missed. Issues are taken beyond the dashboard and inbox and delivered vis Push, SMS, and Voice.
 
