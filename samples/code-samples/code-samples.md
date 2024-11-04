@@ -446,7 +446,7 @@ async fn main() -> Result<(), Error> {
 
 ## Visual Basic for Applications (VBA)
 
-```
+```vb
 ' Send a SIGNL4 alert via VBA (e.g. for the PcVue Scripting Engine)
 
 Dim httpRequest
