@@ -1,5 +1,5 @@
 ---
-title: UtimeRobot
+title: UptimeRobot
 parent: Integrations
 ---
 
