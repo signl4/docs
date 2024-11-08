@@ -19,7 +19,7 @@ The following flow shows how the integration might look like.
 
 You can even use SIGNL4 Remote Actions to send data to logiccloud.
 
-![logiccloud resolve](logiccloud-signl4-remote-action.png)
+![logiccloud remote action](logiccloud-signl4-remote-action.png)
 
 In the first part a SIGNL4 alert is triggered when data read from logiccloud meets certain conditions.
 
