@@ -15,7 +15,11 @@ For triggering SIGNL4 alerts from logiccloud you can use Node-RED. On one side y
 
 The following flow shows how the integration might look like.
 
-![logiccloud](logiccloud-signl4.png)
+![logiccloud alert](logiccloud-signl4-alert.png)
+
+You can even use SIGNL4 Remote Actions to send data to logiccloud.
+
+![logiccloud resolve](logiccloud-signl4-remote-action.png)
 
 In the first part a SIGNL4 alert is triggered when data read from logiccloud meets certain conditions.
 
