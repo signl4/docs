@@ -11,7 +11,7 @@ Pairing logiccloud with SIGNL4 can enhance your daily operations with an extensi
 
 ## How to Integrate
 
-For triggering SIGNL4 alerts from logiccloud you can use Node-RED. On one side you connect to logiccloud and on the other side you use the SIGNL4 node to trigger the alerts. You can find the required Node-RED nodes for logiccloud [here](https://flows.nodered.org/search?term=logiccloud) and the ones for SIGNL4 [here](https://flows.nodered.org/node/node-red-contrib-signl4).
+For triggering SIGNL4 alerts from logiccloud you can use Node-RED. On one side you connect to logiccloud and on the other side you use the SIGNL4 node to trigger the alerts. You can find the required Node-RED nodes for logiccloud [here](https://flows.nodered.org/node/@logiccloud/node-red-runtime-connection) and the ones for SIGNL4 [here](https://flows.nodered.org/node/node-red-contrib-signl4).
 
 The following flow shows how the integration might look like.
 
