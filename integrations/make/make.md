@@ -11,7 +11,7 @@ parent: Integrations
 
 You can add the SIGNL4 module to any of your scenarios in order to send out reliable alert notifications to your team. In our example we use a super simple weather alert.
 
-![Make Scenario](make-scenario.png)
+![Make SIGNL4](make-signl4.png)
 
 A typical example would be a snow or freezing alert. In this case we request the current weather information for a certain city every hour and if the temperature is below zero degrees centigrade or if it is snowing we trigger an alert in SIGNL4.
 
@@ -25,6 +25,8 @@ SIGNL4 is a mobile alert notification app for powerful alerting, alert managemen
 ## How to Integrate
 
 First, you need to create a new scenario in Make. In our example we just need two modules, Weather and SIGNL4.
+
+![Make Scenario](make-scenario.png)
 
 Now you will have to add the trigger. Our trigger is time based and we can just configure an interval of one hour here. As our initial action we add “Get current weather” from the Weather module.
 
