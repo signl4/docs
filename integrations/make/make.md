@@ -9,7 +9,7 @@ parent: Integrations
 
 [![Technology Partner](technology-partner.png)](https://www.make.com/en/integrations/signl4?target=blank)
 
-You can add the SIGNL4 module to any of your scenarios in order to send out reliable alert notifications to your team. In our example we use a super simple weather alert.
+You can add the SIGNL4 module to any of your scenarios in order to send out reliable alert notifications to your team.
 
 ![Make SIGNL4](make-signl4.png)
 
@@ -23,6 +23,8 @@ SIGNL4 is a mobile alert notification app for powerful alerting, alert managemen
 - An account at [Make](https://www.make.com/en?utm_source=seliom&utm_medium=partner&utm_campaign=seliom-partner-program)
 
 ## How to Integrate
+
+In our example we use a super simple weather alert.
 
 First, you need to create a new scenario in Make. In our example we just need two modules, Weather and SIGNL4.
 
