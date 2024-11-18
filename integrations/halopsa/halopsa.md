@@ -69,7 +69,7 @@ Then, go to Flow Chart. You see a step here. Edit this step and select your SIGN
 
 Save the step. You see two new steps now, one for success and one for error. Configure them accordingly to end the flow (Type: End) and specify Result: Success for the success step and Result: Failed (retry from start). Save the nodes.
 
-1[HaloPSA Runbook](halopsa-method-flow.png)
+![HaloPSA Runbook](halopsa-method-flow.png)
 
 That is it. Now your team receives a SIGNL4 alert when a new ticket is created in HaloPSA.
 
@@ -93,6 +93,10 @@ The Method for the resolve case should have this JSON body:
 #### Integration Runbook
 
 In the new integration runbook you configure the events that should close the alert, for example add an event "Ticket Updated" with the criteria "Status | Is equal to | Closed". This will close a previously opened alert if the ticket goes in to status Closed.
+
+### Handling Tickets from your Mobile
+
+When you have received the SIGNL4 alert about a new HaloPSA ticket you can click the link to the ticket. This will automatically bring you to the HaloPSA ticket in web portal. You can also see and manage your tickets direktly from within the Halo ITSM, PSA, CRM app.
 
 That is is. An alert in SIGNL4 might look like this.
 
