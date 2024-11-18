@@ -3,7 +3,7 @@ title: HaloPSA
 parent: Integrations
 ---
 
-# SIGNL4 Integration with Home Assistant
+# SIGNL4 Integration with HaloPSA
 
 [HaloPSA](https://halopsa.com/) is an all-in-one PSA software for service providers.
 
