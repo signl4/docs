@@ -27,6 +27,8 @@ That’s it. Now you just need to make sure that your user gets alerted by assig
 
 Alternatively you can also use the email notification method and use your SIGNL4 team’s email address as the email address of the notification method.
 
+You can also find SIGNL4 in the N-able [integration section](https://www.n-able.com/integrations/derdack-signl4).
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
