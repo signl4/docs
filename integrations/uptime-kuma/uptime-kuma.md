@@ -5,7 +5,7 @@ parent: Integrations
 
 # SIGNL4 Integration with Uptime Kuma
 
-**Attention: This integration will be available in [Uptime Kuma 2.0](https://github.com/louislam/uptime-kuma/issues/4500) with will be released later on 2024.**
+**Attention: This integration is available in Uptime Kuma 2.0.0-beta.0 and later.**
 
 [Uptime Kuma](https://uptime.kuma.pet/) is an easy-to-use self-hosted monitoring tool that. It offers a variety of monitoring types, including web-site and certificate checks, as well as status pages.
 
@@ -25,3 +25,8 @@ SIGNL4 is available as a notification provider in Uptime Kuma. You can set it up
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-uptime-kuma.png)
+
+## Compatibility
+
+The SIGNL4 application is at least compatible following versions:
+- 2.0.0-beta.0 and later
