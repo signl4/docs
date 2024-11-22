@@ -11,6 +11,8 @@ Integrate Home Assistant with SIGNL4 for reliable mobile alerting via app push, 
 
 Get alerted on your mobile if the temperature is too high or too low, if the doorbell rings and you are in the backyard, if an intruder was detected, or for any other sensor or device state.
 
+![Home Assistant and SIGNL4](home-assistant-signl4.jpg)
+
 ## Prerequisites
 
 - A [SIGNL4](https://www.signl4.com/) account
