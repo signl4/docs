@@ -24,6 +24,7 @@ In order to trigger SIGNL4 alerts you need to send HTTP Post requests. This can 
 
 In your "configuration.yaml" file add the following lines.
 
+{% raw %}
 ```yaml
 rest_command:
   signl4_alert:
@@ -32,6 +33,7 @@ rest_command:
     content_type: "application/json"
     payload: '{"Title": "Alert from Home Assistant", "Message": "{{ message }}"}'
 ```
+{% endraw %}
 
 Replace "team-secret" with your team or integration secret.
 
@@ -45,11 +47,13 @@ Under "Settings" -> "Automations & scenes" you can create a new Automation. Set 
 
 Edit the YAML representation of the Action in order to pass the respective parameters. For example the YAML representation of your Action might look like this.
 
+{% raw %}
 ```yaml
 service: rest_command.signl4_alert
 data:
   message: Temperature is {{ states('sensor.openweathermap_temperature') }} degrees.
 ```
+{% endraw %}
 
 In this example we send the temperature date from an OpenWeatherMap integration.
 
