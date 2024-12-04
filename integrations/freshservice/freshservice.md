@@ -146,7 +146,7 @@ Use this JSON as body for the webhook:
 
 ![Ticket Automator 1](ticket-automator-1.png)
 
-_**Note:**_ If you want to further filter which tickets are forwarded, fell free to insert a condition action between the trigger and the webhook action.
+_**Note:**_ If you want to further filter which tickets are forwarded, feel free to insert a condition action between the trigger and the webhook action.
 
 ### Automator 2: Was acknowledged in SIGNL4
 
