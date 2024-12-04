@@ -18,6 +18,8 @@ SIGNL4 provides a powerful 2-integration with Microsoft Sentinel. It allows to r
 - Configure the resolution classification and the classification comment which is passed along when closing an incident from SIGNL4
 - Configure the states of incidents in Sentinel that should be pulled (not only New)
 
+The SIGNL4 connector for Microsoft Sentinel does not only retrieve the incidents but also the linked alerts. These alerts then become part of the SIGNL4 alert and contain essential technical information about the issue. This helps the engeneer to understand and resolve the incident.
+
 Learn more about the integration in the following video:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/krRJGTxXIHY?si=IC1seK90heGoN2GT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
