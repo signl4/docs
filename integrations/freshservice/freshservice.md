@@ -36,7 +36,7 @@ You must create all Automators in Freshservice manually yourself because Automat
 
 The connector communicates with the Freshservice REST API to read ticket details and to update tickets.
 
-According permissions must be enabled in the role of the agent user account of which you want to let SIGNL4 use its API. It is recommended to create a dedicated agent account in Freshservice for SIGNL4.
+Appropriate permissions must be enabled in the role of the agent user account of which you want to let SIGNL4 use its API. It is recommended to create a dedicated agent account in Freshservice for SIGNL4.
 
 ## Setup step 1: User role and API key in Freshservice
 
@@ -46,7 +46,7 @@ SIGNL4 uses the Freshservice REST API ([https://api.freshservice.com/](https://a
 
 API keys in Freshdesk belong to agent user accounts. Each agent can find his/her API key in the personal profile menu. The easiest thing you could do is to use the API key of the Freshdesk account owner. That user has of cause all permissions and thus its API key is suitable for all API actions the connector app uses.
 
-Using such an API key has the advantage of saving an agent license because administrators can add notes to tickets by impersonating other agents. You would then see notes as added by according agents signed in to the SIGNL4 mobile app. The disadvantage may be that you hand out an admin agent key to a 3rd party system. SIGNL4 does no delete operations on the API and saves the Freshservice API key encrypted.
+Using such an API key has the advantage of saving an agent license because administrators can add notes to tickets by impersonating other agents. You would then see notes as added by respective agents signed in to the SIGNL4 mobile app. The disadvantage may be that you hand out an admin agent key to a 3rd party system. SIGNL4 does no delete operations on the API and saves the Freshservice API key encrypted.
 
 ### Creating an integration user account first
 
@@ -54,7 +54,7 @@ If you want to create a dedicated integration agent user account specifically fo
 
 [https://support.freshservice.com/support/solutions/articles/204591-managing-agents-in-freshservice](https://support.freshservice.com/support/solutions/articles/204591-managing-agents-in-freshservice) 
 
-**Note**: When you create the agent you must use an email address that you have access to because an activation link will be sent to that email address. You may need to register a temporary mailbox in order to accomplish that.
+**Note**: When you create the agent, you must use an email address that you have access to because an activation link will be sent to that email address. You may need to register a temporary mailbox in order to accomplish that.
 
 ### Create a dedicated user role with streamlined permissions
 
@@ -100,12 +100,12 @@ After you have obtained the required Freshservice API key in [setup step 1](http
 4. Next, configure all connector properties:
     1. **Instance URI**: The root URL of your Freshservice instance without any additional path. An example is [https://my.freshservice.com](https://my.freshdesk.com/)
     2. **API key**: The API key that you have created in setup step 1
-    3. **Note on Signl acknowledged**: If your choices in '**Status mappings**' include '_Acknowledged in SIGNL4 -> Update in FD_', you must enter a note that is added to the ticket conversations when the corresponding Signl is acknowledged. It is then also used to trigger the Automator '_Was acknowledged in SIGNL4_' in Freshservice which can further update the according ticket (e.g. a status change).
-    4. **Note on Signl closed**: If your choices in '**Status mappings**' include '_Closed in SIGNL4 -> Update in FD_', you must enter a note that is added to the ticket conversations when the corresponding Signl is closed. It is then also used to trigger the Automator '_Was closed in SIGNL4_' in Freshservice which can further update the according ticket (e.g. a status change).
-    5. **Note on Signl escalated**: When a Signl is escalated in SIGNL4, the according ticket is optionally updated by the note you can enter here.
+    3. **Note on Signl acknowledged**: If your choices in '**Status mappings**' include '_Acknowledged in SIGNL4 -> Update in FD_', you must enter a note that is added to the ticket conversations when the corresponding Signl is acknowledged. It is then also used to trigger the Automator '_Was acknowledged in SIGNL4_' in Freshservice which can further update the ticket (e.g. a status change).
+    4. **Note on Signl closed**: If your choices in '**Status mappings**' include '_Closed in SIGNL4 -> Update in FD_', you must enter a note that is added to the ticket conversations when the corresponding Signl is closed. It is then also used to trigger the Automator '_Was closed in SIGNL4_' in Freshservice which can further update the ticket (e.g. a status change).
+    5. **Note on Signl escalated**: When a Signl is escalated in SIGNL4, the ticket is optionally updated by the note you can enter here.
     6. **Notes always private**: If enabled, all notes that are added to tickets are only visible to agents.
-    7. **Agent assignment when**: When a user in SIGNL4 acknowledges or closes a Signl, he or she can be assigned as agent to the according ticket. Select on which status changes this should be done.
-    8. **Status mappings**: Select which status updates should each be synchronized between both systems. Synchronization actions are defined in each the corresponding Freshservice Automators 'Was acknowledged in SIGNL4', 'Was closed in SIGNL4', 'Auto acknowledge in SIGNL4' and 'Auto close in SIGNL4'. When "Acknowledged in SIGNL4 -> Update in FD" or "Closed in SIGNL4 -> Update in FD" is not selected, according notes won't be added to ticket.
+    7. **Agent assignment when**: When a user in SIGNL4 acknowledges or closes a Signl, he or she can be assigned as agent to the ticket. Select on which status changes this should be done.
+    8. **Status mappings**: Select which status updates should each be synchronized between both systems. Synchronization actions are defined in each the corresponding Freshservice Automators 'Was acknowledged in SIGNL4', 'Was closed in SIGNL4', 'Auto acknowledge in SIGNL4' and 'Auto close in SIGNL4'. When "Acknowledged in SIGNL4 -> Update in FD" or "Closed in SIGNL4 -> Update in FD" is not selected, respective notes won't be added to ticket.
 5. Once you have configured all fields, click Save.
 6. You now have to copy and note down the webhook URL of the created connector app. It is displayed in the "General" section of the created app instance and can be copied from there. It is needed in 3 Workflow Automators that you'll now have to create in the [final setup step 3](https://support.signl4.com/hc/en-us/articles/4571033236113):  
     ![Freshservice Configuration](freshservice-config.png)
@@ -120,7 +120,7 @@ Data exchange between Freshservice and SIGNL4 is driven by Freshservice Automato
 - Automator 4: Which ticket updates in Freshservice should acknowlegde its earlier created Signl?
 - Automator 5: Which ticket updates in Freshservice should close its earlier created Signl?
 
-Automator 1, 4 and 5 each contain a webhook action which sends an event to the Freshservice connector app on events or criteria configured in the according Automator. The connector app in SIGNL4 can then either trigger a new Signl or update existing ones.
+Automator 1, 4 and 5 each contain a webhook action which sends an event to the Freshservice connector app on events or criteria configured in the Automator. The connector app in SIGNL4 can then either trigger a new Signl or update existing ones.
 
 Automator 2 and 3 are triggered by a specific note that is added to a ticket when its Signl is either acknowledged or closed. These Automators then typically have ticket status updates as actions but you may add further ticket changes to these Automators.
 
