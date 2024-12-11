@@ -5,7 +5,9 @@ parent: Integrations
 
 # SIGNL4 Integration with Raygun
 
-[Retrace](https://stackify.com/retrace/) helps developers monitor the performance of their applications.  It also provides server data and critical warnings.  These notifications are sent via Email or SMS.  SIGNL4 takes those notifications to the next level.  Not only will users be notified but with on call scheduling, these alerts will go to the right people at the right time.  Alerts will not be missed in an email inbox thanks to SIGNL4’s multiple notification channels and persistent alerting.  With escalation procedures built in, SIGNL4 will ensure that time critical alerts are responded to quickly.
+[Raygun](https://raygun.com/) provides software tools for monitoring and improving application performance and user experiences. Its products deliver real-time crash reporting, error tracking, and performance monitoring to help developers identify, diagnose, and resolve issues quickly, ensuring reliable and high-performing applications.
+
+The SIGNL4 integration enhances Raygun’s monitoring by delivering real-time mobile alerts for critical issues like application crashes or performance bottlenecks. This ensures that development and operations teams can respond instantly to incidents, minimizing downtime and improving user satisfaction.
 
 In our example we are using Raygun to monitor the number of database calls within an application.  We are forwarding SMTP notifications to the SIGNL4 team email address to receive the alerts.
 
