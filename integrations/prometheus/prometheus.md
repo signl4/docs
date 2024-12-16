@@ -43,8 +43,8 @@ route:
   receiver: prometheus-signl4
   repeat_interval: 10m
   routes:
-  - match:
-      alertname: Watchdog
+  - matchers:
+      - alertname = "Watchdog"
     receiver: prometheus-signl4
 ```
 
