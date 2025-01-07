@@ -29,12 +29,16 @@ You can even close alerts as described here: [https://www.signl4.com/blog/update
 Here is an example for a plain-text email to trigger an alert:
 
 **Subject**: Server Down
+```
 Message: Server A2 is down.
 X-S4-ExternalID: 1234
 X-S4-Status: new
-
+```
 
 Email Body to close the alert:
+
 **Subject**: Server Up
+```
 X-S4-ExternalID: 1234
 X-S4-Status: resolved
+```
