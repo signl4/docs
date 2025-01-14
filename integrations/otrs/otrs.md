@@ -12,11 +12,25 @@ SIGNL4 comes in is at the alerting level. Currently OTRS will send an email to s
 ## Prerequisites
 
 - A SIGNL4 ([https://www.signl4.com](https://www.signl4.com/)) account
-- An OTRS ([https://otrs.com/](https://otrs.com/)) account
+- An OTRS ([https://otrs.com/](https://otrs.com/)) instance
 
 ## How to integrate
 
-In our example we are going to forward OTRS tickets via email to the SIGNL4 email address.  This will alert all team members on duty via Push, SMS and Voice notifications.
+## Option 1: Ready2Adopt Web Services
+
+This option allows you to use a dedicated [Ready2Adopt Web Service](https://academy.otrs.com/doc/fao/ready2adopt-web-services/) for SIGNL4. It allows you to trigger and to close SIGNL4 alerts from the OTRS side.
+
+**Note**: If you cannot find the Ready2Adopt Web Service for SIGNL4, please let us know. We can help.
+
+As webhook URL you can use any existing inbound webhook URL already configured in SIGNL4 or you can create a new one dedicated for OTRS in the SIGNKL4 web portal by going to Integrations -> Gallery and install the OTRS (->) connector from there.
+
+### Two-Way Integration
+
+It is also possible to send status updates from SIGNL4 back to OTRS, e.g. when an alert in SIGNL4 has been acknowledged, annotated or closed. For this to work you need to configure the back-channel connector app for OTRS in SIGNL4. In the SIGNL4 web portal go to Integrations -> Gallery and look for the OTRS (<-) connector. Please note that the arrow point to the left. Here you configure your API URL, username and password. The other parameters are optional. You can find more information about the parameters by hovering over the (?) symbol. When ready, click Install and now status changes in SIGNL4 will reflect in the OTRS ticket.
+
+## Option 2: Email
+
+In this example we are going to forward OTRS tickets via email to the SIGNL4 email address.  This will alert all team members on duty via Push, SMS and Voice notifications.
 
 In order to keep the current workflows and processes already set within OTRS, we are going to simply create a new user and designate the SIGNL4 team email address as the notification delivery address.
 
