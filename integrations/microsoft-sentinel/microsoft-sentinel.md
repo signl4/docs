@@ -5,7 +5,7 @@ parent: Integrations
 
 # SIGNL4 Integration with Microsoft Sentinel
 
-SIGNL4 provides a powerful 2-integration with Microsoft Sentinel. It allows to retrieve incidents and to respond to them e.g. via the SIGNL4 mobile app. This includes but is not limited to status updates and adding notes to an incident.
+SIGNL4 provides a powerful 2-integration with Microsoft Sentinel and other Microsoft products supporting the Microsoft Graph security API, like Microsoft Defender for Cloud. It allows to retrieve incidents and to respond to them e.g. via the SIGNL4 mobile app. This includes but is not limited to status updates and adding notes to an incident.
 
 ## Feature overview
 
