@@ -43,4 +43,4 @@ You can also trigger SIGNL4 alerts from CODESYS as described [here](https://docs
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-iot.png)
+![SIGNL4 Alert](signl4-industrial-shields.png)
