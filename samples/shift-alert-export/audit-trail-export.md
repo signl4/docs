@@ -28,7 +28,7 @@ X-S4-Api-Key: {api-key}
 
 For getting shift and duty reports you can use this endpoint.
 
-```http
+```
 GET https://connect.signl4.com/api/v2/teams/{team-id}/dutyReports/2025_1_ShiftReport.csv
 X-S4-Api-Key: {api-key}
 ```
@@ -39,7 +39,7 @@ To retrieve the .csv report for the required month you just need to adapt the ye
 
 For getting alert and response reports you can use this endpoint.
 
-```http
+```
 GET https://connect.signl4.com/api/v2/teams/{team-id}/alertReports/2025_1_AlertAuditReport.csv
 X-S4-Api-Key: {api-key}
 ```
