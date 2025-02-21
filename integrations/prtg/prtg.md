@@ -74,7 +74,7 @@ Title=%device: %name&Message=%message&X-S4-ExternalID=PRTG: %sensorid&X-S4-Statu
 
 For two-way communication there is a PRTG connector app available in SIGNL4 under Integrations -> Gallery -> PRTG. This connector app adds two-way functionality to SIGNL4 alerting in PRTG. It allows you to acknowledge (or close or annotate) problems in PRTG directly from within your SIGNL4 app.
 
-![SIGNL4 PRTG Integration](signl4-prtg-app.png))
+![SIGNL4 PRTG Integration](signl4-prtg-app.png)
 
 In order to use the Connector you need to make sure you have SIGNL4 alerting activated in PRTG. The configuration of the PRTG connector app is straightforward. You just need the PRTG username, password and the URL to your PRTG server. Please note that the URL needs to be reachable from the internet (e.g. port 443). The user account needs to have the according access rights for the PRTG API.
 
