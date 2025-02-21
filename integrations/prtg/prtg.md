@@ -11,7 +11,7 @@ PRTG Network Monitor is an agentless network monitoring software from Paessler A
 
 You can configure the PRTG integration with SIGNL4 as follows.
 
-We describe here two ways to integrate SIGNL4 with PRTG, via HTTP request and via email.
+Here, we describe two ways to integrate SIGNL4 with PRTG, via HTTP request and via email.
 
 ![PRTG Notification Template](prtg-notification-template.png)
 
@@ -77,6 +77,12 @@ For two-way communication there is a PRTG connector app available in SIGNL4 unde
 ![SIGNL4 PRTG Integration](signl4-prtg-app.png)
 
 In order to use the Connector you need to make sure you have SIGNL4 alerting activated in PRTG. The configuration of the PRTG connector app is straightforward. You just need the PRTG username, password and the URL to your PRTG server. Please note that the URL needs to be reachable from the internet (e.g. port 443). The user account needs to have the according access rights for the PRTG API.
+
+## Video Tutorial
+
+This video shows how it works.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PnzMAzODqPU?si=fN5yf2Fsk6nZgzu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Email
 
