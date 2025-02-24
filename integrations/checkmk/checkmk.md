@@ -7,7 +7,7 @@ parent: Integrations
 
 Mobile workers are not able to sit in front of a [Checkmk](https://checkmk.com/) dashboard and actively monitor problems. SIGNL4 enables Checkmk to notify the mobile teams in the field or on call in real-time. This speeds up their response significantly and frees resources in the operations.
 
-**Checkmk 2.0 and higher**: In Checkmk version 2 and later SIGNL4 is available as a build-in notification channel. You can configure it directly in your notification settings. You just have to enter the the SIGNL4 team secret here.
+**Checkmk 2.0 and higher**: In Checkmk version 2 and later SIGNL4 is available as a build-in notification channel. You can configure it directly in your notification settings. You just have to enter the SIGNL4 team secret here.
 
 ## Two-Way Integration
 
