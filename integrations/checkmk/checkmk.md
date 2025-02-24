@@ -7,11 +7,12 @@ parent: Integrations
 
 Mobile workers are not able to sit in front of a [Checkmk](https://checkmk.com/) dashboard and actively monitor problems. SIGNL4 enables Checkmk to notify the mobile teams in the field or on call in real-time. This speeds up their response significantly and frees resources in the operations.
 
-**Checkmk 2.0 and higher**: In Checkmk version 2 and later SIGNL4 is available as a build-in notification channel. You can configure it directly in your notification settings. You just have to enter the SIGNL4 team secret here.
+**Checkmk 2.0 and higher**: In Checkmk SIGNL4 is available as a build-in notification channel. You can configure it directly in your Checkmk notification configuration. Select “SIGNL4 Alerting” as your “Notification Method” and enter your SIGNL4 team secret.
+This is it when you just want to trigger (also close) alerts.
 
 ## Two-Way Integration
 
-For two-way communication there is a Checkmk connector app available in SIGNL4 under Teams -> Apps -> Checkmk. This connector app adds two-way functionality to SIGNL4 alerting in Checkmk. It allows you to acknowledge, close or annotate Checkmk events directly from within your SIGNL4 app.
+For two-way communication there is a Checkmk connector app available in SIGNL4 under Integrations -> Gallery. Search for the Checkmk back channel app here. This connector app adds two-way functionality to SIGNL4 alerting in Checkmk. It allows you to acknowledge, close or annotate Checkmk events directly from within your SIGNL4 app.
 
 ![Checkmk Notification Rule SIGNL4](checkmk-notification-rule-signl4.png)
 
