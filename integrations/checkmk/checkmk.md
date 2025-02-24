@@ -20,8 +20,6 @@ In order to use the Connector you need to make sure you have Checkmk 2.0 or high
 The following video shows how to integrate SIGNL4 with Checkmk 2.x:
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4-HtakTR4SI?si=bxdbBf-40VLUF5Bi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4-HtakTR4SI?si=bxdbBf-40VLUF5Bi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## Older Versions of Checkmk
 
 For older versions of Checkmk Derdack provides a dedicated plugin for Checkmk here: [https://github.com/signl4/signl4-integration-checkmk](https://github.com/signl4/signl4-integration-checkmk)
