@@ -17,14 +17,14 @@ For two-way communication there is a Checkmk connector app available in SIGNL4 u
 
 In order to use the Connector you need to make sure you have Checkmk 2.0 or higher installed and SIGNL4 alerting activated. The configuration of the Checkmk connector app is straightforward. You just need the Checkmk username, password and the public-facing URL to your Checkmk server. The user account needs to have the according access rights for the Checkmk REST API.
 
+The following video shows how to integrate SIGNL4 with Checkmk 2.x:
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4-HtakTR4SI?si=bxdbBf-40VLUF5Bi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Older Versions of Checkmk
 
 For older versions of Checkmk Derdack provides a dedicated plugin for Checkmk here: [https://github.com/signl4/signl4-integration-checkmk](https://github.com/signl4/signl4-integration-checkmk)
 
 You can also find the integration scripts on GitHub: [https://github.com/signl4/signl4-integration-checkmk](https://github.com/signl4/signl4-integration-checkmk). Just go ahead, download the respective plugin from there and follow the instructions on the page.
-
-The following video shows how to integrate SIGNL4 with Checkmk 2.0:
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/umL1a63EBJc?si=SRpo5lKRQLBajTuy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The alert in SIGNL4 might look like this.
 
