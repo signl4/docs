@@ -40,7 +40,7 @@ Note: The activation link can take up to 20 minutes to arrive to the inbox. If y
 
 ![Acronis User Email](acronis-email-notifications.png)
 
-For a visual walkthrough of this process, please check out Acronis' YouTube video on this: [Setting up Notifications | Acronis Cyber Backup Cloud](https://www.youtube.com/watch?v=OXd-IUHqVUI).
+For a visual walkthrough of this process, please check out Acronis' YouTube video on this: [Setting up Notifications - Acronis Cyber Backup Cloud](https://www.youtube.com/watch?v=OXd-IUHqVUI).
 
 That’s it! Now, whenever an email notification is sent from Acronis, an alert is triggered in SIGNL4.
 
