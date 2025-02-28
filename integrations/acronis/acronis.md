@@ -22,21 +22,21 @@ Integrating SIGNL4 with Acronis is straightforward. You just need to configure e
 
 In order to get SIGNL4 to successfully monitor your Acronis Cyber Protect Cloud, you will need to login to your Acronis Cyber Protect Cloud portal and direct the email notifications to your SIGNL4 mailbox.
 
-1. From the root organization, create a new user.  
+1\. From the root organization, create a new user.
 
 ![Acronis New User](acronis-new-user.png)
 
-2. Add your SIGNL4 email address, leave the user as an Administrator, and create the user.  
+2\. Add your SIGNL4 email address, leave the user as an Administrator, and create the user.
 
 ![Acronis User Email](acronis-user-email.png)
 
-3. Log in to your SIGNL4 mailbox and activate the account. You will choose a password after clicking the activation link.  
+3\. Log in to your SIGNL4 mailbox and activate the account. You will choose a password after clicking the activation link.
 
 It's best to open the link in incognito / private mode so you do not log yourself out of the account you started the setup with.
 
 Note: The activation link can take up to 20 minutes to arrive to the inbox. If you do not know your mailbox password, please email support and we can reset it for you.
 
-4. Edit the created user and under settings, enable the three email notifications shown below.  
+4\. Edit the created user and under settings, enable the three email notifications shown below.
 
 ![Acronis User Email](acronis-email-notifications.png)
 
