@@ -26,11 +26,11 @@ In order to get SIGNL4 to successfully monitor your Acronis Cyber Protect Cloud,
 
 ![Acronis New User](acronis-new-user.png)
 
-2\. Add your SIGNL4 email address, leave the user as an Administrator, and create the user.
+2\. Add your SIGNL4 email team or integration address, leave the user as an Administrator, and create the user.
 
 ![Acronis User Email](acronis-user-email.png)
 
-3\. Log in to your SIGNL4 mailbox and activate the account. You will choose a password after clicking the activation link.
+3\. Log in to your SIGNL4 web portal. You should have received a new alert with an activation link to activate the new user account. You will choose a password after clicking the activation link.
 
 It's best to open the link in incognito / private mode so you do not log yourself out of the account you started the setup with.
 
