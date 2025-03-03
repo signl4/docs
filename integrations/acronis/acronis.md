@@ -5,8 +5,9 @@ parent: Integrations
 
 # SIGNL4 Integration with Acronis
 
-[Acronis](acronis.png)
 [Acronis](https://www.acronis.com/en-us/) is a global leader in cyber protection, combining backup, disaster recovery, cybersecurity, and endpoint management to safeguard data across cloud, on-premises, and hybrid environments. Its innovative solutions help businesses ensure data integrity, security, and availability with AI-enhanced threat detection and blockchain-based authentication.
+
+![Acronis](acronis.png)
 
 [SIGNL4](https://www.signl4.com/) offers critical alerting, incident management for operating critical infrastructure. It alerts you persistently via app push, SMS text, voice calls, and email including tracking, escalation, on-call duty scheduling and collaboration.
 
