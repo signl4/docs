@@ -11,7 +11,7 @@ parent: Integrations
 
 [SIGNL4](https://www.signl4.com/) offers critical alerting, incident management for operating critical infrastructure. It alerts you persistently via app push, SMS text, voice calls, and email including tracking, escalation, on-call duty scheduling and collaboration.
 
-This article describes how to integrate SIGNL4 with Cyber Protect Cloud.
+This article describes how to integrate SIGNL4 with Acronis Cyber Protect Cloud.
 
 ## Prerequisites
 
