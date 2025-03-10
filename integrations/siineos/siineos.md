@@ -17,8 +17,6 @@ Gathering events from sensors and IoT devices and sending team alerts in case of
 
 When a critical state, like a high temperature, has been detected SIGNL4 takes care about finding and alerting the right people so they can take care immediately.
 
-![SIINEOS Apps](siineos-apps.png)
-
 ## Prerequisites
 - A [SIGNL4](https://www.signl4.com/) account
 - A device with [SIINEOS](https://www.inhub.de/en/products/software-siineos) installed
@@ -27,6 +25,8 @@ SIGNL4 is natively available in in SIINEOS (v2.9.0 and higher) under Apps.
 ## How to Integrate
 
 The integration is straightforward. In SIINEOS you just need to go to Apps -> SIGNL4 and configure your team or integration secret here.
+
+![SIINEOS Apps](siineos-apps.png)
 
 Make sure SIINEOS has access to the internet to transmit HTTP requests to SIGNL4 for triggering the alerts.
 
