@@ -7,7 +7,7 @@ parent: Integrations
 
 [SIINEOS](https://www.inhub.de/en/products/software-siineos) by [in.hub](https://www.inhub.de/en) is a lightweight, Linux-based Industrial IoT (IIoT) operating system designed for edge devices. It enables secure remote monitoring, management, and automation of industrial processes, integrating seamlessly with cloud platforms and IIoT applications.
 
-![in.hub SIINEOS](inhub-sineos.png)
+![in.hub SIINEOS](inhub-siineos.png)
 
 SIGNL4 is a mobile alerting and incident management service for alerting responsible users or teams about critical situations as quickly and as reliably as possible. It supports app push, SMS test, voice calls, including escalation, shift planning and collaboration. Get the started at [https://www.signl4.com](https://www.signl4.com/).
 
