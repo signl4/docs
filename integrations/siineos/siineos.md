@@ -13,17 +13,16 @@ SIGNL4 is a mobile alerting and incident management service for alerting respons
 
 Gathering events from sensors and IoT devices and sending team alerts in case of critical incidents is a rather vast field. Devices from in.hub can help bridge the OT / IT gap. It is a "fitness tracker for devices and processes". You can connect production facilities, PLCs, sensors, IoT devices, or dry contacts.
 
-![in.hub](in-hub.png)
+![in.hub](inhub.png)
 
 When a critical state, like a high temperature, has been detected SIGNL4 takes care about finding and alerting the right people so they can take care immediately.
-
-SIGNL4 is natively available in in SIINEOS (v2.9.0 and higher) under Apps.
 
 ![SIINEOS Apps](siineos-apps.png)
 
 ## Prerequisites
 - A [SIGNL4](https://www.signl4.com/) account
 - A device with [SIINEOS](https://www.inhub.de/en/products/software-siineos) installed
+SIGNL4 is natively available in in SIINEOS (v2.9.0 and higher) under Apps.
 
 ## How to Integrate
 
@@ -35,4 +34,4 @@ Make sure SIINEOS has access to the internet to transmit HTTP requests to SIGNL4
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-siineospng)
+![SIGNL4 Alert](signl4-siineos.png)
