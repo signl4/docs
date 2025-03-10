@@ -34,4 +34,4 @@ Make sure SIINEOS has access to the internet to transmit HTTP requests to SIGNL4
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-siineos.png)
+![SIGNL4 Alert](signl4-inhub.png)
