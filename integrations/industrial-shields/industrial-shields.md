@@ -15,7 +15,7 @@ Gathering events from IoT devices and sending team alerts in case of critical in
 
 When a critical state, like a high temperature, has been detected SIGNL4 takes care about finding and alerting the right people so they can take care immediately.
 
-THe integration of SIGNL4 with Industrial Shields devices is straightforward.
+The integration of SIGNL4 with Industrial Shields devices is straightforward.
 
 ## Prerequisites
 - A [SIGNL4](https://www.signl4.com/) account
