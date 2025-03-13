@@ -15,7 +15,7 @@ The integration of SIGNL4 with Calima is straightforward.
 
 ## Prerequisites
 - A [SIGNL4](https://www.signl4.com/) account
-- The [Calima app](https://en.calima.io/)
+- The [Calima](https://en.calima.io/) app
 
 ## How to Integrate
 
