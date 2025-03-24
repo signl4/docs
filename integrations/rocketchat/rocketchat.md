@@ -101,3 +101,7 @@ class Script {
 In SIGNL4 you need to configure the [outbound webhook](https://www.signl4.com/outbound-webhooks/) in SIGNL4. The URL here is your Webhook URL from the Incoming WebHook Integration above, e.g. http://your-rocketchatserver:3000/hooks/67dd7f1e3a0de1f183af6a9c/gpYRM3guKfpDKacaf6r2XiXZy2Q6oYPJ9iEGmWtWMMtc3mDt.
 
 Please note that this URL needs to be available from the internet.
+
+![Rocket.Chat Chat](rocketchat-chat.png)
+
+You can fine-tune the above scripts according to your needs. For example you can use the external ID to match specific chat sessions.
