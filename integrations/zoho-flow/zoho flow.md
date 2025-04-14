@@ -2,7 +2,7 @@
 title: Zoho Flow
 parent: Integrations
 ---
-# SIGNL4 Integration with Soho Flow
+# SIGNL4 Integration with Zoho Flow
 
 When critical events happen, SIGNL4 is the fastest way to alert your staff, engineers, or other teams on call and “in the field”. SIGNL4 provides reliable notifications via mobile app push, text and voice calls with tracking, escalations and duty scheduling.
 
