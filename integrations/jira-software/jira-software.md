@@ -21,7 +21,7 @@ The Jira Service Management connector app makes 2-way integration with Jira Serv
 
 The connector communicates with the Jira Service Management API to read ticket details or to update them. According permissions must be enabled in the role that gets assigned to the user account that you create for SIGNL4 in Jira.
 
-In SIGNL4 you create a new connector integration “Jira Service Management”. Here you configure the connector and enter your data. You will find a description as a tooltip directly on the configuration page. The following data is particularly important.
+In SIGNL4 you create a new connector integration “Jira Service Management”. You find this one in the SIGNL4 web portal unter Integrations -> Gallery -> Jira Service Management. Here you configure the connector and enter your data. You will find a description as a tooltip directly on the configuration page. The following data is particularly important.
 
 Instance URL: The URL of your Jira instance, for example: https://signl4.atlassian.net/
 
