@@ -83,13 +83,11 @@ In order for 2-way integration to work and for incidents to be updated in Servic
 
 1. Log in to [SIGNL4](https://account.signl4.com/manage)
 
-2. Select the appropriate team and click on Apps in the menu.
+2. Go to Integrations -> Gallery.
 
-3. Then search for ServiceNow in the app template (or in the search box on the right side of the page).
+3. Then search for ServiceNow to find the ServiceNow connector app and click on this one to open it.
 
-4. Click on create
-
-5. Next, quickly configure the connector app values described below:
+4. Next, quickly configure the connector app values described below:
 
 - **Instance URI**:  
     The root URL of your ServiceNow instance without any additional path. An example is https://company.servicenow.com
@@ -113,11 +111,9 @@ In order for 2-way integration to work and for incidents to be updated in Servic
     - Enable "Can create" permission on the "Application Access" tab for each table.
     - Consider disabling these permissions then for individual other applications in your ServiceNow instance by entering "sys_scope_privilege.list" in the Navigator field.
 
-6. Click "Create". If the account data is OK and there are no authorization errors, the app is launched and you are ready to go.
+5. Click "Install". If the account data is OK and there are no authorization errors, the app is launched and you are ready to go.
 
-![ServiceNow 5](servicenow-05.png)
-
-![ServiceNow 6](servicenow-06.png)
+![SIGNL4 Connector for ServiceNow](signl4-servicenow-connector.png)
 
 ## Let’s go – Testing the configuration
 
@@ -138,11 +134,7 @@ Now that you’ve created the SIGNL4 app in ServiceNow and also added the Servic
 - Close the incident in SIGNL4
     - This status change will now be transferred to ServiceNow by applying the template “SIGNL4 – Update SN Tickets (Closed)” to the previously created incident.
 
-![ServiceNow 7](servicenow-07.png)
-
-![ServiceNow 7a](servicenow-07a.png)
-
-![ServiceNow 7b](servicenow-07b.png)
+![SIGNL4 ServiceNow](signl4-servicenow.png)
 
 ![ServiceNow 8](servicenow-08.png)
 
