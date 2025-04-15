@@ -11,6 +11,32 @@ Mobile workers are not able to sit in front of a [Zabbix](https://www.zabbix.com
 
 Pairing Zabbix with SIGNL4 can enhance your daily operations with an extension to your team wherever it is. The two-way integration allows service engineers or IT administrators not only to receive alerts but also to acknowledge, annotate and close alerts, no matter where they are.
 
+## How does it work?
+
+For triggering and resolving SIGNL4 alerts you can use the built in SIGNL4 media type in Zabbix.
+
+### SIGNL4 media type
+
+In the Zabbix web portal go to Alerts -> Media types. Open the configuration of the SIGNL4 media type and make sure the Enabled field is checked.
+
+If you do not see the SIGNL4 media type here or if you want to make sure to use the latest version you can go to [https://github.com/signl4/signl4-integration-zabbix](https://github.com/signl4/signl4-integration-zabbix) and download the file signl4-mediatype.yaml from there. You then import this media type in Zabbix.
+
+### Add a user
+
+In Zabbix you add a user for SIGNL4. In the Zabbix web portal you go to Users and create a new user for SIGNL4. For this user under Media you select SIGNL4 as Type and enter your SIGNL4 team or integration secret under Send to. The rest you can configure to suite your needs.
+
+![Zabbix User](zabbix-user.png)
+
+### Create your action
+
+Now you can create your action in the Zabbix web portal under Alerts -> Actions. Choose the appropriate conditions and select the SIGNL4 user from the previous step as user to be alerted in the operation under Send to users.
+
+### Test the alerting
+
+Zabbix provides a very simple way to test alerting using certain media types. In the Zabbix web portal go to Alerts -> Media types. Find the SIGNL4 media type and in the right-hand side you see Test. Click Test and a text dialog opens. Here you enter your SIGNL4 team or integration secret in the field teamsecret and click Test. You then receive an alert on your SIGNL4 mobile app.
+
+![Zabbix Text](zabbix-test.png)
+
 Here is a video showing this integration:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oryARdRV2es?si=zlcrqfT_6V3XklZG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
