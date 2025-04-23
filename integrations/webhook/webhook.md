@@ -70,8 +70,7 @@ You can try these steps out at the following URL:
 - Enter in the event data.
 - Click "Try it Out".
 
-![SIGNL4 Alert 1](signl4-alert1.png)
-![SIGNL4 Alert 2](signl4-alert2.png)
+![SIGNL4 Alert](signl4-alert.png)
 
 ## Close Alerts
 
