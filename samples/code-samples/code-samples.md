@@ -26,6 +26,12 @@ You need to replace by your SIGNL4 team secret and you can add additional parame
 curl -X POST 'https://connect.signl4.com/webhook/{team-secret}' -H 'Content-Type:application/json' -d '{"Title":"Test Alert","Text":"Hello world."}'
 ```
 
+cURL with attachment:
+
+```bash
+curl -X POST "https://connect.signl4.com/webhook/{team-secret}"  -F "Title=Camera Alert" -F "Message=Nice view from the office." -F "File=@office-view.jpg" -H "Content-Type: multipart/form-data"
+```
+
 ## Bash Script
 
 ```bash
