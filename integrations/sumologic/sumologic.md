@@ -11,9 +11,7 @@ Sumo Logic provides data and visual monitoring tools in real time to help you be
 
 When creating and managing the Monitors, the second option (Set Rules) allows for you to enter an email address to notify when the alert is triggered.  Entering your SIGNL4 team email address here will pass all the data from the alert and notify your on-call duty members with all the information in the alert, separated out in an easy to read format.
 
-![Sumologic](sumologic3.png)
-
-## To set up a WebHook connection
+## To set up a Webhook connection
 
 Go to Manage Data -> Settings -> Connections.
 
@@ -39,7 +37,7 @@ Click "Save".
 
 Once you have that WebHook in place just adjust the alerts to trigger that webhook.
 
-![Sumologic1](sumologic1.png)
+![Sumologic1](sumologic3.png)
 
 The alert in SIGNL4 might look like this.
 
