@@ -270,4 +270,6 @@ terraform apply
 
 Terraform will create the SIGNL4 category via API. You can also run terraform destroy to trigger the DELETE.
 
-You can find the sample groject including the above mentioned files on [GitHub](https://github.com/signl4/signl4-terraform-provider).
+## GitHub
+
+You can find the sample project including the above mentioned files on [GitHub](https://github.com/signl4/signl4-terraform-provider).
