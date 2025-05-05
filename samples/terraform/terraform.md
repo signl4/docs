@@ -1,5 +1,5 @@
 ---
-title: Terroform Provider for SIGNL4
+title: Terraform Provider for SIGNL4
 parent: Samples
 ---
 
