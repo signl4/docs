@@ -39,7 +39,7 @@ Click "Save".
 
 Once you have that WebHook in place just adjust the alerts to trigger that webhook.
 
-![Sumologic1](Sumologic1.png)
+![Sumologic1](sumologic1.png)
 
 The alert in SIGNL4 might look like this.
 
