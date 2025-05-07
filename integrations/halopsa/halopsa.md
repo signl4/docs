@@ -30,6 +30,12 @@ Under "Configuration" -> "Integrations" -> "Custom Integrations" go to "Custom I
 
 Under "Configuration" -> "Integrations" -> "Custom Integrations" go to "Methods" and create a new method. Give it a name and select your SIGNL4 integration from the previous step. You see the webhook URL. Now, enter your team / integration secret at the right. Also, choose POST as HTTP method.
 
+To support not only triggering but also closing alerts when a ticket gets closes please use the following in the URL extension field:
+
+{team-secret}?ExtIDParam=X-S4-ExternalID&ExtStatusParam=Status&ResolvedStatus=Closed
+
+Where {team-secret} is your team or integration secret.
+
 Under Body select JSON and enter your JSON body.
 
 ```json
@@ -49,7 +55,6 @@ Under Body select JSON and enter your JSON body.
     "Status": <<ticket^status^shortname>>,
     "Link": "https://signl4.halopsa.com/ticket?id=<<ticket^id>>",
     "X-S4-ExternalID" : "HaloPSA-<<ticket^id>>",
-    "X-S4-Status": "new",
     "X-S4-SourceSystem": "HaloPSA"
 }
 ```
@@ -75,9 +80,9 @@ That is it. Now your team receives a SIGNL4 alert when a new ticket is created i
 
 ### Closing Alerts
 
-The above allows you to trigger SIGNL4 alerts for new tickets in HaloPSA. You can also close an alert in SIGNL4 when the corresponding ticked in HaloPSA is closed.
+The above is closing SIGNL4 alerts autoimatically when a ticket is closed.
 
-In order to configure this you need another Method and another Integration Runbook. Configure everything as above with a different name and with the following exceptions.
+For closing alerts from within separate runbooks you can use the following. Configure everything as above with a different name and with the following exceptions.
 
 #### Method
 
