@@ -36,6 +36,10 @@ To support not only triggering but also closing alerts when a ticket gets closes
 
 Where {team-secret} is your team or integration secret.
 
+You can freely use the placeholders you need but make sure you leave the "X-S4-" fields unchanged.
+
+![HaloPSA Method](halopsa-method.png)
+
 Under Body select JSON and enter your JSON body.
 
 ```json
@@ -58,11 +62,6 @@ Under Body select JSON and enter your JSON body.
     "X-S4-SourceSystem": "HaloPSA"
 }
 ```
-
-You can freely use the placeholders you need but make sure you leave the "X-S4-" fields unchanged.
-
-![HaloPSA Method](halopsa-method.png)
-
 
 ### Integration Runbook
 
@@ -107,3 +106,4 @@ That is is. An alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-halopsa.png)
  
+For your convenience, we offer the SIGNL4 custom integration and integration runbook for download [here](https://docs.signl4.com/integrations/halopsa/SIGNL4-HaloPSA.zip).
