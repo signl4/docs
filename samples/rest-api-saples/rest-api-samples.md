@@ -22,7 +22,7 @@ As a result you get the user id(s) that you might need in the next steps.
 
 ```http
 GET https://connect.signl4.com/api/v2/users
-X-S4-Api-Key: 4a7780dd26f3301f22312aff335ef514a74ca0f5ea22b92f30070d1916b24a60
+X-S4-Api-Key: {signl4-api-key}
 ```
 
 ## Get Duty Schedules
