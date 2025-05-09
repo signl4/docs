@@ -11,7 +11,7 @@ This article lists sample calls of the SIGNL4 REST API for different purposes. Y
 
 As a result you get the team id(s) that you might need in the next steps.
 
-```http
+```
 GET https://connect.signl4.com/api/v2/teams
 X-S4-Api-Key: {signl4-api-key}
 ```
@@ -20,14 +20,14 @@ X-S4-Api-Key: {signl4-api-key}
 
 As a result you get the user id(s) that you might need in the next steps.
 
-```http
+```
 GET https://connect.signl4.com/api/v2/users
 X-S4-Api-Key: {signl4-api-key}
 ```
 
 ## Get Duty Schedules
 
-```http
+```
 POST https://connect.signl4.com/api/v2/schedules
 X-S4-Api-Key: {signl4-api-key}
 Content-Type: application/json
