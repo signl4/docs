@@ -141,6 +141,7 @@ Now that you’ve created the SIGNL4 app in ServiceNow and also added the Servic
 ## Compatibility
 
 The SIGNL4 application is at least compatible following ServiceNow versions:
+- Yokohama
 - Xanadu
 - Washington DC
 - Vancouver
