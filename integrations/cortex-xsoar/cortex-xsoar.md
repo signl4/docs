@@ -20,7 +20,9 @@ SIGNL4 is a mobile alert notification app for powerful alerting, alert managemen
 
 ## How to Integrate
 
-The SIGNL4 integration is direcrtly available in the Cortex XSOAR marketplace.
+The SIGNL4 integration is direcrtly available in the Cortex XSOAR and XSIAM marketplace.
+
+![Playbook](xsoar-signl4-playbook.png)
 
 ### Configure SIGNL4 on Cortex XSOAR
 
