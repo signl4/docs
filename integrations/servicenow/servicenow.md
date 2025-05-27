@@ -83,12 +83,12 @@ In order for 2-way integration to work and for incidents to be updated in Servic
     When a user in SIGNL4 annotates a Signl, the annotation can be added as incident note in ServiceNow. Select the note type in that case or disable adding notes to ServiceNow incidents.
 - **Owner assignment when:**  
     When a user in SIGNL4 acknowledges or closes a Signl, he or she can be assigned to the incident. Select on which status changes this should be done. Please note that the incident will also be assigned to a support group the user if member of, in case the user is member of only one group in ServiceNow.
-- I**mpersonate user when adding notes:**  
-    If disabled, notes will always be added as the integration user account (SIGNL4), which may not be very meaningful in ServiceNow. If email addresses for ServiceNow and SIGNL4 users match, they can also be added as the user who actually authored them. If you enable this setting, notes will be inserted to ServiceNow tables directly.
-    - This requires CREATE persmissions on the tables "sys_audit", "sys_journal_field" and "sys_history_line".
-    - Pull them up by "Name" in the list view that gets displayed when typing "sys_db_object.list" in the Navigator field.
-    - Enable "Can create" permission on the "Application Access" tab for each table.
-    - Consider disabling these permissions then for individual other applications in your ServiceNow instance by entering "sys_scope_privilege.list" in the Navigator field.
+- **Impersonate user when adding notes:**  
+    If disabled, notes will always be added as the integration user account (SIGNL4), which may not be very meaningful in ServiceNow. If email addresses for ServiceNow and SIGNL4 users match, they can also be added as the user who actually authored them. If you enable this setting, notes will be inserted to ServiceNow tables directly.  
+        - This requires CREATE persmissions on the tables "sys_audit", "sys_journal_field" and "sys_history_line".
+        - Pull them up by "Name" in the list view that gets displayed when typing "sys_db_object.list" in the Navigator field.
+        - Enable "Can create" permission on the "Application Access" tab for each table.
+        - Consider disabling these permissions then for individual other applications in your ServiceNow instance by entering "sys_scope_privilege.list" in the Navigator field.
 5. Click "Install". If the account data is OK and there are no authorization errors, the app is launched and you are ready to go.
 
 ![SIGNL4 Connector for ServiceNow](signl4-servicenow-connector.png)
