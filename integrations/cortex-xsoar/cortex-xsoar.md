@@ -71,7 +71,6 @@ Sends a mobile alert to a SIGNL4 team.
 
 ###### Command example
 
-
 ```!signl4-alert name="Test Alert"```
 
 ###### Context Example
@@ -83,14 +82,14 @@ Sends a mobile alert to a SIGNL4 team.
     "s4_external_id": "id1234"
 }
 ```
-##### signl4_close
+##### signl4_close_alert
 
 ***
 Close a SIGNL4 alert.
 
 ###### Base Command
 
-`signl4_close`
+`signl4_close_alert`
 
 ###### Input
 
