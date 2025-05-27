@@ -101,11 +101,11 @@ Now that you’ve created the SIGNL4 app in ServiceNow and also added the Servic
 2. Now create a new incident in your ServiceNow instance that meets the criteria of the business rule "SIGNL4 – Trigger Signls".
 3. The incident will then be forwarded to SIGNL4 and you will see the Signl both in the web portal and in the mobile app
 4. Now you acknowledge the signl in SIGNL4, either in the portal under “Signls” or in the mobile app by pressing the circle button.
-5. This status change is now transferred to ServiceNow by applying the template “SIGNL4 – Update SN Tickets (Acked)” to the previously created incident.
+5. This status change is now transferred to ServiceNow by applying the template “SIGNL4 – Update SN Tickets (Acked)” to the previously created incident.  
 - Add some annotations to the incident in SIGNL4.
-    - These annotations will be added to the incident in ServiceNow as notes.
-- Close the incident in SIGNL4
-    - This status change will now be transferred to ServiceNow by applying the template “SIGNL4 – Update SN Tickets (Closed)” to the previously created incident.
+        - These annotations will be added to the incident in ServiceNow as notes.
+  - Close the incident in SIGNL4
+        - This status change will now be transferred to ServiceNow by applying the template “SIGNL4 – Update SN Tickets (Closed)” to the previously created incident.
 
 ![SIGNL4 ServiceNow](signl4-servicenow.png)
 
