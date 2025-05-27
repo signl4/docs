@@ -104,7 +104,7 @@ Now that you’ve created the SIGNL4 app in ServiceNow and also added the Servic
 5. This status change is now transferred to ServiceNow by applying the template “SIGNL4 – Update SN Tickets (Acked)” to the previously created incident.  
 - Add some annotations to the incident in SIGNL4.
         - These annotations will be added to the incident in ServiceNow as notes.
-  - Close the incident in SIGNL4
+- Close the incident in SIGNL4
         - This status change will now be transferred to ServiceNow by applying the template “SIGNL4 – Update SN Tickets (Closed)” to the previously created incident.
 
 ![SIGNL4 ServiceNow](signl4-servicenow.png)
