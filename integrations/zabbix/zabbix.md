@@ -51,6 +51,18 @@ With Zabbix 6.4 and higher the authentication method has changed. With SIGNL4 yo
 
 For older Zabbix versions SIGNL4 provides a dedicated integration for Zabbix [here](https://www.zabbix.com/integrations/signl4). You can also find the integration scripts on [GitHub](https://github.com/signl4/signl4-integration-zabbix). Just go ahead, download the respective alert scripts from there and follow the instructions on the page.
 
+### Testing Two-Way Integration
+
+In order to use the two-way integration for status updates from SIGNL4 to Zabbix your Zabbix server needs to be reachable from the public Internet with a valid and publicly trusted (not self-signed) certificate.
+
+To test the connection, you can use the following command.
+
+```
+curl -XPOST -H 'Content-Type: application/json-rpc' -d '{"jsonrpc":"2.0","method":"apiinfo.version","id":1,"auth":null,"params":{}}' https://your-zabbix-server/zabbix/api_jsonrpc.php
+```
+
+The command should return some JSON data.
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-zabbix.png)
