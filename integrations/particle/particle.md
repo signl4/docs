@@ -41,15 +41,15 @@ Under Custom Template you can insert your JSON data template as to be sent to SI
 {% raw %}
 ```json
 {
-    “event”: “photon-motion”,
-    “deviceID”: “37002a000847373336323230”,
-    “url”: “https://connect.signl4.com/webhook/{team-secret}”,
-    “requestType”: “POST”,
-    “noDefaults”: true,
-    “rejectUnauthorized”: true,
-    “json”: {
-        “subject”: “{{{subject}}}”,
-        “temperature”: “{{{temperature}}}”
+    "event": "photon-motion",
+    "deviceID": "37002a000847373336323230",
+    "url": "https://connect.signl4.com/webhook/{team-secret}",
+    "requestType": "POST",
+    "noDefaults": true,
+    "rejectUnauthorized": true,
+    "json": {
+        "subject": "{{{subject}}}",
+        "temperature": "{{{temperature}}}"
     }
 }
 ```
@@ -62,12 +62,12 @@ You can now go to the Web IDE at [https://build.particle.io/build](https://buil
 The two main lines to send the SIGNL4 alert are the following.
 
 ```javascript
-String data = “{ “subject”: “Motion detected.”, “temperature”: “” + temperature() + “” }”;
+String data = "{ "subject": "Motion detected.", "temperature": "" + temperature() + "" }";
 
-Particle.publish(“photon-motion”, data, 60, PUBLIC); 
+Particle.publish("photon-motion", data, 60, PUBLIC); 
 ```
 
-First, we assemble the date to become part of the webhook JSON data. And second, we send the date to the “photon-motion” Webhook we have created above.
+First, we assemble the date to become part of the webhook JSON data. And second, we send the date to the "photon-motion" Webhook we have created above.
 
 This is it. You can now test your IoT scenario by simulating a motion. You will then receive an alert in your SIGNL4 app.
 
