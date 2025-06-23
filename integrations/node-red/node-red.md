@@ -25,6 +25,10 @@ SIGNL4 provides [Node-RED nodes](https://flows.nodered.org/node/node-red-contrib
 
 You can inset them in your flow and configure them accordignly. You can find more information [here](https://flows.nodered.org/node/node-red-contrib-signl4). There are also some [sample flows](https://flows.nodered.org/search?term=signl4&type=flow) available.
 
+## Two-Way Status Updates and Remoate Actions
+
+For handling alert status updates coming from SIGNL4's outbound webhook or for remote actions you can use the "http in" in Node-RED to receive the respective HTTP requests.
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-iot.png)
