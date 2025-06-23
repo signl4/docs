@@ -26,7 +26,7 @@ As webhook URL you can use any existing inbound webhook URL already configured i
 
 ### Two-Way Integration
 
-It is also possible to send status updates from SIGNL4 back to OTRS, e.g. when an alert in SIGNL4 has been acknowledged, annotated or closed. For this to work you need to configure the back-channel connector app for OTRS in SIGNL4. In the SIGNL4 web portal go to Integrations -> Gallery and look for the OTRS (<-) connector. Please note that the arrow point to the left. Here you configure your API URL, username and password. The other parameters are optional. You can find more information about the parameters by hovering over the (?) symbol. When ready, click Install and now status changes in SIGNL4 will reflect in the OTRS ticket.
+It is also possible to send status updates from SIGNL4 back to OTRS, e.g. when an alert in SIGNL4 has been acknowledged, annotated or closed. For this to work you need to configure the back-channel connector app for OTRS in SIGNL4. In the SIGNL4 web portal go to Integrations -> Gallery and look for the OTRS (<-) connector. Please note that the arrow points to the left. Here you configure your API URL, username and password. The other parameters are optional. You can find more information about the parameters by hovering over the (?) symbol. When ready, click Install and now status changes in SIGNL4 will reflect in the OTRS ticket.
 
 ## Option 2: Email
 
