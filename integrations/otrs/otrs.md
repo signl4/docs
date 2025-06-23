@@ -7,7 +7,7 @@ parent: Integrations
 
 [OTRS](https://otrs.com/) is a cloud-based ticketing and automation system. This tool is perfect for call centers and help desk to take incoming calls and log them in the portal.
 
-SIGNL4 comes in is at the alerting level. Currently OTRS will send an email to specified parties when a new ticket is raised. SIGNL4 allows for those emails to be directed to the right people at the right time. With on-call duty scheduling and a tiered escalation to a manager, SIGNL4 ensures that the email will not be lost in a sea of emails.
+SIGNL4 comes in is at the alerting level. SIGNL4 operates at the alerting layer, complementing OTRS. While OTRS can send emails to designated recipients when a new ticket is raised, SIGNL4 takes this a step further by transforming those emails into actionable alerts delivered to the right people at the right time. With features like mobile app push notifications, SMS messaging, automated escalations, and on-call duty scheduling, SIGNL4 ensures that critical alerts reliably reach the responsible personnel – anytime, anywhere.
 
 ## Prerequisites
 
