@@ -9,6 +9,8 @@ parent: Integrations
 
 SIGNL4 adds reliable mobile alerting to Airtable with features like mobile app, push notifications, SMS messaging, voice calls, automated escalations, and on-call duty scheduling. SIGNL4 ensures that critical alerts reliably reach the responsible personnel – anytime, anywhere.
 
+![Airtable and SIGNL4](airtable-signl4.gif)
+
 ## Prerequisites
 A SIGNL4 (https://www.signl4.com) account
 An Airtable (https://www.airtable.com/) account
