@@ -1,9 +1,9 @@
 ---
-title: Cortex XSOAR
+title: Cortex XSOAR / XSIAM
 parent: Integrations
 ---
 
-# SIGNL4 Integration with Cortex XSOAR by Palo Alto Networks
+# SIGNL4 Integration with Cortex XSOAR / XSIAM by Palo Alto Networks
 
 [Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar) (Security Orchestration, Automation, and Response) is a security operations platform developed by Palo Alto Networks that unifies case management, automation, real-time collaboration, and threat intelligence into a single interface. It helps security teams streamline incident response by automating repetitive tasks and orchestrating workflows across various tools and systems.
 
