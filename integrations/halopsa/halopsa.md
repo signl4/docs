@@ -102,8 +102,18 @@ In the new integration runbook you configure the events that should close the al
 
 When you have received the SIGNL4 alert about a new HaloPSA ticket you can click the link to the ticket. This will automatically bring you to the HaloPSA ticket in web portal. You can also see and manage your tickets direktly from within the Halo ITSM, PSA, CRM app.
 
+## Predefined Runbook
+
+You can access the Online Repository for Runbooks by heading to Configuration -> Custom Objects -> Custom Integrations -> Integration Runbooks. Then you can click the below icon above the list.
+
+![HaloPSA Integration Runbooks](halopsa-integration-runbooks.png)
+
+This will then show the Online Repository for Runbooks, including the one for SIGNL4.
+
+![HaloPSA SIGNL4 Runbook](halopsa-signl4-runbook.png)
+ 
+For your convenience, we offer the SIGNL4 custom integration and integration runbook for download [here](https://docs.signl4.com/integrations/halopsa/SIGNL4-HaloPSA.zip).
+
 That is is. An alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-halopsa.png)
- 
-For your convenience, we offer the SIGNL4 custom integration and integration runbook for download [here](https://docs.signl4.com/integrations/halopsa/SIGNL4-HaloPSA.zip).
