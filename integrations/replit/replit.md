@@ -36,8 +36,7 @@ Please create a simple web app (PWA) for desktop or mobile that sends SIGNL4 ale
 ```
 
 After some work Replit created this app:
-[https://replit.com/@roncz/SIGNL4-Alert-Sender](https://replit.com/@roncz/SIGNL4-Alert-Sender)
-
+[https://replit.com/@roncz/SIGNL4-Alert-Sender?v=1#replit.md](https://replit.com/@roncz/SIGNL4-Alert-Sender?v=1#replit.md)
 
 You just need to enter your SIGNL4 team or integration secret, an alert message and send the alert.
 
