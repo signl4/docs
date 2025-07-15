@@ -7,7 +7,7 @@ parent: Integrations
 
 [Replit](https://replit.com/) is an online integrated development environment (IDE) that allows users to write, run, and share code directly in the browser. It supports a wide range of programming languages and is commonly used for learning, prototyping, and collaborating on software projects.
 
-With features like multiplayer mode and a vibrant community, Replit encourages "vibe coding" — a relaxed, creative, and collaborative approach to programming.
+With features like multiplayer mode and a vibrant community, Replit encourages "vibe coding" – a relaxed, creative, collaborative and often AI-supported approach to programming.
 
 Integrating SIGNL4 into your projects for reliable mobile alerting is straightforward, hassle-free and it can easily be achieved using vibe coding.
 
