@@ -12,18 +12,18 @@ Users can enhance their security response by integrating Microsoft Defender for 
 ## Use cases
 
 Microsoft Defender for Cloud generates a variety of security alerts across different resource types, each indicating potential threats or suspicious activities within your environment. These alerts are categorized by severity—High, Medium, Low, and Informational—to help prioritize response efforts. Examples include:  
-- Alerts for Windows machines: Detects activities such as execution of known malicious tools or suspicious processes running on virtual machines.
-- Alerts for Linux machines: Identifies unauthorized access attempts or anomalous behaviors indicative of compromise.
-- Alerts for DNS: Monitors for suspicious domain resolutions that may suggest command-and-control communication.
-- Alerts for Azure VM extensions: Flags unauthorized installations or modifications of virtual machine extensions.
-- Alerts for Azure App Service: Detects web application attacks, including SQL injection and cross-site scripting attempts.
-- Alerts for containers (Kubernetes clusters): Identifies suspicious activities within containerized environments, such as unauthorized API calls or anomalous pod behaviors.
-- Alerts for SQL Database and Azure Synapse Analytics: Monitors for potential SQL injection attacks or unauthorized data access attempts.
-- Alerts for open-source relational databases: Detects suspicious login attempts or data exfiltration activities.
-- Alerts for Resource Manager: Flags unauthorized changes to resource configurations or deployments.
-- Alerts for Azure Storage: Identifies anomalous data access patterns or potential data leakage incidents.
-- Alerts for Azure Cosmos DB: Monitors for unauthorized access or suspicious query activities.
-- Alerts for Azure network layer: Detects network anomalies such as unusual port scanning or traffic patterns.
+- Tickets for Windows machines: Detects activities such as execution of known malicious tools or suspicious processes running on virtual machines.
+- Tickets for Linux machines: Identifies unauthorized access attempts or anomalous behaviors indicative of compromise.
+- Tickets for DNS: Monitors for suspicious domain resolutions that may suggest command-and-control communication.
+- Tickets for Azure VM extensions: Flags unauthorized installations or modifications of virtual machine extensions.
+- Tickets for Azure App Service: Detects web application attacks, including SQL injection and cross-site scripting attempts.
+- Tickets for containers (Kubernetes clusters): Identifies suspicious activities within containerized environments, such as unauthorized API calls or anomalous pod behaviors.
+- Tickets for SQL Database and Azure Synapse Analytics: Monitors for potential SQL injection attacks or unauthorized data access attempts.
+- Tickets for open-source relational databases: Detects suspicious login attempts or data exfiltration activities.
+- Tickets for Resource Manager: Flags unauthorized changes to resource configurations or deployments.
+- Tickets for Azure Storage: Identifies anomalous data access patterns or potential data leakage incidents.
+- Tickets for Azure Cosmos DB: Monitors for unauthorized access or suspicious query activities.
+- Tickets for Azure network layer: Detects network anomalies such as unusual port scanning or traffic patterns.
 
 With SIGNL4 your team can now receive these alerts reliably via app push, SMS text or phone call, including escalation, duty-scheduling and collaboration.
 
