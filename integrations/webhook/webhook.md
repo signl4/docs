@@ -32,33 +32,33 @@ The payload that we will pass through will be:
 }
 ```
 
-The following parameters will enrich your Signl or to influence its processing as follows:
+The following parameters will enrich your alert or to influence its processing as follows:
 
-**X-S4-Service**: Assigns the Signl to the service/system category with the specified name.  
+**X-S4-Service**: Assigns the alert to the service/system category with the specified name.  
   
 **X-S4-Location**: Transmit location information ('latitude, longitude') with your event and display a map in the mobile app.  
   
-**X-S4-AlertingScenario**: If this event triggers a Signl, allows to control how SIGNL4 notifies the team.
+**X-S4-AlertingScenario**: If this event triggers an alert, allows to control how SIGNL4 notifies the team.
 - **single_ack**  
-    Only one person needs to acknowledge this Signl.  
+    Only one person needs to acknowledge this alert.  
 - **multi_ack**  
-    The Signl must be confirmed by the number of people who are on duty at the time this Signl is created.  
+    The alert must be confirmed by the number of people who are on duty at the time this alert is created.  
 - **emergency**  
-    All people in the team are notified regardless of their duty status and must acknowledge the Signl, which is also assigned to the built-in emergency category.  
+    All people in the team are notified regardless of their duty status and must acknowledge the alert, which is also assigned to the built-in emergency category.  
   
-**X-S4-ExternalID**: If the event originates from a record in a 3rd party system, use this parameter to pass the unique ID of that record. That ID will be communicated in outbound webhook notifications from SIGNL4, which is great for correlation/synchronization of that record with the Signl.  
+**X-S4-ExternalID**: If the event originates from a record in a 3rd party system, use this parameter to pass the unique ID of that record. That ID will be communicated in outbound webhook notifications from SIGNL4, which is great for correlation/synchronization of that record with the alert.  
   
 **X-S4-Filtering**: Specify a boolean value of true or false to apply event filtering for this event, or not. If set to true, the event will only trigger a notification to the team, if it contains at least one keyword from one of your services and system categories (i.e. it is whitelisted).  
   
-**X-S4-Status**: If you want to resolve an existing Signl by an external id (X-S4-ExternalID), you can add this status parameter. It has three possible values:
+**X-S4-Status**: If you want to resolve an existing alert by an external id (X-S4-ExternalID), you can add this status parameter. It has three possible values:
 - **new**  
-    Default value which means that this event triggers a new Signl.  
+    Default value which means that this event triggers a new alert.  
 - **acknowledged**  
-    If you want to acknowledge a previously triggered Signl (e.g. someone responded in the 3rd party system and not in the mobile app during business hours), set the X-S4-Status to 'acknowledged' and provide an external ID via the 'X-S4-ExternalID' parameter for the Signl you want to acknowledge. It is only possible to acknowledge a Signl with a provided external id that initially triggered it.  
+    If you want to acknowledge a previously triggered alert (e.g. someone responded in the 3rd party system and not in the mobile app during business hours), set the X-S4-Status to 'acknowledged' and provide an external ID via the 'X-S4-ExternalID' parameter for the alert you want to acknowledge. It is only possible to acknowledge an alert with a provided external id that initially triggered it.  
 - **resolved**  
-    If you want to resolve a previously triggered Signl (e.g. monitoring system has auto-closed the event), make sure to set the X-S4-Status to 'resolved' and provide an external ID via the 'X-S4-ExternalID' parameter for the Signl(s) you want to resolve. It is only possible to resolve a Signl with a provided external id that initially triggered it.  
+    If you want to resolve a previously triggered alert (e.g. monitoring system has auto-closed the event), make sure to set the X-S4-Status to 'resolved' and provide an external ID via the 'X-S4-ExternalID' parameter for the alert(s) you want to resolve. It is only possible to resolve a alert with a provided external id that initially triggered it.  
 
-You can also add query parameters which are each documented below. They are used to correlate the status of events in your 3rd party system with the Signl status in SIGNL4. You are thereby able to define when an event, sent to the webhook, should acknowledge or resolve a Signl that it has triggered earlier. An example is: https://connect.signl4.com/webhook/teamssecret?ExtIdParam=Id&ExtStatusParam=Status&ResolvedStatus=UP&AckStatus=PENDING
+You can also add query parameters which are each documented below. They are used to correlate the status of events in your 3rd party system with the alert status in SIGNL4. You are thereby able to define when an event, sent to the webhook, should acknowledge or resolve a alert that it has triggered earlier. An example is: https://connect.signl4.com/webhook/teamssecret?ExtIdParam=Id&ExtStatusParam=Status&ResolvedStatus=UP&AckStatus=PENDING
 
 You can use your own JSON parameters as appropriate, e.g. HostName, SensorId, etc. SIGNL4 will try to display them in a nice format. 
 
