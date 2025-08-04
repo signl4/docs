@@ -23,7 +23,7 @@ Valid syntax is as follows:
 * `signl4://{secret}`
 
 ### Parameter Breakdown
-| Variable    | Required | Description
+| Variable    | Required | Description |
 | ----------- | -------- | ----------- |
 | service | No      | Assigns the alert to the service/system category with the specified name. |
 | location | No       | Transmit location information (‘latitude, longitude’) with your event and display a map in the mobile app. |
@@ -51,4 +51,5 @@ The "secret" is your SIGNL4 team or integration secret.
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-apprise.png)
+
 
