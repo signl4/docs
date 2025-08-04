@@ -27,6 +27,8 @@ Valid syntax is as follows:
 | ----------- | -------- | ----------- |
 | service | No      | Assigns the alert to the service/system category with the specified name. |
 | location | No       | Transmit location information (‘latitude, longitude’) with your event and display a map in the mobile app. |
+
+test
 | alerting_scenario | No      | If this event triggers an alert, allows to control how SIGNL4 notifies the team. **single_ack**: Only one person needs to acknowledge this alert. **multi_ack**: The alert must be confirmed by the number of people who are on duty at the time this alert is created. **emergency**: All people in the team are notified regardless of their duty status and must acknowledge the alert, which is also assigned to the built-in emergency category. |
 | filtering | No      | Specify a boolean value of true or false to apply event filtering for this event, or not. If set to true, the event will only trigger a notification to the team, if it contains at least one keyword from one of your services and system categories (i.e. it is whitelisted). |
 | external_id | No      | If the event originates from a record in a 3rd party system, use this parameter to pass the unique ID of that record. That ID will be communicated in outbound webhook notifications from SIGNL4, which is great for correlation/synchronization of that record with the alert. |
@@ -51,5 +53,6 @@ The "secret" is your SIGNL4 team or integration secret.
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-apprise.png)
+
 
 
