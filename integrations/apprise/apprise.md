@@ -40,7 +40,7 @@ You can find more information [here](https://docs.signl4.com/integrations/webhoo
 Sends simple SIGNL4 alerts
 
 ```bash
-apprise -vv --title 'Alert from Apprise' --body 'Hello world.'
+apprise -vv --title 'Alert from Apprise' --body 'Hello world.' 'signl4://secret'
 ```
 
 ```bash
@@ -52,6 +52,7 @@ The "secret" is your SIGNL4 team or integration secret.
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-apprise.png)
+
 
 
 
