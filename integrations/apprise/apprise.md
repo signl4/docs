@@ -23,6 +23,7 @@ Valid syntax is as follows:
 * `signl4://{secret}`
 
 ### Parameter Breakdown
+
 | Variable    | Required | Description |
 | ----------- | -------- | ----------- |
 | service | No      | Assigns the alert to the service/system category with the specified name. |
@@ -53,6 +54,7 @@ The "secret" is your SIGNL4 team or integration secret.
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-apprise.png)
+
 
 
 
