@@ -16,7 +16,7 @@ parent: Integrations
 
 ## How to Integrate
 
-Install Apprise as described [here](https://github.com/caronc/apprise). For sending SIGNL4 alerts you can use the Apprise SIGNL4 URL for SIGNL4.
+Install Apprise as described [here](https://github.com/caronc/apprise). For sending SIGNL4 alerts you can use the Apprise SIGNL4 URL for SIGNL4. For more infornation see the documentation [here](https://github.com/caronc/apprise/wiki/Notify_signl4).
 
 ### Syntax
 Valid syntax is as follows:
@@ -24,7 +24,7 @@ Valid syntax is as follows:
 
 ### Parameter Breakdown
 | Variable    | Required | Description
-| ----------- | -------- | -----------
+| ----------- | -------- | ----------- |
 | service | No      | Assigns the alert to the service/system category with the specified name. |
 | location | No       | Transmit location information (‘latitude, longitude’) with your event and display a map in the mobile app. |
 | alerting_scenario | No      | If this event triggers an alert, allows to control how SIGNL4 notifies the team. **single_ack**: Only one person needs to acknowledge this alert. **multi_ack**: The alert must be confirmed by the number of people who are on duty at the time this alert is created. **emergency**: All people in the team are notified regardless of their duty status and must acknowledge the alert, which is also assigned to the built-in emergency category. |
@@ -51,3 +51,4 @@ The "secret" is your SIGNL4 team or integration secret.
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-apprise.png)
+
