@@ -49,9 +49,9 @@ Edit the YAML representation of the Action in order to pass the respective param
 
 {% raw %}
 ```yaml
-service: rest_command.signl4_alert
 data:
   message: Temperature is {{ states('sensor.openweathermap_temperature') }} degrees.
+action: rest_command.signl4_alert
 ```
 {% endraw %}
 
@@ -61,3 +61,4 @@ The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-home-assistant.png)
  
+
