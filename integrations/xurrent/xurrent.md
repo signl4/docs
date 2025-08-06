@@ -27,6 +27,8 @@ You can install and configure the integration in the SIGNL4 web portal under Int
 
 ![Xurrent Integration in SIGNL4](xurrent-signl4.png)
 
+The URL usually is: https://api.xurrent.com/
+
 Your account ID is the subdomain of the URL that you use to access your Xurrent account.
  
 You need to create your Xurrent Personal Access Token with access to Account, Me, Team, Note, Note reactions and Requests.
@@ -34,4 +36,5 @@ You need to create your Xurrent Personal Access Token with access to Account, Me
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-xurrent.png)
+
 
