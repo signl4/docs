@@ -26,7 +26,7 @@ Instance URL: The URL of your TOPdesk instance, for example: https://your-instan
 
 Username: The username for your TOPdesk account.
 
-Password: The application password for the TOPdesk account.
+Password: The application password for the TOPdesk account. You can create the application password for your user by going to your user icon (top right in the TOPdesk portal -> My Settings -> Application passwords, and create a new application password here.
 
 After saving, current (last hour) tickets are retrieved from TOPdesk and an alert is sent to the appropriate SIGNL4 team.
 
@@ -63,3 +63,4 @@ The next ticket that is created should now trigger an alert to your SIGNL4 team 
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-topdesk.png)
+
