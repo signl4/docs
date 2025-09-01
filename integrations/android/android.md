@@ -38,7 +38,7 @@ There are countless possible use cases – here are just a few ideas:
 
 ## How to Integrate
 
-You can easily integrate the above mentioned apps by using the [SIGNL4 webhook API](https://docs.signl4.com/integrations/webhook/webhook.html).
+You can easily integrate the above-mentioned apps by using the [SIGNL4 webhook API](https://docs.signl4.com/integrations/webhook/webhook.html).
 
 You can use the app’s HTTP request action to send an HTTP POST request to your SIGNL4 webhook URL. This triggers an alert in SIGNL4. Simply embed this step into any workflow to achieve your desired outcome.
 
@@ -53,3 +53,4 @@ This is a sample flow for SIGNL4 geo-fencing alerts in Automate.
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
