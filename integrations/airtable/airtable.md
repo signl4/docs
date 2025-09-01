@@ -5,7 +5,7 @@ parent: Integrations
 
 # SIGNL4 Integration with Airtable
 
-[Airtable](https://www.airtable.com/) a cloud-based platform that combines the features of a spreadsheet with the functionality of a database, offering a flexible and visually appealing way to organize, manage, and collaborate on data. It's essentially a no-code platform that allows users to build custom applications and databases without needing to write any code.
+[Airtable](https://www.airtable.com/) is a cloud-based platform that combines the features of a spreadsheet with the functionality of a database, offering a flexible and visually appealing way to organize, manage, and collaborate on data. It's essentially a no-code platform that allows users to build custom applications and databases without needing to write any code.
 
 SIGNL4 adds reliable mobile alerting to Airtable with features like mobile app, push notifications, SMS messaging, voice calls, automated escalations, and on-call duty scheduling. SIGNL4 ensures that critical alerts reliably reach the responsible personnel – anytime, anywhere.
 
@@ -45,3 +45,4 @@ With no-code tools like Make or n8n you can even create powerful two-way integra
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-airtable.png)
+
