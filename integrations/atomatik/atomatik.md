@@ -3,15 +3,15 @@ title: Atomatik
 parent: Integrations
 ---
 
-# SIGNL4 Integration with Airtable
+# SIGNL4 Integration with Atomatik
 
 [Atomatik](https://www.atomatik.com/) is a workflow automation platform that uses digital SOC analyst agents to automate security alert investigations and triage, patch management and other manual cybersecurity operations, enabling security teams to respond faster and reduce alert fatigue.
 
 The integration between Atomatik and SIGNL4 transforms how security teams respond to threats. Atomatik brings to the table customizable decision-ready reports at user’s fingertips, enriched with actionable details about threats that have been detected across systems. SIGNL4 capabilities help expand Atomatik’s already robust alert system into real-time mobile and voice channels including mobile app, escalations, on-call scheduling and collaboration. Integrating with SIGNL4 enables end users to evaluate and, if needed, remediate alerts immediately, from their mobile phones or offsite laptops.
 
 ## Prerequisites
-A SIGNL4 (https://www.signl4.com) account
-An active Atomatik (https://www.atomatik.com/) environment
+- A SIGNL4 (https://www.signl4.com) account
+- An active Atomatik (https://www.atomatik.com/) environment
 
 ## Core Integration Features
 
@@ -63,4 +63,5 @@ For integration SIGNL4 with Atomatic please follow these steps you just need to 
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-atomatik.png)
+
 
