@@ -60,8 +60,12 @@ The integration of SIGNL4 with Atomatik is straightforward. This is how it works
 
 For integration SIGNL4 with Atomatic please follow these steps you just need to configure Atomatik to connect to SIGNL4’s endpoint (via Studio task or control room trigger).
 
+For the integration with SIGNL4 you create a task in Atomatik where you need to fill in a few fields. Usually the Message would be populated based on the activity performed by the Robot / Digital Worker prior to sending these alerts.
+
+To trigger the SIGNL4 alert you can use the standard HTTP requests. Atomatik provides you the Task where you only need to populate the fields as shown below.
+
+![Atomatik SIGNL4](atomatik-signl4.png)
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-atomatik.png)
-
-
