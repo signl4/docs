@@ -31,6 +31,15 @@ API token: An API token for the Jira account. More information about this can be
 
 After saving, current (last hour) tickets are retrieved from Jira and an alert is sent to the appropriate SIGNL4 team.
 
+### Tips and tricks
+
+Please double check the field "Comment Visibility Role". For example it might be "Administrators" but also "Administrator" for the administrator role.
+
+For Tasks you might want to add the following strings (comma-separated with no spaces):
+- "Trigger new Signls for tickets with these Jira ticket statuses": Add "To do"
+- "Auto-close Signls on these Jira ticket statuses": Add "Done"
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-jira.png)
+
