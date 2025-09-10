@@ -209,6 +209,26 @@ Here is a sample request:
     ------RandomGeneratedBoundary--
 ```
 
+## Tips and Tricks
+
+### Use API Key
+
+You might want to use the webhook with an API key in the HTTP header for extra security. In this case you can use the endpoint **POST /v2/events/{webhookIdOrTeamId}** of the [SIGNL4 REST API](https://connect.signl4.com/api/docs/index.html?urls.primaryName=SIGNL4%20API%20V2).
+
+The JSON content can be the same as for the SIGNL4 webhook API. Here is a sample call:
+
+```
+POST https://connect.signl4.com/api/v2/events/team-secret
+X-S4-Api-Key: api-key
+Content-Type: application/json
+
+{
+    "Title": "Test Alert",
+    "Message": "Hello world"
+}
+```
+
 ## Code Snippets
 
 You can find some sample code snippets [here](https://github.com/signl4/code-snippets).
+
