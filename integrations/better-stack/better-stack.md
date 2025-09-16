@@ -28,7 +28,7 @@ That's it.
 
 ### Closing Alerts
 
-the above will trigger a SIGNL4 alert. It is also possible to close the SIGNL4 alert if the incident is resolved in Better Stack.
+The above will trigger a SIGNL4 alert. It is also possible to close the SIGNL4 alert if the incident is resolved in Better Stack.
 
 In order to do so you need to use some special SIGNL4 parameters in the JSON payload.
 
@@ -62,3 +62,4 @@ Use this JSON payload to close the alert for "Incident is resolved".
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-better-stack.png)
+
