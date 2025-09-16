@@ -107,4 +107,3 @@ Use the same value for X-S4-ExternalID as for triggering the alert.
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-particle.png)
-
