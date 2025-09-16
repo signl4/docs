@@ -42,7 +42,7 @@ In the Custom Template section, you can insert the JSON data template that will 
 ```json
 {
     "event": "photon-motion",
-    "deviceID": "37002a000847373336323230",
+    "deviceID": "37002a000xxxxx",
     "url": "https://connect.signl4.com/webhook/{team-secret}",
     "requestType": "POST",
     "noDefaults": true,
@@ -74,6 +74,37 @@ That’s it! You can now test your IoT scenario by simulating motion. Once trigg
 You can find a sample in GitHub:  
 [https://github.com/signl4/signl4-integration-particle](https://github.com/signl4/signl4-integration-particle)
 
+### Closing Alerts
+
+The configuration above will trigger a SIGNL4 alert. It is also possible to automatically close the alert, for example when a sensor returns to an OK state.
+
+To achieve this, you need to include specific SIGNL4 parameters in the JSON payload within the Custom Template of your webhook.
+
+JSON payload to trigger the alert:
+
+```
+{
+  "Title": "Test Alert",
+  "Cause": "Hello world.",
+  "X-S4-ExternalID":"37002a000xxxxx",
+  "X-S4-Status": "new"
+}
+```
+
+You can add or modify the parameters as needed, but be sure to keep the X-S4- parameters as listed.
+
+Use this JSON payload to close the alert: 
+
+```
+{
+  "X-S4-ExternalID":"37002a000xxxxx",
+  "X-S4-Status": "resolved"
+}
+```
+
+Use the same value for X-S4-ExternalID as for triggering the alert.
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-particle.png)
+
