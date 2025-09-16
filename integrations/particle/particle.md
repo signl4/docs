@@ -7,36 +7,36 @@ parent: Integrations
 
 [Particle](https://www.particle.io/) is a fully-integrated IoT platform that offers everything you need to deploy your IoT product, including hardware, software and connectivity. You can monitor sensors or environmental data in the field, do asset tracking, preventive maintenance, gather machine data or use it to improve your supply chain management. Pairing this powerful IoT platform with SIGNL4 can enhance your daily operations with an extension to your team on the shop floor or in the field.
 
-In our example we integrate a Particle Photon device with an IR motion sensor and a temperature sensor. Whenever a motion (e.g. an intruder) is detected we send an alert to our SIGNL4 team.
+[SIGNL4](https://www.signl4.com/) adds reliable mobile alerting to Particle with features like mobile app, push notifications, SMS messaging, voice calls, automated escalations, and on-call duty scheduling. SIGNL4 ensures that critical alerts reliably reach the responsible personnel – anytime, anywhere.
 
-SIGNL4 is a mobile alert notification app for powerful alerting, alert management and mobile assignment of work items. Get the app at [https://www.signl4.com](https://www.signl4.com/).
+In this example, we integrate a Particle Photon device with both an IR motion sensor and a temperature sensor. Whenever motion is detected (e.g., a potential intruder), an alert is automatically sent to our SIGNL4 team.
 
 ![Particle Setup](particle-photon.jpg)
 
 ## Prerequisites
 - A SIGNL4 ([https://www.signl4.com](https://www.signl4.com/)) account
 - An Particle ([https://console.particle.io](https://console.particle.io/)) account
-- A Particle Maker Kit ([https://store.particle.io/collections/shields-and-kits](https://store.particle.io/collections/shields-and-kits))
+- A Particle device, e.g. Maker Kit ([https://store.particle.io/collections/all-products](https://store.particle.io/collections/all-products))
 
-In our case we use the Particle Maker Kit with a Photon device to connect an IR motion sensor ans a temperature sensor. We also use an LED to indicate the motion detection directly on the device.
+In this setup, we use the Particle Maker Kit with a Photon device to connect an IR motion sensor and a temperature sensor. An LED is also included to provide a direct visual indication of motion detection on the device.
 
 ![Particle Devices](particle-devices.png)
 
-You can see the assembled device on the image above. You can find a good description on how to connect the sensors here: [https://docs.particle.io/tutorials/hardware-projects/maker-kit](https://docs.particle.io/tutorials/hardware-projects/maker-kit).
+The assembled device is shown in the image above. A detailed guide on how to connect the sensors can be found here: [https://docs.particle.io/archives/maker-kit/](https://docs.particle.io/archives/maker-kit/).
 
-Now you can connect your device to the Particle IoT platform. This is easily done by using the Particle app. You can find a full description here: [https://docs.particle.io/quickstart/photon](https://docs.particle.io/quickstart/photon).
+Now you can connect your device to the Particle IoT platform. This can be done easily using the Particle mobile app. A full step-by-step description is available here: [https://docs.particle.io/quickstart/photon](https://docs.particle.io/quickstart/photon).
 
-Now you can see your new device in the Particle Console under Devices: [https://console.particle.io/devices](https://console.particle.io/devices).
+You should now see your new device listed in the Particle Console under My devices: [https://console.particle.io/devices](https://console.particle.io/devices).
 
-In the Particle Console under Integrations ([https://console.particle.io/integrations](https://console.particle.io/integrations)) you can now create a new Webhook in order to send alerts to SIGNL4.
+In the Particle Console under Cloud services -> Integrations ([https://console.particle.io/integrations](https://console.particle.io/integrations)), you can now create a new webhook to send alerts directly to SIGNL4.
 
-You can create a new Webhook and then use the SIGNL4 webhook URL.
+Create a new webhook and enter the SIGNL4 webhook URL.
 
 ![Particle Webhook 1](particle-webhook1.png)
 
-The {team-secret} is your SIGNL4 team secret.
+The {team-secret} is your SIGNL4 team or integration secret.
 
-Under Custom Template you can insert your JSON data template as to be sent to SIGNL4.
+In the Custom Template section, you can insert the JSON data template that will be sent to SIGNL4.
 
 {% raw %}
 ```json
@@ -57,9 +57,9 @@ Under Custom Template you can insert your JSON data template as to be sent to SI
 
 ![Particle Webhook 2](particle-webhook2.png)
 
-You can now go to the Web IDE at [https://build.particle.io/build](https://build.particle.io/build) to deploy the code to your device(s).
+You can now open the Web IDE at [https://build.particle.io/build](https://build.particle.io/build) to deploy the code to your device(s).
 
-The two main lines to send the SIGNL4 alert are the following.
+The two key lines responsible for sending the SIGNL4 alert are shown below:
 
 ```javascript
 String data = "{ "subject": "Motion detected.", "temperature": "" + temperature() + "" }";
@@ -67,9 +67,9 @@ String data = "{ "subject": "Motion detected.", "temperature": "" + temperature(
 Particle.publish("photon-motion", data, 60, PUBLIC); 
 ```
 
-First, we assemble the date to become part of the webhook JSON data. And second, we send the date to the "photon-motion" Webhook we have created above.
+First, we assemble the data that will be included in the webhook JSON payload. Next, we send this data to the "photon-motion" webhook created earlier.
 
-This is it. You can now test your IoT scenario by simulating a motion. You will then receive an alert in your SIGNL4 app.
+That’s it! You can now test your IoT scenario by simulating motion. Once triggered, an alert will be delivered to your SIGNL4 app.
 
 You can find a sample in GitHub:  
 [https://github.com/signl4/signl4-integration-particle](https://github.com/signl4/signl4-integration-particle)
@@ -77,4 +77,3 @@ You can find a sample in GitHub:
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-particle.png)
-
