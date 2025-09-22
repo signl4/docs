@@ -29,6 +29,11 @@ You can inset them in your flow and configure them accordignly. You can find mor
 
 For handling alert status updates coming from SIGNL4's outbound webhook or for remote actions you can use the "http in" in Node-RED to receive the respective HTTP requests.
 
+## Node-RED in Production
+
+[FlowFuse](https://flowfuse.com/) provides an excellent solution for running Node-RED in production environments. Discover how it works in [this article](https://flowfuse.com/blog/2025/09/installing-node-red/).
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-iot.png)
+
