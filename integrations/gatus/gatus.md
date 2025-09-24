@@ -10,8 +10,8 @@ parent: Integrations
 SIGNL4 adds reliable mobile alerting to Gatus with features like mobile app, push notifications, SMS messaging, voice calls, automated escalations, and on-call duty scheduling. SIGNL4 ensures that critical alerts reliably reach the responsible personnel – anytime, anywhere.
 
 ## Prerequisites
-A SIGNL4 (https://www.signl4.com) account
-A Gatus (https://gatus.io/) instance
+- A SIGNL4 (https://www.signl4.com) account
+- A Gatus (https://gatus.io/) instance
 
 ## How to Integrate
 
@@ -60,3 +60,4 @@ You can find more information on how to configure SIGNL4 mobile alerting in Gatu
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-gatus.png)
+
