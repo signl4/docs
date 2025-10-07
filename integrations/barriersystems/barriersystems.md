@@ -56,3 +56,4 @@ If you are using the BarrierSystems Hub, you can also trigger alerts directly fr
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-barriersystems.png)
+
