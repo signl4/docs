@@ -14,8 +14,8 @@ SIGNL4 adds reliable mobile alerting to Obsidian with features like mobile app, 
 BarrierSystems also offers hardware devices that support dry contacts or Modbus TCP, enabling a wide range of applications across IoT, IIoT, and industrial production environments. With mobile connectivity, distributed field systems can function autonomously without reliance on LAN or Wi-Fi infrastructure.
 
 ## Prerequisites
-A SIGNL4 (https://www.signl4.com) account
-A BarrierSystems (https://www.barriersystems.de/en/index.html) hardware device
+- A SIGNL4 (https://www.signl4.com) account
+- A BarrierSystems (https://www.barriersystems.de/en/index.html) hardware device
 
 ## How to Integrate
 
@@ -56,4 +56,5 @@ If you are using the BarrierSystems Hub, you can also trigger alerts directly fr
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-barriersystems.png)
+
 
