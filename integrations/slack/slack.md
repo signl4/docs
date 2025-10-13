@@ -25,8 +25,9 @@ To link the app with Slack you need to enter your SIGNL4 credentials.
 
 Here is a video on how to integrate SIGNL4 with Slack.
 
-<iframe data-placeholder-image="https://www.signl4.com/wp-content/plugins/complianz-gdpr/assets/images/placeholders/default-minimal.jpg" data-category="statistics" data-service="vimeo" class="cmplz-placeholder-element cmplz-iframe cmplz-iframe-styles cmplz-video " data-cmplz-target="src" data-src-cmplz="https://player.vimeo.com/video/394426836"  src="about:blank"  width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6QAghLjuxRM?si=KbXQSxqOL9Mh0jbx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The alert in SIGNL4 might look like this.
+
 
 ![SIGNL4 Alert](signl4-alert.png)
