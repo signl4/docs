@@ -13,8 +13,8 @@ The integration of SIGNL4 with Sniffnet using a webhook is straightforward.
 
 ## Prerequisites
 
-A SIGNL4 (<https://www.signl4.com>) account
-A Sniffnet (<https://sniffnet.net/>) instance
+- A SIGNL4 (<https://www.signl4.com>) account
+- A Sniffnet (<https://sniffnet.net/>) instance
 
 ## How to Integrate
 
@@ -25,3 +25,4 @@ Please also refer to the Sniffnet documentation [here](https://github.com/GyulyV
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
