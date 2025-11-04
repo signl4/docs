@@ -35,5 +35,6 @@ For handling alert status updates coming from SIGNL4's outbound webhook or for r
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-iot.png)
+![SIGNL4 Alert](signl4-node-red.png)
+
 
