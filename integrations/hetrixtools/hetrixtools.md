@@ -46,6 +46,9 @@ You can fine-tune the look and feel and rearrange the parameters within your SIG
 
 That’s it. You will now start receiving SIGNL4 alerts automatically whenever HetrixTools detects an issue.
 
+You can also find the documentation at HetrixTools.com [here](https://hetrixtools.com/changelog/#2025-11-04-SIGNL4-Integration).
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-hetrixtools.png)
+
