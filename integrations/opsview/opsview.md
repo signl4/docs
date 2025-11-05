@@ -36,4 +36,5 @@ On the Notification Profiles section indicate which alerts the SIGNL4 team shoul
 
 At this point the next time any of the alerts selected in the profile are triggered, the SIGNL4 team will receive these alerts.  The benefit here is that users will not just receive an email.  They will be alerted no matter where they are using SIGNL4 push, SMS and Voice capabilities.
 
-![Opsview SIGNL4 Alert](opsview-s4-alert.png)
+![Opsview SIGNL4 Alert](signl4-alert.png)
+
