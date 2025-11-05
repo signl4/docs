@@ -39,9 +39,10 @@ Now, the next time the websites that are monitored are unavailable, SIGNL4 will 
 
 Emails can also be forwarded to your SIGL4 team.
 
-![Email](Uptrends_email.png)
+![Email](uptrends_email.png)
 
 Emails received will display in the mobile app like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
 
