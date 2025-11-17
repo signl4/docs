@@ -1,5 +1,5 @@
 ---
-title: Catschpoint
+title: Catchpoint
 parent: Integrations
 ---
 
@@ -52,3 +52,4 @@ The integration of SIGNL4 with Catchpoint is implemented using a webhook.
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-catchpoint.png)
+
