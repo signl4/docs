@@ -73,3 +73,4 @@ That's it. Now your SIGNL4 team gets alertig whenever there is a new ticket crea
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-kix.png)
+
