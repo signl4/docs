@@ -1,9 +1,9 @@
 ---
-title: Solarwins Pingdom
+title: SolarWinds Pingdom
 parent: Integrations
 ---
 
-# SIGNL4 Integration with Solarwins Pingdom
+# SIGNL4 Integration with SolarWinds Pingdom
 
 [Pingdom](https://www.pingdom.com/) is a cloud-based website and performance monitor with easy to configure dashboards and user setup.  SIGNL4 ensures that all on duty members receive, acknowledge and resolve critical alerts, all from their smartphones. With persistent notifications and escalation chains there will never be a critical alert that goes unattended. SIGNL4 also offers ad-hoc collaboration between team members for each and every alert, so Subject Matter Experts can be looped in to help resolve issues.
 
@@ -45,3 +45,4 @@ Now whenever the URL is unreachable an alert will trigger within Pingdom and sen
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
