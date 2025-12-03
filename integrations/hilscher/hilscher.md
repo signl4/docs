@@ -15,7 +15,7 @@ A distance sensor is connected via IO-Link to an IO-Link Master, then the data i
 
 This is how the Hilscher demo setup looks like.
 
-![Hilscher Demo](hilscher-demo.png)]
+![Hilscher Demo](hilscher-demo.png)
 
 The Node-RED sample flow gets the sensor data via MQTT and then sends (or closes) the alert using the SIGNL4 nodes.
 
@@ -25,3 +25,4 @@ The flow is available [here](https://flows.nodered.org/flow/6125cd1cc7f2bf49f1db
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-hilscher.png)
+
