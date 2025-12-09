@@ -12,7 +12,7 @@ SIGNL4 adds reliable mobile alerting to KIX with features like mobile app, push 
 ## Prerequisites
 
 - A SIGNL4 (<https://www.signl4.com>) account
-- A KIX (<https://www.kixdesk.com/en/>) instance, for webhook integration the Pro version plus Connect add-on is required
+- A KIX (<https://www.kixdesk.com/en/>) instance, for webhook integration the Pro version is required
 
 ## How to Integrate
 
@@ -73,4 +73,5 @@ That's it. Now your SIGNL4 team gets alertig whenever there is a new ticket crea
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-kix.png)
+
 
