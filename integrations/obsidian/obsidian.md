@@ -5,9 +5,9 @@ parent: Integrations
 
 # SIGNL4 Integration with Obsidian
 
-[Obsidian](https://obsidian.md/) is a personal knowledge base and note-taking app that works with Markdown files stored locally ("vaults"), letting you build richly linked notes and visualize their interconnections via a graph view. It supports a variety of plugins that also enable automation tasks.
+[Obsidian](https://obsidian.md/) is a personal knowledge base and note-taking app that works with locally stored Markdown files (“vaults”). It allows you to create richly linked notes and visualize their relationships using a graph view. Obsidian also supports a wide range of plugins that enable automation and extended workflows.
 
-SIGNL4 adds reliable mobile alerting to Obsidian with features like mobile app, push notifications, SMS messaging, voice calls, automated escalations, and on-call duty scheduling. SIGNL4 ensures that critical alerts reliably reach the responsible personnel – anytime, anywhere.
+SIGNL4 adds reliable mobile alerting to Obsidian, including a mobile app, push notifications, SMS messages, voice calls, automated escalations, and on-call scheduling. SIGNL4 ensures that critical alerts reach the right people reliably – anytime, anywhere.
 
 ## Prerequisites
 A SIGNL4 (https://www.signl4.com) account
@@ -15,13 +15,13 @@ A Obsidian (https://obsidian.md/) installation, including plugins as mentioned b
 
 ## How to Integrate
 
-The integration of SIGNL4 with Obsidian is straightforward. The following describes two options.
+Integrating SIGNL4 with Obsidian is straightforward. The following sections describe two available options.
 
 ### Option 1: Python Script
 
-The community plugin Code Emitter allows you to execute code, such as Python. This provides an easy way to trigger SIGNL4 alerts. You can use it for alerting purposes or for testing and development directly within your Obsidian environment.
+The community plugin Code Emitter allows you to execute code, such as Python, directly within Obsidian. This provides an easy way to trigger SIGNL4 alerts. You can use this approach for alerting, testing, or development directly in your Obsidian environment.
 
-An example of Python code is shown below (please insert your own SIGNL4 team or integration secret):
+An example Python script is shown below (be sure to insert your own SIGNL4 team or integration secret):
 
 ```python
 # Send SIGNL4 alert from Python
@@ -52,16 +52,17 @@ else:
   print('Error: ' + str(result.status_code))
 ```
 
-The plugin Code Emitter adds a Run button just after the code. You can click this one to run the script and to trigger the SIGNL4 alert.
+The Code Emitter plugin adds a Run button directly below the code block. Click this button to run the script and trigger a SIGNL4 alert.
 
 ### Option 2: Webhook
 
-The Post Webhook plugin allows you to send HTTP POST requests. It provides commands to send the current note (or a selected part of it) via webhook. In the Post Webhook configuration, you can create a new webhook using your SIGNL4 webhook URL.
+The Post Webhook plugin allows you to send HTTP POST requests. It provides commands to send the current note – or a selected portion of it – via a webhook. In the Post Webhook configuration, you can create a new webhook using your SIGNL4 webhook URL.
 
-Optionally, you can use the Meta Bind or Buttons plugin to display a button that triggers the command and sends the note text as a SIGNL4 alert.
+Optionally, you can use the Meta Bind or Buttons plugin to display a button that triggers the command and sends the note content as a SIGNL4 alert.
 
 ![Obsidian Alert](obsidian-signl4.png)
 
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
