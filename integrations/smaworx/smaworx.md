@@ -37,5 +37,6 @@ SMAWORX uses [Frends](https://frends.com/) as their integration platform. Here y
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](signl4-smaworks.png)
+
 
