@@ -5,9 +5,9 @@ parent: Integrations
 
 # SIGNL4 Integration with Netdata
 
-[Netdata](https://www.netdata.cloud/) is a real-time observability platform for infrastructure, containers, apps, and hardware. It offers per-second metrics, automated dashboards, AI/ML-based anomaly detection, alerting, log management, and scales to many nodes without centralizing all data.
+[Netdata](https://www.netdata.cloud/) is a real-time observability platform for infrastructure, containers, applications, and hardware. It provides per-second metrics, automated dashboards, AI/ML-based anomaly detection, alerting, and log management, and it scales to large environments without requiring all data to be centralized.
 
-SIGNL4 adds reliable mobile alerting to Netdata with features like mobile app, push notifications, SMS messaging, voice calls, automated escalations, and on-call duty scheduling. SIGNL4 ensures that critical alerts reliably reach the responsible personnel – anytime, anywhere.
+SIGNL4 enhances Netdata with reliable mobile alerting, including a mobile app, push notifications, SMS messages, voice calls, automated escalations, and on-call scheduling. SIGNL4 ensures that critical alerts reach the right people reliably – anytime, anywhere.
 
 ## Prerequisites
 A SIGNL4 (https://www.signl4.com) account
@@ -15,19 +15,19 @@ A Netdata (https://www.netdata.cloud/) instance
 
 ## How to Integrate
 
-The integration of SIGNL4 with Netdata is straightforward. This is how it works.
+Integrating SIGNL4 with Netdata is straightforward. Here’s how it works.
 
 ### Web UI
 
-In your Netdata web portal go to Settings -> Alerts & Notifications. Add a new. Add a new configuration (Acc configuration) and select SIGNL4 here. In the apprwring SIGNL4 dialog box you just enter your SIGNL4 team or integration secret and seve the configuration.
+In the Netdata web portal, go to Settings -> Alerts & Notifications. Add a new configuration and select SIGNL4. In the displayed SIGNL4 dialog, simply enter your SIGNL4 team or integration secret and save the configuration.
 
 ### Terminal
 
-Alternatively you can also do the configuration using your terminal where the Netdata Agent is running.
+Alternatively, you can configure the integration from the terminal on the system where the Netdata Agent is running.
 
 #### Configuration Options
 
-The following options can be defined for this notification
+The following options can be defined for this notification.
 
 | Option | Description | Default | Required |
 | -- | -- | -- | -- |
@@ -59,3 +59,4 @@ You can find more information on how to configure SIGNL4 mobile alerting in Netd
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-netdata.png)
+
