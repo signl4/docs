@@ -30,7 +30,7 @@ More sophisticated integrations und multi-step alerting is supported using n8n a
 
 You can find more information about how to integrate SIGNL4 with n8n [here]( https://docs.signl4.com/integrations/n8n/n8n.html).
 
-SMAWORX uses [Frends](https://frends.com/) as their integration platform. Here you can use the HTTP Request task for triggering (or closing) a SIGNL4 alert. You can use the following parameters:
+SMAWORX uses [Frends](https://frends.com/) as their integration platform. Here you can use the HTTP Request task for triggering (or closing) a SIGNL4 alert. You can use the following parameters:  
 **Method**: POST  
 **Url**: Your SIGNL4 webhook URL including team or integration secret.  
 **Message**: JSON alert payload including placeholders. Find more information [here](https://docs.signl4.com/integrations/webhook/webhook.html).  
@@ -38,3 +38,4 @@ SMAWORX uses [Frends](https://frends.com/) as their integration platform. Here y
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
