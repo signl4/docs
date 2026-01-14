@@ -16,7 +16,7 @@ SIGNL4 is a mobile alert notification app for powerful alerting, alert managemen
 ## Prerequisites
 
 - A [SIGNL4](https://www.signl4.com/) account
-- A[viaSocket](https://viasocket.com/) account
+- A [viaSocket](https://viasocket.com/) account
 
 ## How to Integrate
 
@@ -33,4 +33,5 @@ That is it. Now you can save the flow and test it. You should then receive an al
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-viasocket.png)
+
 
