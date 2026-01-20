@@ -13,8 +13,8 @@ SIGNL4 is available as a native integration in puq. Simply add the appropriate S
 
 ## Prerequisites
 
-- A [SIGNL4] (https://www.signl4.com/) account
-- A [puq] (https://puq.ai/) account
+- A [SIGNL4](https://www.signl4.com/) account
+- A [puq](https://puq.ai/) account
 
 ## How to Integrate
 
@@ -29,3 +29,4 @@ That is it. Now you can save the workflow and test it. You should then receive a
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
