@@ -20,6 +20,7 @@ Here are some tips on how to identify the different events:
 | Annotation | eventType == 203, annotation.message contains the annotation text. |
 
 General information:
+
 | Parameter  | JSON path |
 |---|---|
 | External event ID | alert.externalEventId |
