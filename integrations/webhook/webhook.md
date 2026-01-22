@@ -82,6 +82,12 @@ The webhook uses a unique key, the so-called secret, for authentication. This se
 Since the webhook is only accessible via TLS, the secret itself can never be read in plain text during data transmission (it is located in layer 7 of the OSI model, TLS encryption already takes effect from layer 4 of the OSI model).  
 It is not possible to delete data via the SIGNL4 webhook. It is only used for event creation and can modify existing alarms. The URL should nevertheless be treated as highly confidential and only made accessible to authorized persons.
 
+## Outbound Webhook
+
+In addition to the inbound webhook used to trigger and update alerts (your tool -> SIGNL4), SIGNL4 also supports an outbound webhook. This outbound webhook can send status updates – such as acknowledgements, closures, annotations, and escalations – back to your tool.
+
+You can find more information about the outbound webhook [here](https://docs.signl4.com/integrations/outbound-webhook/outbound-webhook.html). 
+
 ## Samples
 
 ### Simple curl Call
@@ -231,4 +237,5 @@ Content-Type: application/json
 ## Code Snippets
 
 You can find some sample code snippets [here](https://github.com/signl4/code-snippets).
+
 
