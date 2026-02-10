@@ -77,7 +77,7 @@ It defines the entity in SMAX that is being polled. Polling is then based on the
 
 ![SMAX Rule](smax-rule.png)
 
-Access the Microfocus SMAX connector from the SIGNL4 Web: [https://account.signl4.com/manage/Apps](https://account.signl4.com/manage/Apps)
+Access the Microfocus SMAX connector in your SIGNL4 Web portal under Integrations -> Gallery -> OpenText SMAX (or Micro Focus SMAX).
 
 Enter the values that pertain to your environment
 
@@ -100,3 +100,4 @@ When an alert is acknowledged the status of incident changes from New to Acknowl
 Please feel free to check out our video:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0CoQg-8fgjo?si=g3qEtxTmFt9_VCH3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
