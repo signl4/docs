@@ -49,10 +49,11 @@ Besides the simple inbound webhook SIGNL4 offers a more comprehensive REST API a
 
 The file TensorFlow-SIGNL4-REST-API.py used this REST API to send an alert including a diagram as base64-encoded image.
 
-Please note that you need your SIGNL4 API Key to use the REST API. for more information on how to obtain your API Key please refer to this [article](https://www.signl4.com/blog/signl4-rest-client-application-api-key).
+Please note that you need your SIGNL4 API Key to use the REST API. You can obtain your API Key in the SIGNL4 Web portal under Integrations -> API Keys.
 
 Now you can test it by executing the code in Colaboratory. Just click the little Run icon on the top-left of your code. You should then receive an alert on your SIGNL4 app.
 
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
