@@ -26,6 +26,9 @@ A flow in the DevTools looks like this.
 
 ![DevTools SIGNL4 Flow](devtools-signl4.png)
 
+You can download the sample flow [here](SIGNL4_Alerting.yaml).
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
