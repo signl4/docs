@@ -1,0 +1,96 @@
+workspace_name: SIGNL4 Alerting
+run:
+    - flow: SIGNL4 Alerting
+requests:
+    - name: Close Alert
+      method: POST
+      url: https://connect.signl4.com/webhook/vbguzfsi
+      headers:
+        Content-Type: application/json
+      body: |-
+        {
+          "X-S4-ExternalID":"ticket-id",
+          "X-S4-Status": "resolved"
+        }
+    - name: OpenWeather
+      method: GET
+      url: http://api.openweathermap.org/data/2.5/weather
+      query_params:
+        - name: lat
+          value: "33.44"
+          enabled: false
+        - name: lon
+          value: "-94.04"
+          enabled: false
+        - name: exclude
+          value: hourly,daily
+          enabled: false
+        - name: appid
+          value: xxxx
+          enabled: true
+        - name: zip
+          value: 10587,DE
+          enabled: false
+        - name: lat
+          value: "52.520008"
+          enabled: true
+        - name: lon
+          value: "13.404954"
+          enabled: true
+    - name: SIGNL4 Alert
+      method: POST
+      url: https://connect.signl4.com/webhook/xxxx
+      headers:
+        Content-Type: application/json
+      body: |-
+        {
+          "Title": "Weather Warning",
+          "Message": "Weather: {{http_4.response.body.weather[0].description}}",
+          "Temperature": "{{http_4.response.body.main.temp}} K",
+          "Link": "https://www.signl4.com",
+          "X-S4-Service": "Temperature",
+          "X-S4-Location": "52.3984235,13.0544149",
+          "X-S4-SourceSystem": "",
+          "X-S4-ExternalID":"ticket-id",
+          "X-S4-Status": "new"
+        }
+flows:
+    - name: SIGNL4 Alerting
+      steps:
+        - manual_start:
+            name: Start
+        - request:
+            name: http_4
+            depends_on: Start
+            use_request: OpenWeather
+        - request:
+            name: http_1
+            depends_on: http_4
+            use_request: SIGNL4 Alert
+        - js:
+            name: js_2
+            depends_on: http_1
+            code: |4
+                function sleep(ms) {
+                  return new Promise(resolve => setTimeout(resolve, ms));
+                }
+
+                export default async function(context) {
+                  const response = context.http_1?.response?.body;
+                  const eventId = response.eventId;
+
+                  await sleep(10000);
+
+                  console.log(`eventId: $${eventId}`);
+
+                  return {
+                    result: eventId
+                  };
+                }
+        - request:
+            name: http_3
+            depends_on: js_2
+            use_request: Close Alert
+environments:
+    - name: default
+      variables: {}
