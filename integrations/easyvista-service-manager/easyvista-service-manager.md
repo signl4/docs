@@ -22,7 +22,7 @@ You can adapt the below steps according to your needs.
 
 ### Import Steps
 
-In the following steps you import some files. You can find the mentioned files [here](https://docs.signl4.com/integrations/easyvista-service-manager/EasiVista-SIGNL4-Import.zip). It is crucial to import the files in the right order.
+In the following steps you import some files. You can find the mentioned files [here](https://docs.signl4.com/integrations/easyvista-service-manager/EasyVista-SIGNL4-Import.zip). It is crucial to import the files in the right order.
 
 1. Perform the imports by first, logging into EasyVista Service Manager, and going to the Administration -> Import / Export -> Import section of the tool  
   a. An easy way to navigate here is by first using the menu on the left, clicking on the gear icon and making sure Global Menu is selected.  
@@ -99,3 +99,4 @@ a. Note, like the other process, this close process will only work if configured
 That's it and the alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-easyvista.png)
+
