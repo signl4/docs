@@ -10,8 +10,8 @@ parent: Integrations
 SIGNL4 enhances CloudAMQP with reliable mobile alerting, including a mobile app, push notifications, SMS messages, voice calls, automated escalations, and on-call scheduling. SIGNL4 ensures that critical alerts reach the right people reliably – anytime, anywhere.
 
 ## Prerequisites
-A SIGNL4 (https://www.signl4.com) account
-A CloudAMQP (https://www.cloudamqp.com/) instance
+- A SIGNL4 (https://www.signl4.com) account
+- A CloudAMQP (https://www.cloudamqp.com/) instance
 
 ## How to Integrate
 
@@ -30,3 +30,4 @@ That's it.
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
