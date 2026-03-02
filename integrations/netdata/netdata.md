@@ -10,8 +10,8 @@ parent: Integrations
 SIGNL4 enhances Netdata with reliable mobile alerting, including a mobile app, push notifications, SMS messages, voice calls, automated escalations, and on-call scheduling. SIGNL4 ensures that critical alerts reach the right people reliably – anytime, anywhere.
 
 ## Prerequisites
-A SIGNL4 (https://www.signl4.com) account
-A Netdata (https://www.netdata.cloud/) instance
+- A SIGNL4 (https://www.signl4.com) account
+- A Netdata (https://www.netdata.cloud/) instance
 
 ## How to Integrate
 
@@ -59,4 +59,5 @@ You can find more information on how to configure SIGNL4 mobile alerting in Netd
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-netdata.png)
+
 
