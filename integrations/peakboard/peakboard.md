@@ -47,10 +47,11 @@ local _ = http.post('https://connect.signl4.com/webhook/{team-secret}', {{name='
 }]], { Title = 'Alert from Peakboard', Message = 'Malfunction on machine A2.', S4Service = '', S4Location = '', S4SourceSystem = '', S4ExternalID = '', S4Status = '' }) --[[ For more information about the parameters go to: https://docs.signl4.com/integrations/webhook/webhook.html --]], function(r) httpStatusCode = r.status httpError = r.error end).content
 ```
 
-You need to replace {team-secret} by your SIGNL4 team or integration secret.
+You need to replace {team-secret} by your SIGNL4 team or integration secret. Find more information about the SIGNL4 webhook integration and payload parameters [here](For more information about the parameters go to: https://docs.signl4.com/integrations/webhook/webhook.html). 
 
 Now you can test the integration in Preview mode. Click the button and you should receive the alert in your SIGNL4 mobile app. That's it.
 
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
