@@ -3,7 +3,7 @@ title: OpenClaw
 parent: Integrations
 ---
 
-# SIGNL4 Integration with Netdata
+# SIGNL4 Integration with OpenClaw
 
 [OpenClaw.ai](https://openclaw.ai/) is a free, open-source, self-hosted AI assistant that runs on your own hardware and lets you interact with and control it through your existing messaging apps (like WhatsApp, Telegram, Discord, Slack, iMessage, Signal, etc.) to automate tasks, manage workflows, and execute actions on your system.
 
@@ -50,5 +50,6 @@ Please close the previously sent SIGNL4 alert again.
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
 
 
