@@ -16,11 +16,9 @@ SIGNL4 enhances Midio with reliable mobile alerting, including a mobile app, pus
 
 ## How to Integrate
 
-If you’re familiar with Postman, the overall concept is quite similar.
+Integrating SIGNL4 with Midio is straightforward. You can easily add SIGNL4 mobile alerting to your workflows to send or close reliable mobile alerts.
 
-You can use the HTTP Fetch node to send the HTTP POST request to SIGNL4 in order to trigger the alert.
-
-For your convenience, there is a ready-to-use package called "SIGNL4 – Mobile Alerting". You can add this package and adapt it to suit your needs.
+For your convenience, there is a ready-to-use package called "SIGNL4 – Mobile Alerting" encapsulating the [SIGNL4 outbound webhook](https://docs.signl4.com/integrations/webhook/webhook.html). You can add this package and adapt it to suite your needs.
 
 A project in Midio then looks like this:
 
@@ -31,3 +29,4 @@ Please refer to the [SIGNL4 webhook API documentation](https://docs.signl4.com/i
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-alert.png)
+
