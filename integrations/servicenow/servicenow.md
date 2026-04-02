@@ -12,7 +12,7 @@ SIGNL4 integrates with ServiceNow via a ServiceNow app for pushing relevant inci
 ## Installation and Account-Linking
 
 1. Install the SIGNL4 application in ServiceNow. You can install it e.g. [from the Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/74c6c9a91b1d9010a621ff72cd4bcbad/) or you can install the application directly in your ServiceNow instance under "System Applications" -> "All Available Applications" -> "All" by simply searching for "SIGNL4" there.
-2. Download and follow the [ServiceNow SIGNL4 installation guide](https://store.servicenow.com/appStoreAttachments.do?sys_id=9c746e38db0ea4501e5c56a8dc9619bc).
+2. Download and follow the [ServiceNow SIGNL4 installation guide](https://store.servicenow.com/api/sn_store/v1/store/attachment/b9c53fe647777ed0d0e19fe1516d43ae).
 
 ![ServiceNow 1](servicenow-01.png)
 
@@ -25,7 +25,7 @@ Next, you create an account for SIGNL4 in your ServiceNow instance. SIGNL4 then 
 - User ID: signl4
 - First Name: Derdack
 - Last Name: SIGNL4
-- Email: info@signl4.com
+- Email: hello@signl4.com
 3. Once the user is created, you assign him a special role, which is also part of the SIGNL4 application in ServiceNow. This role does not include any access rights as the access management for the application is purely based on the ServiceNow Scoped-Application sand-boxing model (The application uses the “Runtime Access Tracking” mode “Tracking” here).  
 However, it is used to detect if the SIGNL4 connector has modified an Incident or if a ServiceNow user has modified it. Thus event loop-backs are prevented.
 - In the opened record of the user click on "Edit" at the bottom of the page at "Roles".
