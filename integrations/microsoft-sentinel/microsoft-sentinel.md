@@ -26,91 +26,127 @@ Learn more about the integration in the following video:
 
 ## How does it work?
 
-The connector polls MS Sentinel API for new incidents in a short interval. Retrieved incidents are then updated with search result data from the log analytics workspace of Sentinel which uses the Log Analytics API. Incident augmentation is optional can be deactivated in the connector configuration.
+**SIGNL4 Integration with Microsoft Sentinel – Manual Azure Setup Guide**
 
-SIGNL4 uses a dedicated Service Principal which is assigned to a custom user role when calling API methods.
+**Purpose**  
+This guide creates a dedicated Microsoft Entra app registration and service principal that SIGNL4 uses to read and update Microsoft Sentinel incidents and access the linked Log Analytics workspace. It follows the principle of least privilege where possible while ensuring SIGNL4 can **update/acknowledge incidents**.
 
-## Setup step 1 - Creating a service principal for SIGNL4 in Azure
+**Prerequisites**  
+- Global Administrator (or equivalent) rights in **Microsoft Entra ID**.  
+- Owner or **User Access Administrator** rights on the Azure **subscription** (or relevant resource group) containing Microsoft Sentinel.
 
-SIGNL4 uses a service principal in Azure ("App registration") when making calls to the Azure APIs. In addition, this principal is added to a custom user role which tailors access permissions to a minimum of required resources. And the best is that you don't need to create all these things manually. Instead, you can use a PowerShell script to have this done in a few moments.
+#### Step 1: Register the Application in Microsoft Entra ID
 
-### Creating service principal and user role
+1. Go to the [Microsoft Entra admin center](https://entra.microsoft.com) → **Identity** → **Applications** → **App registrations**.
+2. Click **+ New registration**.
+3. Enter:
+   - **Name**: `AzureSentinel and LogAnalytics Client for SIGNL4`
+   - **Supported account types**: **Accounts in this organizational directory only** (Single tenant).
+4. Click **Register**.
+5. On the **Overview** page, copy and securely save:
+   - **Application (client) ID**
+   - **Directory (tenant) ID**
 
-Follow these steps to create the service principal in Azure:
+#### Step 2: Create a Client Secret
 
-1. Download the PowerShell deployment script from [here](https://github.com/signl4/signl4-integration-azuresentinel/blob/master/registerSIGNL4Client.ps1).
+1. In the app registration, navigate to **Certificates & secrets** → **Client secrets** tab.
+2. Click **+ New client secret**.
+3. Add a description (e.g., `SIGNL4 Sentinel Connector`).
+4. Set the desired expiration (12–24 months recommended).
+5. Click **Add**.
+6. **Immediately copy the secret Value** and store it securely. You will not see it again.
 
-2. Review the script and the roles and permission scopes it deploys for the new app registration. If you don't want to use the connector with Azure Sentinel, you could remove all role creation and role assignment code and only use it to create the app registration (SPN) in your Azure Active Directory.
+#### Step 3: Create a Custom RBAC Role (Using JSON for Precise Permissions)
 
-3. Make sure you have all dependent modules installed, which are listed on top of the script.
+The SIGNL4 connector can run KQL queries that may be part of the alerts which are linked to a retrieved incident. The search result may be meaningful for you in your incident response activities. If you want to use that augmentation, follow the below steps. Otherwise you can proceed directly to step 4.
 
-4. Run the script.
+1. Go to the [Azure portal](https://portal.azure.com) → open your **Subscription**.
+2. In the left menu, select **Access control (IAM)** → **Roles** tab → click **+ Create**.
+3. On the **Basics** tab:
+   - **Custom role name**: `SIGNL4 Sentinel and Log Analytics Access`
+   - **Description** (optional but recommended): `Custom role for SIGNL4 to read and update Sentinel incidents and query Log Analytics`
+4. Click **Next** to go to the **Permissions** tab.
+5. **Skip** the permissions selection UI.
+6. Navigate to the **JSON** tab.
+7. Click the **Edit** button to edit the JSON definition of the role.
+8. Replace the entire `"permissions"` object (the array) with the following template:
 
-    1. Initially, you are prompted to select the subscription in Azure that holds your Sentinel assets. Afterwards, the provisioning of the SPN and the according IAM role is completed automatically. 
+```json
+"permissions": [
+    {
+        "actions": [
+            "Microsoft.OperationalInsights/workspaces/query/read",
+            "Microsoft.OperationalInsights/workspaces/query/*/read",
+            "Microsoft.OperationalInsights/workspaces/read"
+        ],
+        "notActions": [
+            "Microsoft.Authorization/*/Delete",
+            "Microsoft.Authorization/*/Write",
+            "Microsoft.Authorization/elevateAccess/Action",
+            "Microsoft.Blueprint/blueprintAssignments/write",
+            "Microsoft.Blueprint/blueprintAssignments/delete"
+        ],
+        "dataActions": [],
+        "notDataActions": []
+    }
+]
+```
 
-    2. At the end it outputs information that you need to enter in the connector app configuration which is explained in the next chapter. Please make a note of this information.
+9. Click **Save**, then **Next**.
+10. On the **Assignable scopes** tab, ensure your subscription (or the specific resource group containing Sentinel) is selected.
+11. Click **Review + create** → **Create**.
 
-5. In Azure AD, click on 'App Registrations'. Find the app with the name **'AzureSentinel and LogAnalytics Client for SIGNL4'**.
+> **Note**: This custom role provides the necessary Log Analytics query access. Additional Sentinel-specific permissions are granted via built-in roles in the next step.
 
-**Note**: If you are service provider and want to attach multiple customer Azure tenants, you must run this script for each of your clients and create multiple connector apps in SIGNL4.
+#### Step 4: Assign Roles to the SIGNL4 Service Principal
 
-### Optionally assign GraphAPI permissions
+You will assign **three roles** to the application (service principal) which you have created in step 1:
 
-The connector app can use Graph Security API to further, non-Sentinel integrated security events from your Azure Subscriptions. If you want to use that functionality (maybe in another connector instance), please open "API permissions" from the details of the registered application and click add permission. Select Graph API on the displayed blade and add the permissions that are displayed in this image:
+1. In Azure, open the **Log Analytics Workspace** of your Sentinel deployment, then click → **Access control (IAM)** → click **+ Add** → **Add role assignment**.
+2. Assign the following roles **one by one** to the application/service principal:
 
-![Configured Permissions in Microsoft Sentinel](configured-permissions-in-microsoft-sentinel.png)
+   **Role 1 – Custom role (Log Analytics access)**
+   - Select the custom role you created in Step 3 (`SIGNL4 Sentinel and Log Analytics Access`).
 
-Finally, make sure to press the button "Grant admin consent".
+   **Role 2 – Microsoft Sentinel Contributor** (important for updating incidents)
+   - Select the built-in role **Microsoft Sentinel Contributor**.  
+     This allows SIGNL4 to read **and update** incidents (change status, add comments, assign owners, etc.).
 
-## Setup step 2 - Create and configure the connector app in SIGNL4
+   **Role 3 – Log Analytics Reader**
+   - Select the built-in role **Log Analytics Reader**.
 
-With setup step 1 you have created a service principal in Azure that is used by the connector app when accessing Azure APIs. The service principal credential data consists of the following and must be entered in the connector app configuration:
+3. For each role assignment:
+   - On the **Members** tab, choose **User, group, or service principal**.
+   - Search for and select your app: `AzureSentinel and LogAnalytics Client for SIGNL4`.
+   - Click **Review + assign**.
 
-- Azure tenant ID
-- Azure subscription ID
-- App client ID
-- App client secret
+Note: The **Sentinel Contributor** role 2 is required for the SIGNL4 connector to access the Sentinel API and read/update incidents. 
+Role 1 is especially required if you want the SIGNL4 connector to augment alerts, which are part of an incident, with search results of the corresponding KQL query that created the alert. This behaviour can be enabled and disabled in the SIGNL4 connector configuration. If you don't want to use that augmentation, you may only assign the built-in Azure roles 2 and 3.
 
-### Create a new connector app in SIGNL4
-In SIGNL4, open the Apps menu of your team and search for "Azure Sentinel, SC, etc." and click "Create".
+#### Step 5: (Optional) Microsoft Graph API Permissions
 
-![Azure Sentinel Connector](azure-sentinel-connector.png)
+If SIGNL4 needs to pull additional security alerts directly from Microsoft Graph (e.g., Defender alerts):
 
-Configure the app parameters as described in the table below.
+1. Go back to the app registration in Entra admin center → **API permissions**.
+2. Add **Microsoft Graph** → **Application permissions**:
+   - `SecurityAlerts.Read.All`
+   - `SecurityEvents.Read.All` (if needed)
+3. Click **Grant admin consent for [your tenant]**.
 
-| Configuration parameter | Description |
-| --- | --- |
-| Subscription Id | Azure Subscription ID of the subscription you want to get security events from |
-| Tenant Id | Your Azure tenant ID |
-| Client Id | Client Id that was created and displayed when creating the SPN in Azure using the PS script |
-| Client Secret | Client secret that was created and displayed when creating the SPN in Azure using the PS script |
-| Azure Sentinel Log Analytics Workspace | Sentinel security events (incidents) can be augmented with search result data of the underlaying security alerts that triggered the incident. The search results often give more context when investigating an incident.<br><br>If you leave this field empty, no augmentation will be done by the connector. |
-| Azure Sentinel Resource Group | The name of the resource group in which your Microsoft Sentinel solution is deployed. If you read alerts directly from the Sentinel API (see next parameter) this value is required.<br><br>Otherwise this value is optional and also used to augment incidents with search results from their underlaying security alerts. |
-| Read security events from | You can select the Azure API that is used to read security alerts / incidents from.<br><br>If Microsoft Sentinel is your single pane of glass solution for SIEM and all security events are fed into Sentinel, select "Microsoft Sentinel API" here.<br><br>If on the other hand, you have assets in Azure that are not integrated with Sentinel and rather use solutions like Defender for Cloud to manage security of those assets, you may select "Microsoft Graph Security API" here. Graph Security API also provides access to security alerts from different sources such as MS Sentinel or Defender for Cloud. |
-| Filter Severity | Select incident severities you wish to get Signls for in SIGNL4. you may e.g. deselect low severity. |
-| Tags for Sentinel incident after Signl creation | Once an incident was received by SIGNL4, a tag can be added to it. This allows you to keep track of the items that were polled by SIGNL4 inside Sentinel. You can leave this field empty. |
+#### Step 6: Provide Credentials to SIGNL4
 
-Once ready, click the "Create" button.
+Supply the following to the SIGNL4 Azure Sentinel connector:
 
-The connector attempts to initialize and to read security events from the according API. If that is successful it will be in an OK status. Otherwise you may see an error status with results, e.g. indicating that the credentials did not work when accessing the API.
+- **Tenant ID** (Directory ID)
+- **Subscription ID**
+- **Client ID** (Application ID)
+- **Client Secret**
 
-![Azure Sentinel connector enabled](azure-sentinel-connector-enabled.png)
+**Verification**:
+- Check **Role assignments** in the subscription to confirm the three roles are assigned to the app.
+- In Entra ID, verify the app registration and client secret.
 
-### Which incidents are retrieved?
-
-In general, only the following Sentinel incidents matching all the below criteria are retrieved by the connector:
-
-- Must be in the status "New"
-- Must not be older than 24 hours (created date)
-- Must have one of the configured severities
-
-Incidents matching the criteria above are polled and are available as an event in SIGNL4 which creates Signls for your teams as configured in your SIGNL4 tenant.
-
-The alert in SIGNL4 might look like this.
-
-![SIGNL4 Alert](signl4-microsoft-sentinel.png)
-
-## How can I setup tenancy for Microsoft Sentinel?
-
-Each connector is tailored to a log analytic workspace associated with the unique Azure IDs assigned to each tenant. In essence, it is possible to establish an individual connector for each team to ensure tenancy cohesion across SIGNL4, and to segregate the connectors according to each team's requirements.
-
+**Security Best Practices**:
+- Rotate the client secret regularly.
+- Monitor sign-in logs for this service principal.
+- Review role assignments periodically.
