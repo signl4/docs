@@ -71,10 +71,14 @@ In order for 2-way integration to work and for incidents to be updated in Servic
 4. Next, quickly configure the connector app values described below:
 - **Instance URI**:  
     The root URL of your ServiceNow instance without any additional path. An example is https://company.servicenow.com
-- **Username**:  
+- **Username (Basic)**:  
     SIGNL4 will access your ServiceNow instance as this user which needs to be created in ServiceNow. Mkae sure to only allow Web service access when creating the user in ServiceNow.
-- **Password**:  
+- **Password (Basic)**:  
     The password of the SIGNL4 user account in ServiceNow
+- **Client ID (OAuth2)**:  
+    Enter the client ID of the OAuth application that you have created in the ServiceNow application registry for SIGNL4. SIGNL4 only supports the client credentials OAuth2 flow.
+- **Client Secret (OAuth2)**:  
+    Enter the client secret of the OAuth application that you have created in the ServiceNow application registry for SIGNL4. SIGNL4 only supports the client credentials OAuth2 flow.
 - **Incident template when Signl is acknowledged:**  
     Incident template to apply when Signl is acknowledged in SIGNL4. The default value refers to a template that is part of the SIGNL4 ServiceNow application and updates the incident status to ‘In Progress’. If you leave this field empty, not incident template is applied when users acknowledge in SIGNL4.
 - **Incident template when Signl is closed:**  
