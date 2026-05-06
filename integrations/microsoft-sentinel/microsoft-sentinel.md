@@ -150,3 +150,7 @@ Supply the following to the SIGNL4 Azure Sentinel connector:
 - Rotate the client secret regularly.
 - Monitor sign-in logs for this service principal.
 - Review role assignments periodically.
+
+The alert in SIGNL4 might look like this.
+
+![SIGNL4 Alert](signl4-alert.png)
