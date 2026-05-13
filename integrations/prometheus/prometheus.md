@@ -1,5 +1,5 @@
 ---
-title: Prometheus
+title: Prometheus Alertmanager
 parent: Integrations
 ---
 
@@ -11,7 +11,7 @@ When critical systems fail, SIGNL4 is the fastest way to alert your staff, engin
 
 Pairing Prometheus Alertmanager with SIGNL4 can enhance your daily operations with an extension to your team wherever it is. The integration does not only allow you to know when a critical issue has occurred but also when it was resolved no matter where you are.
 
-The integration of Prometheus and SIGNL4 is done using the Alertmanager that is part of Prometheus.
+The integration of Prometheus and SIGNL4 is done using Alertmanager that is part of Prometheus.
 
 ## Prerequisites
 
@@ -22,6 +22,50 @@ The integration of Prometheus and SIGNL4 is done using the Alertmanager that is 
 ## How to Integrate
 
 ### Alertmanager Webhook
+
+#### New versions
+
+For Alertmanager v0.32 and later the webhook payload supports parameters.
+
+Alertmanager sends alerts via SIGNL4 using a [webhook](https://prometheus.io/docs/alerting/latest/configuration/#webhook_config). The following sample configuration triggers SIGNL4 alerts and automatically closes them when the alert is marked as resolved in Alertmanager.
+
+```yaml
+receivers:
+- name: signl4
+  webhook_configs:
+  - url: https://connect.signl4.com/webhook/{signl4-teamsecret}
+    send_resolved: true
+    payload:
+      Title: '{{ printf "%s - %s" .CommonLabels.alertname (.Status | toUpper) }}'
+      Message: '{{ .CommonAnnotations.summary }}'
+      Alert: '{{ .CommonLabels.alertname }}'
+      Service: '{{ .CommonLabels.service }}'
+      Severity: '{{ .CommonLabels.severity }}'
+      Status: '{{ .Status }}'
+      X-S4-ExternalID: '{{ .CommonLabels.alertname }}-{{ .CommonLabels.job }}'
+      X-S4-Status: '{{ if eq .Status "firing" }}new{{ else }}resolved{{ end }}'
+      X-S4-SourceSystem: 'Alertmanager'
+route:
+  group_by:
+  - alertname
+  - job
+  group_interval: 5s
+  group_wait: 1s
+  receiver: signl4
+  repeat_interval: 30s
+  routes:
+  - match:
+      alertname: Watchdog
+    receiver: signl4
+```
+
+The important part here is under webhook_configs. You need to replace {signl4-teamsecret} by your SIGNL4 team or integration secret.
+
+The alert format can be adapted to your needs, and you can also add additional parameters as needed. The X-S4- parameters are reserved. More information about the SIGNL4 webhook is available [here](https://docs.signl4.com/integrations/webhook/webhook.html).
+
+#### Legacy Version
+
+For versions older than 0.32 you can use the following description.
 
 The integration is done using the standard webhook in Alertmanager. You can find more information here:
 
@@ -50,7 +94,9 @@ route:
 
 You need to replace with your SIGNL4 team secret.
 
-### Resolved Alerts
+**Resolved Alerts**
+
+This is only required for the legacy approach before Alertmanager v0.32.
 
 In order to close alerts in SIGNL4 when the alerts are closed in Prometheus you can use this SIGNL4 URL.
 
@@ -68,4 +114,4 @@ That is it and now you can test the alert. You can for example simulate an alert
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-prometheus.png)
+![SIGNL4 Alert](signl4-alertmanager.png)
