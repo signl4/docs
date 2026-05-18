@@ -29,6 +29,7 @@ For Alertmanager v0.32 and later the webhook payload supports parameters.
 
 Alertmanager sends alerts via SIGNL4 using a [webhook](https://prometheus.io/docs/alerting/latest/configuration/#webhook_config). The following sample configuration triggers SIGNL4 alerts and automatically closes them when the alert is marked as resolved in Alertmanager.
 
+{% raw %}
 ```yaml
 receivers:
 - name: signl4
@@ -58,7 +59,7 @@ route:
       alertname: Watchdog
     receiver: signl4
 ```
-
+{% endraw %}
 The important part here is under webhook_configs. You need to replace {signl4-teamsecret} by your SIGNL4 team or integration secret.
 
 The alert format can be adapted to your needs, and you can also add additional parameters as needed. The X-S4- parameters are reserved. More information about the SIGNL4 webhook is available [here](https://docs.signl4.com/integrations/webhook/webhook.html).
