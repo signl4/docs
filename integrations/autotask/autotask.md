@@ -26,8 +26,11 @@ You can install and configure the integration in the SIGNL4 web portal under Int
 
 ![Autotask Integration in SIGNL4](autotask-signl4.png)
 
-
 Here you need to configure your Autotask API username and secret with sufficient access rights. You can find more information [here](https://www.autotask.net/help/Content/4_Admin/1CompanySettings_Users/ResourcesUsersHR/Resources/API_User_Add_Edit.htm). The other parameters are optional, and you can find more information when hovering over the (?) symbol of the according item.
+
+The field Companies can contain a comma-separated list of companies, e.g. Derdack,SIGNL4.
+
+The Query Filter is an additional filter value as defined by the Autotask API, e.g. {"op":"noteq","field":"Status","value":5}. Please note, the values here are not the display values (e.g. "Critical") but the API values (e.g. 1). So, a priority filter might look like this: {"op": "eq", "field": "priority", "value": 1}.
 
 ## Simple Email Integration
 
