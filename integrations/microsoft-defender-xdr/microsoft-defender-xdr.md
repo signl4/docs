@@ -22,6 +22,14 @@ Microsoft Defender XDR creates alerts from suspicious or malicious activity and 
 
 With SIGNL4 your team can now receive these alerts reliably via app push, SMS text or phone call, including escalation, duty-scheduling and collaboration.
 
+## Features
+
+The following featurs are supported:
+- Reading incidents
+- Reading updates for auto-ack / auto close
+- Changing incident status based on Signl status changes
+- Adding annotations from a Signl back to the incident record
+
 ## How does it work?
 
 For accessing data from Microsoft Defender XDR SIGNL4 uses the Microsoft Graph security API. The configuration of the Graph API is part of our "Microsoft Sentinel, etc." connector app. You can find it in the SIGNL4 web portal under "Integrations" -> "Gallery" -> "Microsoft Sentinel, etc.".
