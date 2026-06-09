@@ -20,6 +20,14 @@ Typical use cases include:
 - Alerting field engineers or SOC staff during a security breach
 - Delivery of advanced threat detection signals directly to mobile teams
 
+## Features
+
+The following featurs are supported:
+- Reading incidents
+- Reading updates for auto-ack / auto close
+- Changing incident status based on Signl status changes
+- Adding annotations from a Signl back to the incident record
+
 ## How does it work?
 
 For accessing data from Defender for Endpoint SIGNL4 uses the Microsoft Graph security API. The configuration of the Graph API is part of our "Microsoft Sentinel, etc." connector app. You can find it in the SIGNL4 web portal under "Integrations" -> "Gallery" -> "Microsoft Sentinel, etc.".
