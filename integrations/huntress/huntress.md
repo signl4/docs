@@ -25,11 +25,11 @@ If you already have a webhook integration configured, Webhook will be listed in 
 
 Click Add Endpoint and configure the endpoint and add your SIGNL4 webhook URL as follows and then add the new endpoint.
 
-![Huntress Add Webhook Notification](huntress-webhook2.png)
+![Huntress SIGNL4 Webhook](huntress-webhook2.png)
 
 The SIGNL4 endpoint now appears in the endpoint overview. To test the integration, open the three-dot menu for the endpoint and select Send Test. You should then receive a test alert in your SIGNL4 mobile app.
 
-![Huntress Add Webhook Notification](huntress-webhook2.png)
+![Huntress Test SIGNL4 Webhook](huntress-webhook3.png)
 
 That’s it. SIGNL4 will now alert your team whenever new Huntress incidents are created.
 
