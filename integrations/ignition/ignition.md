@@ -116,7 +116,7 @@ def handleAlarm(event):
 
 This script supports triggering alerts and also acknowledging and closing them in your Alarm Notification Pipeline.
 
-![[SIGNL4 Alarm Notification Pipeline](signl4-ignition.gif)
+![SIGNL4 Alarm Notification Pipeline](signl4-ignition.gif)
 
 You can find more information and a complete sample project at [Ignition Exchange](https://inductiveautomation.com/exchange/).
 
