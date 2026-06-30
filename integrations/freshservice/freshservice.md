@@ -166,4 +166,4 @@ _**\*Note:**_ Feel free to change the actions that follow the condition in the w
 
 With these Automators in place, data synchronization between Freshservice and SIGNL4 is seamless, enabling efficient ticket management and faster incident resolution.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](signl4-freshservice.png)
