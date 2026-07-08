@@ -5,7 +5,7 @@ parent: Integrations
 
 # SIGNL4 Integration with Catchpoint
 
-[Catchpoint](https://www.catchpoint.com/) is a digital experience observability platform that enables organizations to monitor, analyze, and optimize the performance and availability of their applications, networks, and digital services. By providing real-time visibility into user experience and system health across the internet stack, Catchpoint helps ensure optimal reliability and performance for mission-critical systems.
+[Catchpoint](https://www.catchpoint.com/) by [LogicMonitor](https://www.logicmonitor.com/) is a digital experience observability platform that enables organizations to monitor, analyze, and optimize the performance and availability of their applications, networks, and digital services. By providing real-time visibility into user experience and system health across the internet stack, Catchpoint helps ensure optimal reliability and performance for mission-critical systems.
 
 [SIGNL4](https://www.signl4.com/) adds reliable mobile alerting to Catchpoint with features like mobile app notifications, SMS messaging, voice calls, automated escalations, and on-call duty scheduling. SIGNL4 ensures that critical performance and outage alerts from Catchpoint immediately reach the right on-call engineers, enabling faster response and minimizing downtime – anytime, anywhere.
 
