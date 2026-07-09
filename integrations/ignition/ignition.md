@@ -118,7 +118,7 @@ This script supports triggering alerts and also acknowledging and closing them i
 
 ![SIGNL4 Alarm Notification Pipeline](signl4-ignition.gif)
 
-You can find more information and a complete sample project at [Ignition Exchange](https://inductiveautomation.com/exchange/).
+You can find more information and a complete sample project at [Ignition Exchange](https://inductiveautomation.com/exchange/2959/).
 
 That's it.
 
