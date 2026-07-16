@@ -7,7 +7,7 @@ parent: Integrations
 
 [viaSocket](https://viasocket.com/) helps to link up your apps, share or store data smoothly in table or create engaging interfaces, all without a single line of code. Pairing Make with SIGNL4 can enhance and automate your daily tasks with an extension to your mobile team no matter where they are.
 
-SIGNL4 is directly available as an app in viaSocket. You can just add the SIGNL4 app to your flow wherever you need reliable mobile alerting.
+SIGNL4 is directly available as an [app in viaSocket](https://viasocket.com/integrations/signl4?utm_source=signl4&utm_medium=marketplace&utm_campaign=signl4_listing). You can just add the SIGNL4 app to your flow wherever you need reliable mobile alerting.
 
 ![viaSocket Project](viasocket-signl4.png)
 
