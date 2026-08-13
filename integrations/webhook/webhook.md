@@ -5,19 +5,51 @@ parent: Integrations
 
 # SIGNL4 Integration with Webhook
 
-Notifications of malfunctions, downtimes or other critical events can be triggered automatically or manually in SIGNL4.
+The SIGNL4 webhook allows you to send events to your SIGNL4 team from external systems or applications. The base URL of the webhook is https://connect.signl4.com/webhook/. Other than the SIGNL4 REST API, authentication is based on a team / integration secret which is encoded in the request URL such as https://connect.signl4.com/webhook/{teamSecret}, where {teamSecret} is your SIGNL4 team or integration secret.
 
-The automatic triggering takes place through the connection to third-party systems, via which triggering events can then be received.
+You can find more information about the SIGNL4 webhook API [here](https://connect.signl4.com/webhook/docs/index.html).
 
-SIGNL4 offers various connector apps, APIs and interfaces for these connections. A very generic and therefore most used interface is the SIGNL4 webhook for incoming events. The webhook is essentially based on a unique URL that is entered in the third-party system and is called by it via HTTP(s) when a new event is present that is to be transmitted to SIGNL4.
+## Any Payload
 
-The SIGNL4 webhook allows you to send events to your SIGNL4 team from external systems or applications. The base URL of the webhook is https://connect.signl4.com/webhook/. Other than the SIGNL4 API, authentication is based on an API key which is encoded in the request URI and matches your SIGNL4 team secret such as https://connect.signl4.com/webhook/{teamSecret}.
+The SIGNL4 webhook API accepts a wide range of payload formats, allowing you to pass parameters based on your requirements or the data provided by your source system. SIGNL4 automatically interprets the payload and displays the resulting alert in an appropriate format.
 
-You can find more infiormation about the SIGNL4 webhook API [here](https://connect.signl4.com/webhook/docs/index.html).
+For example, you can pass JSON payload but also plain text or XML are supported. Here are some examples:
+
+JSON:
+```
+POST https://connect.signl4.com/webhook/{teamSecret}
+Content-Type: application/json
+
+{
+    "Title": "Temperature Alert",
+    "Message": "Temperature in stable too high.",
+    "Temperature": "32,4 °C"
+}
+```
+
+Text:
+```
+POST https://connect.signl4.com/webhook/{teamSecret}
+
+Hello world.
+```
+
+XML:
+```
+POST https://connect.signl4.com/webhook/{teamSecret}
+Content-Type: application/xml
+
+<alert>
+  <title>Test Alert 2</title>
+  <message>High  utilization on  A1.</message>
+</alert>
+```
+
+There are some reserved parameters ("X-S4-..."). For more information, see below.
 
 ## Trigger Alerts
 
-The payload that we will pass through will be:
+The following is a sample payload to trigger an alert.
 
 ```json
 {
@@ -32,6 +64,8 @@ The payload that we will pass through will be:
 }
 ```
 
+### Special Parameters
+
 The following parameters will enrich your alert or to influence its processing as follows:
 
 **X-S4-Service**: Assigns the alert to the service/system category with the specified name.  
@@ -44,7 +78,7 @@ The following parameters will enrich your alert or to influence its processing a
 - **multi_ack**  
     The alert must be confirmed by the number of people who are on duty at the time this alert is created.  
 - **emergency**  
-    All people in the team are notified regardless of their duty status and must acknowledge the alert, which is also assigned to the built-in emergency category.  
+    All people in the team are notified regardless of their duty status and must acknowledge the alert, which is also assigned to the built-in emergency category.
   
 **X-S4-ExternalID**: If the event originates from a record in a 3rd party system, use this parameter to pass the unique ID of that record. That ID will be communicated in outbound webhook notifications from SIGNL4, which is great for correlation/synchronization of that record with the alert.  
   
@@ -57,6 +91,12 @@ The following parameters will enrich your alert or to influence its processing a
     If you want to acknowledge a previously triggered alert (e.g. someone responded in the 3rd party system and not in the mobile app during business hours), set the X-S4-Status to 'acknowledged' and provide an external ID via the 'X-S4-ExternalID' parameter for the alert you want to acknowledge. It is only possible to acknowledge an alert with a provided external id that initially triggered it.  
 - **resolved**  
     If you want to resolve a previously triggered alert (e.g. monitoring system has auto-closed the event), make sure to set the X-S4-Status to 'resolved' and provide an external ID via the 'X-S4-ExternalID' parameter for the alert(s) you want to resolve. It is only possible to resolve a alert with a provided external id that initially triggered it.  
+
+### Title and Message
+
+To control your alert title and message you can use parameter names like "subject" or "title" for the alert title and "message" or "body" for the alert message.
+
+### URL Query Parameters
 
 You can also add query parameters which are each documented below. They are used to correlate the status of events in your 3rd party system with the alert status in SIGNL4. You are thereby able to define when an event, sent to the webhook, should acknowledge or resolve a alert that it has triggered earlier. An example is: https://connect.signl4.com/webhook/teamssecret?ExtIdParam=Id&ExtStatusParam=Status&ResolvedStatus=UP&AckStatus=PENDING
 
@@ -115,7 +155,7 @@ Content-Type: application/json
 
 ### Close Alert
 
-Resolve (close ) the previously triggered alert.
+Resolve (close) the previously triggered alert.
 
 ```json
 POST https://devconnect.signl4.com/webhook/{team-secret}
