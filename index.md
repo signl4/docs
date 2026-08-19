@@ -9,6 +9,6 @@ permalink: /
 
 Here you find a selection of techical information and documentations about SIGNL4, including [integrations](/integrations/integrations.html).
 
-![SIGNL4](signl4-phone.png)
+![SIGNL4](Alerting-Responding-App-SIGNL4.webp)
 
 For more information you can also go to [signl4.com](https://www.signl4.com).
