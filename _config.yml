@@ -11,6 +11,8 @@ color_scheme: dark
 nav_sort: case_insensitive
 
 aux_links:
+  "signl4.com":
+    - "https://www.signl4.com/"
   "View on GitHub":
     - "https://github.com/signl4/docs"
 
