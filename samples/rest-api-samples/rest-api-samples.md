@@ -67,3 +67,31 @@ Accept: application/json
 }
 ```
 
+## Who is On Call?
+
+To get information about which users are currently on call for a specific team, you can use a combination of the Get Teams and Get Users API calls.
+
+1. Get Teams
+
+As a result you get the team id(s) that you need in the next step.
+
+```
+GET https://connect.signl4.com/api/v2/teams
+X-S4-Api-Key: {signl4-api-key}
+```
+
+2. Get Users
+
+As a result, you get the users in the specified team along with additional information, including their duty status.
+
+```
+GET https://connect.signl4.com/api/v2/users
+X-S4-Api-Key: {signl4-api-key}
+```
+
+You can find each user’s duty status in the dutyInfos -> dutyMode field.
+
+The following values are supported:
+0 = None (not currently on duty)  
+1 = Primary  
+100 = Manager  
