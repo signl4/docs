@@ -19,7 +19,7 @@ aux_links:
     - "https://github.com/signl4/docs"
 
 title: SIGNL4 Docs
-description: A set of technical documentations for SIGNL4.
+description: Technical documentation, integration guides, APIs and examples for SIGNL4 mobile alerting and incident response.
 
 url: "https://docs.signl4.com"
 baseurl: ""
