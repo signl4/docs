@@ -1,6 +1,7 @@
 ---
 title: Checkmk
 parent: Integrations
+description: Integrate Checkmk with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 ---
 
 # SIGNL4 Integration with Checkmk
