@@ -6,6 +6,8 @@ remote_theme: "just-the-docs/just-the-docs"
 # Dark "flancast90/millidocs-dark"
 plugins:
 - jekyll-remote-theme
+- jekyll-seo-tag
+- jekyll-sitemap
 
 color_scheme: dark
 nav_sort: case_insensitive
@@ -18,7 +20,9 @@ aux_links:
 
 title: SIGNL4 Docs
 description: A set of technical documentations for SIGNL4.
-url: "https://signl4.github.io/docs/integrations"
+
+url: "https://docs.signl4.com"
+baseurl: ""
 
 favicon_ico: "/assets/images/favicon.ico"
 # logo: "/assets/images/logo.png"
