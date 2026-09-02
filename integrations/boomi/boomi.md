@@ -1,6 +1,7 @@
 ---
 title: Boomi
 parent: Integrations
+description: Integrate Boomi with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 ---
 
 # SIGNL4 Integration with Boomi
