@@ -7,7 +7,7 @@ parent: Integrations
 
 The SIGNL4 webhook allows you to send events to your SIGNL4 team from external systems or applications. The base URL of the webhook is https://connect.signl4.com/webhook/. Other than the SIGNL4 REST API, authentication is based on a team / integration secret which is encoded in the request URL such as https://connect.signl4.com/webhook/{teamSecret}, where {teamSecret} is your SIGNL4 team or integration secret.
 
-You can find more information about the SIGNL4 webhook API [here](https://connect.signl4.com/webhook/docs/index.html).
+You can find more information about the SIGNL4 webhook API [here](https://connect.signl4.com/webhook/docs/).
 
 ## Any Payload
 
@@ -103,7 +103,7 @@ You can also add query parameters which are each documented below. They are used
 You can use your own JSON parameters as appropriate, e.g. HostName, SensorId, etc. SIGNL4 will try to display them in a nice format. 
 
 You can try these steps out at the following URL:
-[https://connect.signl4.com/webhook/docs/index.html](https://connect.signl4.com/webhook/docs/index.html)
+[https://connect.signl4.com/webhook/docs/](https://connect.signl4.com/webhook/docs/)
 
 - Open the description by clicking the "POST" button.
 - Enter in Your Team Secret.
