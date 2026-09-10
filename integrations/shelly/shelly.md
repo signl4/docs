@@ -1,6 +1,11 @@
 ---
 title: Shelly
 parent: Integrations
+description: Integrate Shelly devices with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/shelly/
+redirect_from:
+  - /integrations/shelly/shelly.html
+  - /integrations/shelly/shelly
 ---
 
 # SIGNL4 Integration with Shelly
@@ -40,7 +45,7 @@ Replace YOUR_TEAM_SECRET with your SIGNL4 team or integration secret.
 
 For example, a Shelly Script could look like this:
 
-```JavaScript
+```javascript
 function sendSignl4Alert() {
   Shelly.call("HTTP.Request", {
     method: "POST",
@@ -61,7 +66,7 @@ function sendSignl4Alert() {
 
 You can then trigger it from a Shelly event, for example an input:
 
-```JavaScript
+```javascript
 Shelly.addEventHandler(function(event) {
   if (
     event.component === "input:0" &&
@@ -76,7 +81,7 @@ This is almost exactly the HTTP notification pattern shown in Shelly's  [scripti
 
 An especially nice use case would be automatic resolution. When the condition returns to normal, send:
 
-```JavaScript
+```json
 {
   "X-S4-ExternalID": "same-id-as-before",
   "X-S4-Status": "resolved"
