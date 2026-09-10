@@ -37,7 +37,9 @@ On Shelly Plus, Pro and newer Gen2 / Gen3 devices, you can send an HTTPS POST di
 
 For SIGNL4, you can POST JSON directly to your SIGNL4 webhook URL:
 
-```https://connect.signl4.com/webhook/YOUR_TEAM_SECRET```
+```
+https://connect.signl4.com/webhook/YOUR_TEAM_SECRET
+```
 
 Replace YOUR_TEAM_SECRET with your SIGNL4 team or integration secret.
 
@@ -45,7 +47,7 @@ Replace YOUR_TEAM_SECRET with your SIGNL4 team or integration secret.
 
 For example, a Shelly Script could look like this:
 
-```javascript
+```avascript
 function sendSignl4Alert() {
   Shelly.call("HTTP.Request", {
     method: "POST",
