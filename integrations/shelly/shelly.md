@@ -47,7 +47,7 @@ Replace YOUR_TEAM_SECRET with your SIGNL4 team or integration secret.
 
 For example, a Shelly Script could look like this:
 
-```avascript
+```javascript
 function sendSignl4Alert() {
   Shelly.call("HTTP.Request", {
     method: "POST",
