@@ -60,5 +60,5 @@ Now you can test it by executing the code in Colaboratory. Just click the little
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)
 

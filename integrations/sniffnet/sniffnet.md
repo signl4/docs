@@ -29,5 +29,5 @@ Please also refer to the Sniffnet documentation [here](https://github.com/GyulyV
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)
 

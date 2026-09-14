@@ -39,4 +39,4 @@ Set the alert policies to alert on first occurrence.
 
 The next time the threshold is breached an email will be sent out to the SIGNL4 team.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)

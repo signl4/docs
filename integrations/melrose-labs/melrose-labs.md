@@ -35,4 +35,4 @@ Besides SMS-to-SIGNL4 Melrose Labs offers other services for example outbound mo
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-iot.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-iot.png)

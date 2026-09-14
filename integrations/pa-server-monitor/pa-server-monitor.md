@@ -28,4 +28,4 @@ Select which system alert you wish to be notified for and make sure the email ad
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)

@@ -18,7 +18,7 @@ You can send more or less any email and SIGNL4 will try to process it and to tri
 
 Even attachments (e.g. images or audio files) are supported.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)
 
 If you want to improve formatting and add additional functionality you can send a plain-text email and format the email body as follows:
 

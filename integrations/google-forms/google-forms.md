@@ -18,4 +18,4 @@ Edit our [sample script](https://www.signl4.com/blog/google-forms-push-voice-te
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)

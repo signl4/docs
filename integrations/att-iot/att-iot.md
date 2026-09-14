@@ -57,4 +57,4 @@ Now you just need to adapt the flow to your needs or copy the SIGNL4 node to you
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-iot.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-iot.png)

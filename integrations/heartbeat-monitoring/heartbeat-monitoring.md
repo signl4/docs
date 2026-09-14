@@ -40,4 +40,4 @@ You can find information about how to easily send heartbeats from Linux and Wind
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)

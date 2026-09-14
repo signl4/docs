@@ -51,4 +51,4 @@ That is it and now you can test the alert. You can for example simulate higher t
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-iot.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-iot.png)

@@ -37,4 +37,4 @@ The next time the alert policy triggers, the SIGNL4 team will receive the alert.
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)

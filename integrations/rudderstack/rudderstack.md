@@ -26,4 +26,4 @@ Once configured you can use SIGNL4 in your connection in order to alert your tea
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)

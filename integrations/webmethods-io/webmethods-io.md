@@ -67,4 +67,4 @@ You can find a sample script in [GitHub](https://github.com/signl4/signl4-integ
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)

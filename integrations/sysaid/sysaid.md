@@ -39,4 +39,4 @@ The incident details shown above will pass along to the SIGNL4 team and on-duty 
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)

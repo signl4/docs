@@ -48,6 +48,6 @@ Emails can also be forwarded to your SIGL4 team.
 
 Emails received will display in the mobile app like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)
 
 

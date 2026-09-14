@@ -69,5 +69,5 @@ Optionally, you can use the Meta Bind or Buttons plugin to display a button that
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)
 

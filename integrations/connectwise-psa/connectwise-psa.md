@@ -256,4 +256,4 @@ The video provides a general overview of the integration of SIGNL4 with ConnectW
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)

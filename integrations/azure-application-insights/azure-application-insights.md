@@ -58,4 +58,4 @@ For each of these alert types, simply add your team’s dedicated SIGNL4 webhook
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)

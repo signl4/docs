@@ -40,4 +40,4 @@ In Cumulocity you have defined smart rules for your gateways which generate alar
 Whenever your email smart rule applies to new alarms in Cumulocity, you’ll receive new alerts in the SIGNL4 app now.  
 They will be intelligently associated to a system or device category based on the email content that you have entered in the message field of the smart rule(s). For example, if you have a "Temperature" category in SIGNL4 and you have entered an alarm message similar to "Temperature exceeded 50F" in the smart rule, the corresponding SIGNL4 alerts may look like in the below image:
 
-![SIGNL4 Alert](signl4-iot.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-iot.png)

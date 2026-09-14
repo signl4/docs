@@ -46,4 +46,4 @@ Once you have that WebHook in place just adjust the alerts to trigger that webho
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)

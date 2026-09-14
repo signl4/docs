@@ -115,7 +115,7 @@ You can try these steps out at the following URL:
 - Enter in the event data.
 - Click "Try it Out".
 
-![SIGNL4 Alert](signl4-alert.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)
 
 ## Close Alerts
 

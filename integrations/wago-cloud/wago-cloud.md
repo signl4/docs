@@ -39,4 +39,4 @@ Under Recipient you add the SIGNL4 team email address you for triggering the ale
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-iot.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-iot.png)
