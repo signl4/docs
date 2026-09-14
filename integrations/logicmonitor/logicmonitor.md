@@ -1,6 +1,11 @@
 ---
 title: LogicMonitor
 parent: Integrations
+description: Integrate LogicMonitor with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/logicmonitor/
+redirect_from:
+  - /integrations/logicmonitor/logicmonitor.html
+  - /integrations/logicmonitor/logicmonitor
 ---
 
 # SIGNL4 Integration with LogicMonitor

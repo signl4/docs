@@ -1,6 +1,11 @@
 ---
 title: REST API
 parent: Integrations
+description: Integrate REST API with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/rest-api/
+redirect_from:
+  - /integrations/rest-api/rest-api.html
+  - /integrations/rest-api/rest-api
 ---
 
 # SIGNL4 REST API

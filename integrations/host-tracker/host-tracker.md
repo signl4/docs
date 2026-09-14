@@ -1,6 +1,11 @@
 ---
 title: Host Tracker
 parent: Integrations
+description: Integrate Host Tracker with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/host-tracker/
+redirect_from:
+  - /integrations/host-tracker/host-tracker.html
+  - /integrations/host-tracker/host-tracker
 ---
 
 # SIGNL4 Integration with Host Tracker

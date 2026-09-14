@@ -2,6 +2,10 @@
 title: Dynatrace
 parent: Integrations
 description: Integrate Dynatrace with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/dynatrace/
+redirect_from:
+  - /integrations/dynatrace/dynatrace.html
+  - /integrations/dynatrace/dynatrace
 ---
 
 # SIGNL4 Integration with Dynatrace

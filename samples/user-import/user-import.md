@@ -1,6 +1,11 @@
 ---
 title: User Import
 parent: Samples
+description: Import users into SIGNL4 programmatically from structured source data.
+permalink: /samples/user-import/
+redirect_from:
+  - /samples/user-import/user-import.html
+  - /samples/user-import/user-import
 ---
 
 # SIGNL4 User Import

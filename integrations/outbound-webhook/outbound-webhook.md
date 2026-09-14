@@ -1,6 +1,11 @@
 ---
 title: Outbound Webhook
 parent: Integrations
+description: Integrate Outbound Webhook with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/outbound-webhook/
+redirect_from:
+  - /integrations/outbound-webhook/outbound-webhook.html
+  - /integrations/outbound-webhook/outbound-webhook
 ---
 
 # SIGNL4 Outbound Webhook

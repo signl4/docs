@@ -1,6 +1,11 @@
 ---
 title: Microsoft Defender for Endpoint
 parent: Integrations
+description: Integrate Microsoft Defender for Endpoint with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/microsoft-defender-for-endpoint/
+redirect_from:
+  - /integrations/microsoft-defender-for-endpoint/microsoft-defender-for-endpoint.html
+  - /integrations/microsoft-defender-for-endpoint/microsoft-defender-for-endpoint
 ---
 
 # SIGNL4 Integration with Microsoft Defender for Endpoint

@@ -1,6 +1,11 @@
 ---
 title: ServiceNow
 parent: Integrations
+description: Integrate ServiceNow with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/servicenow/
+redirect_from:
+  - /integrations/servicenow/servicenow.html
+  - /integrations/servicenow/servicenow
 ---
 
 # SIGNL4 Integration with ServiceNow

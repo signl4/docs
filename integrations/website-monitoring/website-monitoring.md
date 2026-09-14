@@ -1,6 +1,11 @@
 ---
 title: Website Monitoring
 parent: Integrations
+description: Integrate Website Monitoring with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/website-monitoring/
+redirect_from:
+  - /integrations/website-monitoring/website-monitoring.html
+  - /integrations/website-monitoring/website-monitoring
 ---
 
 # SIGNL4 Website Monitoring

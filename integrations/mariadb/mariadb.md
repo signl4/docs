@@ -1,6 +1,11 @@
 ---
 title: MariaDB
 parent: Integrations
+description: Integrate MariaDB with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/mariadb/
+redirect_from:
+  - /integrations/mariadb/mariadb.html
+  - /integrations/mariadb/mariadb
 ---
 
 # SIGNL4 Integration with MariaDB

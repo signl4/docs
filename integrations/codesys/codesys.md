@@ -1,6 +1,11 @@
 ---
 title: CODESYS
 parent: Integrations
+description: Integrate CODESYS with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/codesys/
+redirect_from:
+  - /integrations/codesys/codesys.html
+  - /integrations/codesys/codesys
 ---
 
 # SIGNL4 Integration with CODESYS

@@ -1,6 +1,11 @@
 ---
 title: Auvik
 parent: Integrations
+description: Integrate Auvik with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/auvik/
+redirect_from:
+  - /integrations/auvik/auvik.html
+  - /integrations/auvik/auvik
 ---
 
 # SIGNL4 Integration with Auvik

@@ -1,6 +1,11 @@
 ---
 title: Datadog
 parent: Integrations
+description: Integrate Datadog with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/datadog/
+redirect_from:
+  - /integrations/datadog/datadog.html
+  - /integrations/datadog/datadog
 ---
 
 # SIGNL4 Integration with Datadog

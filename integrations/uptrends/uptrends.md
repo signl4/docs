@@ -1,6 +1,11 @@
 ---
 title: Uptrends
 parent: Integrations
+description: Integrate Uptrends with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/uptrends/
+redirect_from:
+  - /integrations/uptrends/uptrends.html
+  - /integrations/uptrends/uptrends
 ---
 
 # SIGNL4 Integration with Uptrends

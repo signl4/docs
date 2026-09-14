@@ -1,6 +1,11 @@
 ---
 title: Microsoft SCOM
 parent: Integrations
+description: Integrate Microsoft SCOM with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/microsoft-scom/
+redirect_from:
+  - /integrations/microsoft-scom/microsoft-scom.html
+  - /integrations/microsoft-scom/microsoft-scom
 ---
 
 # SIGNL4 Integration with Microsoft SCOMSystem Center Operations Manager

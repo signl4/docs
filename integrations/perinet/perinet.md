@@ -1,6 +1,11 @@
 ---
 title: Perinet
 parent: Integrations
+description: Integrate Perinet with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/perinet/
+redirect_from:
+  - /integrations/perinet/perinet.html
+  - /integrations/perinet/perinet
 ---
 
 # SIGNL4 Integration with Perinet

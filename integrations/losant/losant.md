@@ -1,6 +1,11 @@
 ---
 title: Losant
 parent: Integrations
+description: Integrate Losant with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/losant/
+redirect_from:
+  - /integrations/losant/losant.html
+  - /integrations/losant/losant
 ---
 
 # SIGNL4 Integration with Losant

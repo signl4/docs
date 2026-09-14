@@ -1,6 +1,11 @@
 ---
 title: JitBit
 parent: Integrations
+description: Integrate JitBit with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/jitbit/
+redirect_from:
+  - /integrations/jitbit/jitbit.html
+  - /integrations/jitbit/jitbit
 ---
 
 # SIGNL4 Integration with JitBit

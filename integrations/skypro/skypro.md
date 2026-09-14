@@ -1,6 +1,11 @@
 ---
 title: SKyPRO
 parent: Integrations
+description: Integrate SKyPRO with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/skypro/
+redirect_from:
+  - /integrations/skypro/skypro.html
+  - /integrations/skypro/skypro
 ---
 
 # SIGNL4 Integration with SKyPRO

@@ -1,6 +1,11 @@
 ---
 title: Maintenance Mode
 parent: Samples
+description: Use SIGNL4 maintenance mode to suppress alerts during planned system work.
+permalink: /samples/maintenance-mode/
+redirect_from:
+  - /samples/maintenance-mode/maintenance-mode.html
+  - /samples/maintenance-mode/maintenance-mode
 ---
 
 # Maintenance Mode Using Category Assignments

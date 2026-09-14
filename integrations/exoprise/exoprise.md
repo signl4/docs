@@ -1,6 +1,11 @@
 ---
 title: Exoprise
 parent: Integrations
+description: Integrate Exoprise with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/exoprise/
+redirect_from:
+  - /integrations/exoprise/exoprise.html
+  - /integrations/exoprise/exoprise
 ---
 
 # SIGNL4 Integration with Exoprise

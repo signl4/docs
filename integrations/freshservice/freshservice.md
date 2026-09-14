@@ -1,6 +1,11 @@
 ---
 title: Freshservice
 parent: Integrations
+description: Integrate Freshservice with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/freshservice/
+redirect_from:
+  - /integrations/freshservice/freshservice.html
+  - /integrations/freshservice/freshservice
 ---
 
 # SIGNL4 Integration with Freshservice

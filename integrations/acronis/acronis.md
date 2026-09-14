@@ -1,6 +1,11 @@
 ---
 title: Acronis
 parent: Integrations
+description: Integrate Acronis with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/acronis/
+redirect_from:
+  - /integrations/acronis/acronis.html
+  - /integrations/acronis/acronis
 ---
 
 # SIGNL4 Integration with Acronis

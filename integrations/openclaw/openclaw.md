@@ -1,6 +1,11 @@
 ---
 title: OpenClaw
 parent: Integrations
+description: Integrate OpenClaw with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/openclaw/
+redirect_from:
+  - /integrations/openclaw/openclaw.html
+  - /integrations/openclaw/openclaw
 ---
 
 # SIGNL4 Integration with OpenClaw

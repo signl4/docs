@@ -1,6 +1,11 @@
 ---
 title: Rocket.Chat
 parent: Integrations
+description: Integrate Rocket.Chat with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/rocketchat/
+redirect_from:
+  - /integrations/rocketchat/rocketchat.html
+  - /integrations/rocketchat/rocketchat
 ---
 
 # SIGNL4 Integration with Rocket.Chat

@@ -1,6 +1,11 @@
 ---
 title: Better Stack
 parent: Integrations
+description: Integrate Better Stack with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/better-stack/
+redirect_from:
+  - /integrations/better-stack/better-stack.html
+  - /integrations/better-stack/better-stack
 ---
 
 # SIGNL4 Integration with Better Stack

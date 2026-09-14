@@ -1,6 +1,11 @@
 ---
 title: Obsidian
 parent: Integrations
+description: Integrate Obsidian with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/obsidian/
+redirect_from:
+  - /integrations/obsidian/obsidian.html
+  - /integrations/obsidian/obsidian
 ---
 
 # SIGNL4 Integration with Obsidian

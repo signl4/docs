@@ -1,6 +1,11 @@
 ---
 title: Atatus
 parent: Integrations
+description: Integrate Atatus with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/atatus/
+redirect_from:
+  - /integrations/atatus/atatus.html
+  - /integrations/atatus/atatus
 ---
 
 # SIGNL4 Integration with Atatus

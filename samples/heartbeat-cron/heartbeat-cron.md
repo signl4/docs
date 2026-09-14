@@ -1,6 +1,11 @@
 ---
 title: Cron Job for Heartbeats
 parent: Samples
+description: Monitor recurring jobs with SIGNL4 heartbeat checks and receive alerts when they fail.
+permalink: /samples/heartbeat-cron/
+redirect_from:
+  - /samples/heartbeat-cron/heartbeat-cron.html
+  - /samples/heartbeat-cron/heartbeat-cron
 ---
 
 # Cron Job for Heartbeats

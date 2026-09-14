@@ -1,6 +1,11 @@
 ---
 title: OpenText SMAX
 parent: Integrations
+description: Integrate OpenText SMAX with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/opentext-smax/
+redirect_from:
+  - /integrations/opentext-smax/opentext-smax.html
+  - /integrations/opentext-smax/opentext-smax
 ---
 
 # SIGNL4 Integration with OpenText SMAX

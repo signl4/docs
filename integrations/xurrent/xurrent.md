@@ -1,6 +1,11 @@
 ---
 title: Xurrent
 parent: Integrations
+description: Integrate Xurrent with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/xurrent/
+redirect_from:
+  - /integrations/xurrent/xurrent.html
+  - /integrations/xurrent/xurrent
 ---
 
 # SIGNL4 Integration with Xurrent

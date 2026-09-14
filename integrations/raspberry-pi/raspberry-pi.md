@@ -1,6 +1,11 @@
 ---
 title: Raspberry Pi
 parent: Integrations
+description: Integrate Raspberry Pi with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/raspberry-pi/
+redirect_from:
+  - /integrations/raspberry-pi/raspberry-pi.html
+  - /integrations/raspberry-pi/raspberry-pi
 ---
 
 # SIGNL4 Integration with Raspberry Pi

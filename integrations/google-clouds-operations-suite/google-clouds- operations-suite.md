@@ -1,6 +1,11 @@
 ---
 title: Google Cloud’s Operations Suite
 parent: Integrations
+description: Integrate Google Cloud’s Operations Suite with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/google-clouds-operations-suite/
+redirect_from:
+  - /integrations/google-clouds-operations-suite/google-clouds-operations-suite.html
+  - /integrations/google-clouds-operations-suite/google-clouds-operations-suite
 ---
 
 # SIGNL4 Integration with Google Cloud’s Operations Suite

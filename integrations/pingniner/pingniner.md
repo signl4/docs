@@ -1,6 +1,11 @@
 ---
 title: Pingniner
 parent: Integrations
+description: Integrate Pingniner with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/pingniner/
+redirect_from:
+  - /integrations/pingniner/pingniner.html
+  - /integrations/pingniner/pingniner
 ---
 
 # SIGNL4 Integration with Pingniner

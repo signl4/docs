@@ -1,6 +1,11 @@
 ---
 title: Hyperping
 parent: Integrations
+description: Integrate Hyperping with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/hyperping/
+redirect_from:
+  - /integrations/hyperping/hyperping.html
+  - /integrations/hyperping/hyperping
 ---
 
 # SIGNL4 Integration with Hyperping

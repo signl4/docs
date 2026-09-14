@@ -1,6 +1,11 @@
 ---
 title: REST API and AI Vide Coding
 parent: Samples
+description: Use AI-assisted development to build applications with the SIGNL4 REST API.
+permalink: /samples/rest-api-ai/
+redirect_from:
+  - /samples/rest-api-ai/rest-api-ai.html
+  - /samples/rest-api-ai/rest-api-ai
 ---
 
 # Vibe Coding with the SIGNL4 REST API

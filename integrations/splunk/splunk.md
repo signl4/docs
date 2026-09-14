@@ -1,6 +1,11 @@
 ---
 title: Splunk
 parent: Integrations
+description: Integrate Splunk with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/splunk/
+redirect_from:
+  - /integrations/splunk/splunk.html
+  - /integrations/splunk/splunk
 ---
 
 # SIGNL4 Integration with Splunk

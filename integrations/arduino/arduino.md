@@ -1,6 +1,11 @@
 ---
 title: Arduino
 parent: Integrations
+description: Integrate Arduino with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/arduino/
+redirect_from:
+  - /integrations/arduino/arduino.html
+  - /integrations/arduino/arduino
 ---
 
 # SIGNL4 Integration with Arduino

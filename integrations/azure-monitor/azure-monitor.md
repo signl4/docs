@@ -1,6 +1,11 @@
 ---
 title: Azure Monitor
 parent: Integrations
+description: Integrate Azure Monitor with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/azure-monitor/
+redirect_from:
+  - /integrations/azure-monitor/azure-monitor.html
+  - /integrations/azure-monitor/azure-monitor
 ---
 
 # SIGNL4 Integration with Azure Monitor

@@ -1,6 +1,11 @@
 ---
 title: KIX
 parent: Integrations
+description: Integrate KIX with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/kix/
+redirect_from:
+  - /integrations/kix/kix.html
+  - /integrations/kix/kix
 ---
 
 # SIGNL4 Integration with KIX

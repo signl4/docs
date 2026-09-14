@@ -2,6 +2,10 @@
 title: IXON Cloud
 parent: Integrations
 description: Integrate IXON with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/ixon/
+redirect_from:
+  - /integrations/ixon/ixon.html
+  - /integrations/ixon/ixon
 ---
 
 # SIGNL4 Integration with IXON Cloud

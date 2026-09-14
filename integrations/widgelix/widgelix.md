@@ -1,6 +1,11 @@
 ---
 title: Widgelix
 parent: Integrations
+description: Integrate Widgelix with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/widgelix/
+redirect_from:
+  - /integrations/widgelix/widgelix.html
+  - /integrations/widgelix/widgelix
 ---
 # SIGNL4 Integration with Widgelix
 

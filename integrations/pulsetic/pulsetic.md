@@ -1,6 +1,11 @@
 ---
 title: pulsetic
 parent: Integrations
+description: Integrate pulsetic with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/pulsetic/
+redirect_from:
+  - /integrations/pulsetic/pulsetic.html
+  - /integrations/pulsetic/pulsetic
 ---
 
 # SIGNL4 Integration with pulsetic

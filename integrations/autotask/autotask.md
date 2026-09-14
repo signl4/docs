@@ -2,6 +2,10 @@
 title: Autotask
 parent: Integrations
 description: Integrate Autotask with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/autotask/
+redirect_from:
+  - /integrations/autotask/autotask.html
+  - /integrations/autotask/autotask
 ---
 
 # SIGNL4 Integration with Autotask

@@ -1,6 +1,11 @@
 ---
 title: Azure Application Insights
 parent: Integrations
+description: Integrate Azure Application Insights with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/azure-application-insights/
+redirect_from:
+  - /integrations/azure-application-insights/azure-application-insights.html
+  - /integrations/azure-application-insights/azure-application-insights
 ---
 
 # SIGNL4 Integration with Azure Application Insights

@@ -1,6 +1,11 @@
 ---
 title: Apify
 parent: Integrations
+description: Integrate Apify with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/apify/
+redirect_from:
+  - /integrations/apify/apify.html
+  - /integrations/apify/apify
 ---
 
 # SIGNL4 Integration with Apify

@@ -1,6 +1,11 @@
 ---
 title: Email
 parent: Integrations
+description: Integrate Email with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/email/
+redirect_from:
+  - /integrations/email/email.html
+  - /integrations/email/email
 ---
 
 # SIGNL4 Integration via Email (SMTP)

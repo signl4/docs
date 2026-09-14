@@ -1,6 +1,11 @@
 ---
 title: SQLite Cloud
 parent: Integrations
+description: Integrate SQLite Cloud with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/sqlite-cloud/
+redirect_from:
+  - /integrations/sqlite-cloud/sqlite-cloud.html
+  - /integrations/sqlite-cloud/sqlite-cloud
 ---
 
 # SIGNL4 Integration with SQLite Cloud

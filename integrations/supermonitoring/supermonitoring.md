@@ -1,6 +1,11 @@
 ---
 title: Super Monitoring
 parent: Integrations
+description: Integrate Super Monitoring with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/supermonitoring/
+redirect_from:
+  - /integrations/supermonitoring/supermonitoring.html
+  - /integrations/supermonitoring/supermonitoring
 ---
 
 # SIGNL4 Integration with Super Monitoring

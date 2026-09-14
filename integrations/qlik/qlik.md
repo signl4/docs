@@ -1,6 +1,11 @@
 ---
 title: Qlik
 parent: Integrations
+description: Integrate Qlik with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/qlik/
+redirect_from:
+  - /integrations/qlik/qlik.html
+  - /integrations/qlik/qlik
 ---
 
 # SIGNL4 Integration with Qlik Application Automation

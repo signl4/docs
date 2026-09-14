@@ -1,6 +1,11 @@
 ---
 title: On / Off Duty
 parent: Samples
+description: Automate switching SIGNL4 team members on and off duty.
+permalink: /samples/duty-on-off/
+redirect_from:
+  - /samples/duty-on-off/duty-on-off.html
+  - /samples/duty-on-off/duty-on-off
 ---
 
 # On / Off Duty

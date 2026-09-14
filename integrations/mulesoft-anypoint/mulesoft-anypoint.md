@@ -1,6 +1,11 @@
 ---
 title: MuleSoft Anypoint
 parent: Integrations
+description: Integrate MuleSoft Anypoint with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/mulesoft-anypoint/
+redirect_from:
+  - /integrations/mulesoft-anypoint/mulesoft-anypoint.html
+  - /integrations/mulesoft-anypoint/mulesoft-anypoint
 ---
 
 # SIGNL4 Integration with MuleSoft Anypoint

@@ -1,6 +1,11 @@
 ---
 title: Google Forms
 parent: Integrations
+description: Integrate Google Forms with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/google-forms/
+redirect_from:
+  - /integrations/google-forms/google-forms.html
+  - /integrations/google-forms/google-forms
 ---
 
 # SIGNL4 Integration with Google Forms

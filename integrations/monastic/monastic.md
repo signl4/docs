@@ -1,6 +1,11 @@
 ---
 title: Montastic
 parent: Integrations
+description: Integrate Montastic with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/monastic/
+redirect_from:
+  - /integrations/monastic/monastic.html
+  - /integrations/monastic/monastic
 ---
 
 # SIGNL4 Integration with Montastic

@@ -1,6 +1,11 @@
 ---
 title: SAP Appgyver
 parent: Integrations
+description: Integrate SAP Appgyver with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/appgyver/
+redirect_from:
+  - /integrations/appgyver/appgyver.html
+  - /integrations/appgyver/appgyver
 ---
 
 # SIGNL4 Integration with SAP Appgyver

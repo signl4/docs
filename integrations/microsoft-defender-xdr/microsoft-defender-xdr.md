@@ -1,6 +1,11 @@
 ---
 title: Microsoft Defender XDR
 parent: Integrations
+description: Integrate Microsoft Defender XDR with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/microsoft-defender-xdr/
+redirect_from:
+  - /integrations/microsoft-defender-xdr/microsoft-defender-xdr.html
+  - /integrations/microsoft-defender-xdr/microsoft-defender-xdr
 ---
 
 # SIGNL4 Integration with Microsoft Defender XDR

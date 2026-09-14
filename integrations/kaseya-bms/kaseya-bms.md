@@ -1,6 +1,11 @@
 ---
 title: Kaseya BMS
 parent: Integrations
+description: Integrate Kaseya BMS with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/kaseya-bms/
+redirect_from:
+  - /integrations/kaseya-bms/kaseya-bms.html
+  - /integrations/kaseya-bms/kaseya-bms
 ---
 
 # SIGNL4 Integration with Kaseya BMS

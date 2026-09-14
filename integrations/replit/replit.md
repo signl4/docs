@@ -1,6 +1,11 @@
 ---
 title: Replit
 parent: Integrations
+description: Integrate Replit with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/replit/
+redirect_from:
+  - /integrations/replit/replit.html
+  - /integrations/replit/replit
 ---
 
 # SIGNL4 Integration with Replit

@@ -1,6 +1,11 @@
 ---
 title: Keep
 parent: Integrations
+description: Integrate Keep with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/keep/
+redirect_from:
+  - /integrations/keep/keep.html
+  - /integrations/keep/keep
 ---
 
 # SIGNL4 Integration with Keep

@@ -1,6 +1,11 @@
 ---
 title: SteelCentral
 parent: Integrations
+description: Integrate SteelCentral with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/steelcentral/
+redirect_from:
+  - /integrations/steelcentral/steelcentral.html
+  - /integrations/steelcentral/steelcentral
 ---
 
 # SIGNL4 Integration with SteelCentral by Riverbed

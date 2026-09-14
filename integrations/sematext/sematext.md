@@ -1,6 +1,11 @@
 ---
 title: Sematext
 parent: Integrations
+description: Integrate Sematext with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/sematext/
+redirect_from:
+  - /integrations/sematext/sematext.html
+  - /integrations/sematext/sematext
 ---
 
 # SIGNL4 Integration with Sematext

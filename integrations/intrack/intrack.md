@@ -1,6 +1,11 @@
 ---
 title: InTrack
 parent: Integrations
+description: Integrate InTrack with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/intrack/
+redirect_from:
+  - /integrations/intrack/intrack.html
+  - /integrations/intrack/intrack
 ---
 
 # SIGNL4 Integration with InTrack

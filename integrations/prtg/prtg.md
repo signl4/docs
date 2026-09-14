@@ -2,6 +2,10 @@
 title: PRTG
 parent: Integrations
 description: Integrate PRTG with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/prtg/
+redirect_from:
+  - /integrations/prtg/prtg.html
+  - /integrations/prtg/prtg
 ---
 
 # SIGNL4 Integration with PRTG

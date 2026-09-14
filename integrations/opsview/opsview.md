@@ -1,6 +1,11 @@
 ---
 title: Opsview
 parent: Integrations
+description: Integrate Opsview with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/opsview/
+redirect_from:
+  - /integrations/opsview/opsview.html
+  - /integrations/opsview/opsview
 ---
 
 # SIGNL4 Integration with Opsview

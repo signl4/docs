@@ -1,6 +1,11 @@
 ---
 title: Centreon
 parent: Integrations
+description: Integrate Centreon with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/centreon/
+redirect_from:
+  - /integrations/centreon/centreon.html
+  - /integrations/centreon/centreon
 ---
 
 # SIGNL4 Integration with Centreon

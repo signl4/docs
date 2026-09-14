@@ -1,6 +1,11 @@
 ---
 title: Microsoft Power Automate
 parent: Integrations
+description: Integrate Microsoft Power Automate with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/microsoft-power-automate/
+redirect_from:
+  - /integrations/microsoft-power-automate/microsoft-power-automate.html
+  - /integrations/microsoft-power-automate/microsoft-power-automate
 ---
 
 # SIGNL4 Integration with Microsoft Power Automate

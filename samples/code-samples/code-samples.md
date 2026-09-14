@@ -1,6 +1,11 @@
 ---
 title: Code Samples
 parent: Samples
+description: Explore code samples for integrating applications and services with SIGNL4.
+permalink: /samples/code-samples/
+redirect_from:
+  - /samples/code-samples/code-samples.html
+  - /samples/code-samples/code-samples
 ---
 
 # SIGNL4 Code Samples

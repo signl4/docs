@@ -1,6 +1,11 @@
 ---
 title: Wazuh
 parent: Integrations
+description: Integrate Wazuh with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/wazuh/
+redirect_from:
+  - /integrations/wazuh/wazuh.html
+  - /integrations/wazuh/wazuh
 ---
 
 # SIGNL4 Integration with Wazuh

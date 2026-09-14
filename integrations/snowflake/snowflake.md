@@ -1,6 +1,11 @@
 ---
 title: Snowflake
 parent: Integrations
+description: Integrate Snowflake with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/snowflake/
+redirect_from:
+  - /integrations/snowflake/snowflake.html
+  - /integrations/snowflake/snowflake
 ---
 
 # SIGNL4 Integration with Snowflake

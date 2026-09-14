@@ -2,6 +2,10 @@
 title: SIINEOS
 parent: Integrations
 description: Integrate SIINEOS with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/siineos/
+redirect_from:
+  - /integrations/siineos/siineos.html
+  - /integrations/siineos/siineos
 ---
 
 # SIGNL4 Integration with SIINEOS

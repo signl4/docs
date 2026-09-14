@@ -1,6 +1,11 @@
 ---
 title: REST API Samples
 parent: Samples
+description: Explore practical examples for working with the SIGNL4 REST API.
+permalink: /samples/rest-api-samples/
+redirect_from:
+  - /samples/rest-api-samples/rest-api-samples.html
+  - /samples/rest-api-samples/rest-api-samples
 ---
 
 # SIGNL4 REST API Samples

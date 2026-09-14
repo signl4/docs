@@ -1,6 +1,11 @@
 ---
 title: RudderStack
 parent: Integrations
+description: Integrate RudderStack with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/rudderstack/
+redirect_from:
+  - /integrations/rudderstack/rudderstack.html
+  - /integrations/rudderstack/rudderstack
 ---
 
 # SIGNL4 Integration with RudderStack

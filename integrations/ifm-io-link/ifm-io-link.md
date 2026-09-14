@@ -1,6 +1,11 @@
 ---
 title: ifm IO-Link
 parent: Integrations
+description: Integrate ifm IO-Link with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/ifm-io-link/
+redirect_from:
+  - /integrations/ifm-io-link/ifm-io-link.html
+  - /integrations/ifm-io-link/ifm-io-link
 ---
 
 # SIGNL4 Integration with ifm IO-Link

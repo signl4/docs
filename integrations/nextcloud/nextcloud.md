@@ -1,6 +1,11 @@
 ---
 title: Nextcloud
 parent: Integrations
+description: Integrate Nextcloud with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/nextcloud/
+redirect_from:
+  - /integrations/nextcloud/nextcloud.html
+  - /integrations/nextcloud/nextcloud
 ---
 
 # SIGNL4 Integration with Nextcloud

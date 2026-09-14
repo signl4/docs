@@ -1,6 +1,11 @@
 ---
 title: Prometheus Alertmanager
 parent: Integrations
+description: Integrate Prometheus Alertmanager with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/prometheus/
+redirect_from:
+  - /integrations/prometheus/prometheus.html
+  - /integrations/prometheus/prometheus
 ---
 
 # SIGNL4 Integration with Prometheus Alertmanager

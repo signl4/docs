@@ -1,6 +1,11 @@
 ---
 title: Apprise
 parent: Integrations
+description: Integrate Apprise with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/apprise/
+redirect_from:
+  - /integrations/apprise/apprise.html
+  - /integrations/apprise/apprise
 ---
 
 # SIGNL4 Integration with Apprise

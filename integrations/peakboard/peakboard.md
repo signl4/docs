@@ -1,6 +1,11 @@
 ---
 title: Peakboard
 parent: Integrations
+description: Integrate Peakboard with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/peakboard/
+redirect_from:
+  - /integrations/peakboard/peakboard.html
+  - /integrations/peakboard/peakboard
 ---
 
 # SIGNL4 Integration with Peakboard

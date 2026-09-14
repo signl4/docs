@@ -1,6 +1,11 @@
 ---
 title: SCADA Systems
 parent: Integrations
+description: Integrate SCADA Systems with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/scada-systems/
+redirect_from:
+  - /integrations/scada-systems/scada-systems.html
+  - /integrations/scada-systems/scada-systems
 ---
 
 # SIGNL4 Integration with SCADA Systems

@@ -1,6 +1,11 @@
 ---
 title: Sophos
 parent: Integrations
+description: Integrate Sophos with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/sophos/
+redirect_from:
+  - /integrations/sophos/sophos.html
+  - /integrations/sophos/sophos
 ---
 
 # SIGNL4 Integration with Sophos

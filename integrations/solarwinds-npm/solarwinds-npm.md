@@ -1,6 +1,11 @@
 ---
 title: SolarWinds NPM
 parent: Integrations
+description: Integrate SolarWinds NPM with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/solarwinds-npm/
+redirect_from:
+  - /integrations/solarwinds-npm/solarwinds-npm.html
+  - /integrations/solarwinds-npm/solarwinds-npm
 ---
 
 # SIGNL4 Integration with SolarWinds NPM

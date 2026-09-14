@@ -1,6 +1,11 @@
 ---
 title: OTRS
 parent: Integrations
+description: Integrate OTRS with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/otrs/
+redirect_from:
+  - /integrations/otrs/otrs.html
+  - /integrations/otrs/otrs
 ---
 
 # SIGNL4 Integration with OTRS

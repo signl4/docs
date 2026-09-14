@@ -1,6 +1,11 @@
 ---
 title: Atomatik
 parent: Integrations
+description: Integrate Atomatik with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/atomatik/
+redirect_from:
+  - /integrations/atomatik/atomatik.html
+  - /integrations/atomatik/atomatik
 ---
 
 # SIGNL4 Integration with Atomatik

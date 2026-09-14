@@ -1,6 +1,11 @@
 ---
 title: ConnectWise PSA
 parent: Integrations
+description: Integrate ConnectWise PSA with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/connectwise-psa/
+redirect_from:
+  - /integrations/connectwise-psa/connectwise-psa.html
+  - /integrations/connectwise-psa/connectwise-psa
 ---
 
 # SIGNL4 Integration with ConnectWise PSA

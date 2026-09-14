@@ -1,6 +1,11 @@
 ---
 title: Albato
 parent: Integrations
+description: Integrate Albato with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/albato/
+redirect_from:
+  - /integrations/albato/albato.html
+  - /integrations/albato/albato
 ---
 
 # SIGNL4 Integration with Albato

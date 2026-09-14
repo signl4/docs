@@ -1,6 +1,11 @@
 ---
 title: LibreNMS
 parent: Integrations
+description: Integrate LibreNMS with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/librenms/
+redirect_from:
+  - /integrations/librenms/librenms.html
+  - /integrations/librenms/librenms
 ---
 
 # SIGNL4 Integration with LibreNMS

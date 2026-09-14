@@ -1,6 +1,11 @@
 ---
 title: MindCloud
 parent: Integrations
+description: Integrate MindCloud with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/mindcloud/
+redirect_from:
+  - /integrations/mindcloud/mindcloud.html
+  - /integrations/mindcloud/mindcloud
 ---
 
 # SIGNL4 Integration with MindCloud

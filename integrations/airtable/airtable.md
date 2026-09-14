@@ -1,6 +1,11 @@
 ---
 title: Airtable
 parent: Integrations
+description: Integrate Airtable with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/airtable/
+redirect_from:
+  - /integrations/airtable/airtable.html
+  - /integrations/airtable/airtable
 ---
 
 # SIGNL4 Integration with Airtable

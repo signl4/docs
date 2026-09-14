@@ -1,6 +1,11 @@
 ---
 title: Camunda BPM
 parent: Integrations
+description: Integrate Camunda BPM with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/camunda-bpm/
+redirect_from:
+  - /integrations/camunda-bpm/camunda-bpm.html
+  - /integrations/camunda-bpm/camunda-bpm
 ---
 
 # SIGNL4 Integration with Camunda BPM

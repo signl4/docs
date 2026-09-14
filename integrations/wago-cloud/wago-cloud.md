@@ -1,6 +1,11 @@
 ---
 title: WAGO Cloud
 parent: Integrations
+description: Integrate WAGO Cloud with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/wago-cloud/
+redirect_from:
+  - /integrations/wago-cloud/wago-cloud.html
+  - /integrations/wago-cloud/wago-cloud
 ---
 
 # SIGNL4 Integration with WAGO Cloud

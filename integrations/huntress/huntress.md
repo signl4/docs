@@ -1,6 +1,11 @@
 ---
 title: Huntress
 parent: Integrations
+description: Integrate Huntress with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/huntress/
+redirect_from:
+  - /integrations/huntress/huntress.html
+  - /integrations/huntress/huntress
 ---
 
 # SIGNL4 Integration with Huntress

@@ -1,6 +1,11 @@
 ---
 title: Cumulocity
 parent: Integrations
+description: Integrate Cumulocity with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/cumolocity/
+redirect_from:
+  - /integrations/cumolocity/cumolocity.html
+  - /integrations/cumolocity/cumolocity
 ---
 
 # SIGNL4 Integration with Cumulocity

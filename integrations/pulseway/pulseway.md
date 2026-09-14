@@ -1,6 +1,11 @@
 ---
 title: Pulseway
 parent: Integrations
+description: Integrate Pulseway with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/pulseway/
+redirect_from:
+  - /integrations/pulseway/pulseway.html
+  - /integrations/pulseway/pulseway
 ---
 
 # SIGNL4 Integration with Pulseway

@@ -1,6 +1,11 @@
 ---
 title: BarrierSystems
 parent: Integrations
+description: Integrate BarrierSystems with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/barriersystems/
+redirect_from:
+  - /integrations/barriersystems/barriersystems.html
+  - /integrations/barriersystems/barriersystems
 ---
 
 # SIGNL4 Integration with BarrierSystems

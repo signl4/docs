@@ -1,6 +1,11 @@
 ---
 title: Datacake
 parent: Integrations
+description: Integrate Datacake with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/datacake/
+redirect_from:
+  - /integrations/datacake/datacake.html
+  - /integrations/datacake/datacake
 ---
 
 # SIGNL4 Integration with Datacake

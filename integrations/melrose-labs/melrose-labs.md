@@ -1,6 +1,11 @@
 ---
 title: Melrose Labs
 parent: Integrations
+description: Integrate Melrose Labs with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/melrose-labs/
+redirect_from:
+  - /integrations/melrose-labs/melrose-labs.html
+  - /integrations/melrose-labs/melrose-labs
 ---
 
 # SIGNL4 Integration with Melrose Labs

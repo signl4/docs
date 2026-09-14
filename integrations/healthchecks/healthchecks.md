@@ -1,6 +1,11 @@
 ---
 title: Healthchecks.io
 parent: Integrations
+description: Integrate Healthchecks.io with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/healthchecks/
+redirect_from:
+  - /integrations/healthchecks/healthchecks.html
+  - /integrations/healthchecks/healthchecks
 ---
 
 # SIGNL4 Integration with Healthchecks.io

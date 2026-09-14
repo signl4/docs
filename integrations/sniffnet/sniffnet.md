@@ -1,6 +1,11 @@
 ---
 title: Sniffnet
 parent: Integrations
+description: Integrate Sniffnet with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/sniffnet/
+redirect_from:
+  - /integrations/sniffnet/sniffnet.html
+  - /integrations/sniffnet/sniffnet
 ---
 
 # SIGNL4 Integration with Sniffnet

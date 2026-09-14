@@ -1,6 +1,11 @@
 ---
 title: ConnectWise Automate
 parent: Integrations
+description: Integrate ConnectWise Automate with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/connectwise-automate/
+redirect_from:
+  - /integrations/connectwise-automate/connectwise-automate.html
+  - /integrations/connectwise-automate/connectwise-automate
 ---
 
 # SIGNL4 Integration with ConnectWise Automate

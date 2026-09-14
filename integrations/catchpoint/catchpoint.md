@@ -1,6 +1,11 @@
 ---
 title: Catchpoint
 parent: Integrations
+description: Integrate Catchpoint with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/catchpoint/
+redirect_from:
+  - /integrations/catchpoint/catchpoint.html
+  - /integrations/catchpoint/catchpoint
 ---
 
 # SIGNL4 Integration with Catchpoint

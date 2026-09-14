@@ -1,6 +1,11 @@
 ---
 title: Heartbeat Monitoring
 parent: Integrations
+description: Integrate Heartbeat Monitoring with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/heartbeat-monitoring/
+redirect_from:
+  - /integrations/heartbeat-monitoring/heartbeat-monitoring.html
+  - /integrations/heartbeat-monitoring/heartbeat-monitoring
 ---
 
 # SIGNL4 Heartbeat Monitoring

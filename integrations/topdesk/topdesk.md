@@ -1,6 +1,11 @@
 ---
 title: TOPdesk
 parent: Integrations
+description: Integrate TOPdesk with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/topdesk/
+redirect_from:
+  - /integrations/topdesk/topdesk.html
+  - /integrations/topdesk/topdesk
 ---
 
 # SIGNL4 Integration with TOPdesk

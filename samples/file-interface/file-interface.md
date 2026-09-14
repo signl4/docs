@@ -1,6 +1,11 @@
 ---
 title: File Interface
 parent: Samples
+description: Trigger SIGNL4 alerts from incident or event data stored in CSV or text files.
+permalink: /samples/file-interface/
+redirect_from:
+  - /samples/file-interface/file-interface.html
+  - /samples/file-interface/file-interface
 ---
 
 # SIGNL4 File Interface

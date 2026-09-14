@@ -1,6 +1,11 @@
 ---
 title: Honeycomb
 parent: Integrations
+description: Integrate Honeycomb with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/honeycomb/
+redirect_from:
+  - /integrations/honeycomb/honeycomb.html
+  - /integrations/honeycomb/honeycomb
 ---
 
 # SIGNL4 Integration with Honeycomb

@@ -1,6 +1,11 @@
 ---
 title: Microsoft Dynamics 365
 parent: Integrations
+description: Integrate Microsoft Dynamics 365 with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/microsoft-dynamics-365/
+redirect_from:
+  - /integrations/microsoft-dynamics-365/microsoft-dynamics-365.html
+  - /integrations/microsoft-dynamics-365/microsoft-dynamics-365
 ---
 
 # SIGNL4 Integration with Microsoft Dynamics 365

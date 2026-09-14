@@ -1,6 +1,11 @@
 ---
 title: UptimeRobot
 parent: Integrations
+description: Integrate UptimeRobot with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/uptimerobot/
+redirect_from:
+  - /integrations/uptimerobot/uptimerobot.html
+  - /integrations/uptimerobot/uptimerobot
 ---
 
 # SIGNL4 Integration with UptimeRobot

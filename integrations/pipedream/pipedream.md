@@ -1,6 +1,11 @@
 ---
 title: Pipedream
 parent: Integrations
+description: Integrate Pipedream with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/pipedream/
+redirect_from:
+  - /integrations/pipedream/pipedream.html
+  - /integrations/pipedream/pipedream
 ---
 
 # SIGNL4 Integration with Pipedream

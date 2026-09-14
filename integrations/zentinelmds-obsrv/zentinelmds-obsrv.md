@@ -1,6 +1,11 @@
 ---
 title: ZentinelMDS Obsrv!
 parent: Integrations
+description: Integrate ZentinelMDS Obsrv! with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/zentinelmds-obsrv/
+redirect_from:
+  - /integrations/zentinelmds-obsrv/zentinelmds-obsrv.html
+  - /integrations/zentinelmds-obsrv/zentinelmds-obsrv
 ---
 
 # SIGNL4 Integration with ZentinelMDS Obsrv!

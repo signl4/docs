@@ -1,6 +1,11 @@
 ---
 title: Vibe Coding
 parent: Samples
+description: Build a heartbeat and cron-job monitoring sample for SIGNL4 with AI-assisted coding.
+permalink: /samples/vibe-coding/
+redirect_from:
+  - /samples/vibe-coding/vibe-coding.html
+  - /samples/vibe-coding/vibe-coding
 ---
 
 # Vibe Coding with SIGNL4

@@ -1,6 +1,11 @@
 ---
 title: NetCrunch
 parent: Integrations
+description: Integrate NetCrunch with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/netcrunch/
+redirect_from:
+  - /integrations/netcrunch/netcrunch.html
+  - /integrations/netcrunch/netcrunch
 ---
 
 # SIGNL4 Integration with NetCrunch

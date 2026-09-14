@@ -1,6 +1,11 @@
 ---
 title: AppOptics
 parent: Integrations
+description: Integrate AppOptics with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/appoptics/
+redirect_from:
+  - /integrations/appoptics/appoptics.html
+  - /integrations/appoptics/appoptics
 ---
 
 # SIGNL4 Integration with AppOptics

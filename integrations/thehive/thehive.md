@@ -1,6 +1,11 @@
 ---
 title: TheHive
 parent: Integrations
+description: Integrate TheHive with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/thehive/
+redirect_from:
+  - /integrations/thehive/thehive.html
+  - /integrations/thehive/thehive
 ---
 
 # SIGNL4 Integration with TheHive

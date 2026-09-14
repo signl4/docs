@@ -1,6 +1,11 @@
 ---
 title: Twilio Segment
 parent: Integrations
+description: Integrate Twilio Segment with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/twilio-segment/
+redirect_from:
+  - /integrations/twilio-segment/twilio-segment.html
+  - /integrations/twilio-segment/twilio-segment
 ---
 
 # SIGNL4 Integration with Twilio Segment

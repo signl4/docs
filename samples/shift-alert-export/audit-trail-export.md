@@ -1,6 +1,11 @@
 ---
 title: Shift and Alert Export
 parent: Samples
+description: Export SIGNL4 shift and alert data for reporting, auditing and further processing.
+permalink: /samples/shift-alert-export/
+redirect_from:
+  - /samples/shift-alert-export/shift-alert-export.html
+  - /samples/shift-alert-export/shift-alert-export
 ---
 
 # SIGNL4 Shift and Alert Export

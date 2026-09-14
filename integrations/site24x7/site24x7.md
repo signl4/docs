@@ -1,6 +1,11 @@
 ---
 title: Site24x7
 parent: Integrations
+description: Integrate Site24x7 with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/site24x7/
+redirect_from:
+  - /integrations/site24x7/site24x7.html
+  - /integrations/site24x7/site24x7
 ---
 
 # SIGNL4 Integration with Site24x7

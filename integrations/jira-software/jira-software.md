@@ -1,6 +1,11 @@
 ---
 title: Jira Software
 parent: Integrations
+description: Integrate Jira Software with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/jira-software/
+redirect_from:
+  - /integrations/jira-software/jira-software.html
+  - /integrations/jira-software/jira-software
 ---
 
 # SIGNL4 Integration with Jira Software

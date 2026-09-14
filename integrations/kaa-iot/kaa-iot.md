@@ -1,6 +1,11 @@
 ---
 title: Kaa IoT
 parent: Integrations
+description: Integrate Kaa IoT with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/kaa-iot/
+redirect_from:
+  - /integrations/kaa-iot/kaa-iot.html
+  - /integrations/kaa-iot/kaa-iot
 ---
 
 # SIGNL4 Integration with Kaa IoT

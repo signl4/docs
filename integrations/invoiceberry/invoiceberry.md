@@ -1,6 +1,11 @@
 ---
 title: InvoiceBerry
 parent: Integrations
+description: Integrate InvoiceBerry with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/invoiceberry/
+redirect_from:
+  - /integrations/invoiceberry/invoiceberry.html
+  - /integrations/invoiceberry/invoiceberry
 ---
 
 # SIGNL4 Integration with InvoiceBerry

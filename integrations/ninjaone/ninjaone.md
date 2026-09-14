@@ -1,6 +1,11 @@
 ---
 title: NinjaOne
 parent: Integrations
+description: Integrate NinjaOne with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/ninjaone/
+redirect_from:
+  - /integrations/ninjaone/ninjaone.html
+  - /integrations/ninjaone/ninjaone
 ---
 
 # SIGNL4 Integration with NinjaOne

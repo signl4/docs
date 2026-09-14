@@ -1,6 +1,11 @@
 ---
 title: ZigiOps
 parent: Integrations
+description: Integrate ZigiOps with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/zigiops/
+redirect_from:
+  - /integrations/zigiops/zigiops.html
+  - /integrations/zigiops/zigiops
 ---
 # SIGNL4 Integration with ZigiOps
 

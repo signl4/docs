@@ -1,6 +1,11 @@
 ---
 title: elastic.io
 parent: Integrations
+description: Integrate elastic.io with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/elastic-io/
+redirect_from:
+  - /integrations/elastic-io/elastic-io.html
+  - /integrations/elastic-io/elastic-io
 ---
 
 # SIGNL4 Integration with elastic.io

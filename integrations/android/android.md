@@ -1,6 +1,11 @@
 ---
 title: Android
 parent: Integrations
+description: Integrate Android with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/android/
+redirect_from:
+  - /integrations/android/android.html
+  - /integrations/android/android
 ---
 
 # SIGNL4 Integration with Android

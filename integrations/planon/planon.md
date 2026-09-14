@@ -1,6 +1,11 @@
 ---
 title: Planon (Axonize)
 parent: Integrations
+description: Integrate Planon (Axonize) with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/planon/
+redirect_from:
+  - /integrations/planon/planon.html
+  - /integrations/planon/planon
 ---
 
 # SIGNL4 Integration with Planon (Axonize)

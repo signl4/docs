@@ -1,6 +1,11 @@
 ---
 title: Microsoft SQL Server
 parent: Integrations
+description: Integrate Microsoft SQL Server with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/microsoft-sql-server/
+redirect_from:
+  - /integrations/microsoft-sql-server/microsoft-sql-server.html
+  - /integrations/microsoft-sql-server/microsoft-sql-server
 ---
 
 # SIGNL4 Integration with Microsoft SQL Server

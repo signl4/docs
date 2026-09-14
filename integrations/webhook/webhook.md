@@ -1,6 +1,11 @@
 ---
 title: Webhook
 parent: Integrations
+description: Integrate Webhook with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/webhook/
+redirect_from:
+  - /integrations/webhook/webhook.html
+  - /integrations/webhook/webhook
 ---
 
 # SIGNL4 Integration with Webhook

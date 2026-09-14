@@ -1,6 +1,11 @@
 ---
 title: Icinga
 parent: Integrations
+description: Integrate Icinga with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/icinga/
+redirect_from:
+  - /integrations/icinga/icinga.html
+  - /integrations/icinga/icinga
 ---
 
 # SIGNL4 Integration with Icinga

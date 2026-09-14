@@ -2,6 +2,10 @@
 title: Node-RED
 parent: Integrations
 description: Integrate Node-RED with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/node-red/
+redirect_from:
+  - /integrations/node-red/node-red.html
+  - /integrations/node-red/node-red
 ---
 
 # SIGNL4 Integration with Node-RED

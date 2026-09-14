@@ -1,6 +1,11 @@
 ---
 title: Spiceworks
 parent: Integrations
+description: Integrate Spiceworks with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/spiceworks/
+redirect_from:
+  - /integrations/spiceworks/spiceworks.html
+  - /integrations/spiceworks/spiceworks
 ---
 
 # SIGNL4 Integration with Spiceworks

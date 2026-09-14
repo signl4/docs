@@ -1,6 +1,11 @@
 ---
 title: Otera
 parent: Integrations
+description: Integrate Otera with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/otera/
+redirect_from:
+  - /integrations/otera/otera.html
+  - /integrations/otera/otera
 ---
 
 # SIGNL4 Integration with Otera

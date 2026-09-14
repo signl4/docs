@@ -1,6 +1,11 @@
 ---
 title: BigPanda
 parent: Integrations
+description: Integrate BigPanda with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/bigpanda/
+redirect_from:
+  - /integrations/bigpanda/bigpanda.html
+  - /integrations/bigpanda/bigpanda
 ---
 
 # SIGNL4 Integration with BigPanda

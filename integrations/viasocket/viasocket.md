@@ -1,6 +1,11 @@
 ---
 title: viaSocket
 parent: Integrations
+description: Integrate viaSocket with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/viasocket/
+redirect_from:
+  - /integrations/viasocket/viasocket.html
+  - /integrations/viasocket/viasocket
 ---
 
 # SIGNL4 Integration with viaSocket

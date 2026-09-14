@@ -1,6 +1,11 @@
 ---
 title: Autocode
 parent: Integrations
+description: Integrate Autocode with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/autocode/
+redirect_from:
+  - /integrations/autocode/autocode.html
+  - /integrations/autocode/autocode
 ---
 
 # SIGNL4 Integration with Autocode

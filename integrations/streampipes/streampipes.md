@@ -1,6 +1,11 @@
 ---
 title: StreamPipes
 parent: Integrations
+description: Integrate StreamPipes with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/streampipes/
+redirect_from:
+  - /integrations/streampipes/streampipes.html
+  - /integrations/streampipes/streampipes
 ---
 
 # SIGNL4 Integration with Apache StreamPipes

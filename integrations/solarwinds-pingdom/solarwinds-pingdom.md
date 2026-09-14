@@ -1,6 +1,11 @@
 ---
 title: SolarWinds Pingdom
 parent: Integrations
+description: Integrate SolarWinds Pingdom with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/solarwinds-pingdom/
+redirect_from:
+  - /integrations/solarwinds-pingdom/solarwinds-pingdom.html
+  - /integrations/solarwinds-pingdom/solarwinds-pingdom
 ---
 
 # SIGNL4 Integration with SolarWinds Pingdom

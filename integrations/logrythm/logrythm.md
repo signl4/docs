@@ -1,6 +1,11 @@
 ---
 title: LogRythm
 parent: Integrations
+description: Integrate LogRythm with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/logrythm/
+redirect_from:
+  - /integrations/logrythm/logrythm.html
+  - /integrations/logrythm/logrythm
 ---
 
 # SIGNL4 Integration with LogRythm

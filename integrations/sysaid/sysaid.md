@@ -1,6 +1,11 @@
 ---
 title: SysAid
 parent: Integrations
+description: Integrate SysAid with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/sysaid/
+redirect_from:
+  - /integrations/sysaid/sysaid.html
+  - /integrations/sysaid/sysaid
 ---
 
 # SIGNL4 Integration with SysAid

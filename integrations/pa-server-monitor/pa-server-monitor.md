@@ -1,6 +1,11 @@
 ---
 title: PA Server Monitor
 parent: Integrations
+description: Integrate PA Server Monitor with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/pa-server-monitor/
+redirect_from:
+  - /integrations/pa-server-monitor/pa-server-monitor.html
+  - /integrations/pa-server-monitor/pa-server-monitor
 ---
 
 # SIGNL4 Integration with PA Server Monitor

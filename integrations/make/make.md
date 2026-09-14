@@ -2,6 +2,10 @@
 title: Make.com
 parent: Integrations
 description: Integrate Make with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/make/
+redirect_from:
+  - /integrations/make/make.html
+  - /integrations/make/make
 ---
 
 # SIGNL4 Integration with Make.com

@@ -1,6 +1,11 @@
 ---
 title: Uptime
 parent: Integrations
+description: Integrate Uptime with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/uptime/
+redirect_from:
+  - /integrations/uptime/uptime.html
+  - /integrations/uptime/uptime
 ---
 
 # SIGNL4 Integration with Uptime

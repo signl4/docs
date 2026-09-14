@@ -1,6 +1,11 @@
 ---
 title: EasyVista Service Manager
 parent: Integrations
+description: Integrate EasyVista Service Manager with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/easyvista-service-manager/
+redirect_from:
+  - /integrations/easyvista-service-manager/easyvista-service-manager.html
+  - /integrations/easyvista-service-manager/easyvista-service-manager
 ---
 
 # SIGNL4 Integration with EasyVista Service Manager

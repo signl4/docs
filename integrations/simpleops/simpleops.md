@@ -1,6 +1,11 @@
 ---
 title: SimpleOps
 parent: Integrations
+description: Integrate SimpleOps with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/simpleops/
+redirect_from:
+  - /integrations/simpleops/simpleops.html
+  - /integrations/simpleops/simpleops
 ---
 
 # SIGNL4 Integration with SimpleOps

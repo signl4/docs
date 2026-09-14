@@ -1,6 +1,11 @@
 ---
 title: BMC Helix ITSM
 parent: Integrations
+description: Integrate BMC Helix ITSM with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/bmc-helix-itsm/
+redirect_from:
+  - /integrations/bmc-helix-itsm/bmc-helix-itsm.html
+  - /integrations/bmc-helix-itsm/bmc-helix-itsm
 ---
 
 # SIGNL4 Integration with BMC Helix ITSM

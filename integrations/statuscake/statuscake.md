@@ -1,6 +1,11 @@
 ---
 title: StatusCake
 parent: Integrations
+description: Integrate StatusCake with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/statuscake/
+redirect_from:
+  - /integrations/statuscake/statuscake.html
+  - /integrations/statuscake/statuscake
 ---
 
 # SIGNL4 Integration with StatusCake

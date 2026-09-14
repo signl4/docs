@@ -1,6 +1,11 @@
 ---
 title: Kibana
 parent: Integrations
+description: Integrate Kibana with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/kibana/
+redirect_from:
+  - /integrations/kibana/kibana.html
+  - /integrations/kibana/kibana
 ---
 
 # SIGNL4 Integration with Kibana

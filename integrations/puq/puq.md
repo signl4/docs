@@ -1,6 +1,11 @@
 ---
 title: puq
 parent: Integrations
+description: Integrate puq with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/puq/
+redirect_from:
+  - /integrations/puq/puq.html
+  - /integrations/puq/puq
 ---
 
 # SIGNL4 Integration with puq

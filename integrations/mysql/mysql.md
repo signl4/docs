@@ -1,6 +1,11 @@
 ---
 title: MySQL
 parent: Integrations
+description: Integrate MySQL with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/mysql/
+redirect_from:
+  - /integrations/mysql/mysql.html
+  - /integrations/mysql/mysql
 ---
 
 # SIGNL4 Integration with MySQL

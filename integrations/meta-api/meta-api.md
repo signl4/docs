@@ -1,6 +1,11 @@
 ---
 title: Meta API
 parent: Integrations
+description: Integrate Meta API with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/meta-api/
+redirect_from:
+  - /integrations/meta-api/meta-api.html
+  - /integrations/meta-api/meta-api
 ---
 
 # SIGNL4 Integration with Meta API

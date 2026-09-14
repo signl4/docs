@@ -1,6 +1,11 @@
 ---
 title: CloudMonix
 parent: Integrations
+description: Integrate CloudMonix with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/cloudmonix/
+redirect_from:
+  - /integrations/cloudmonix/cloudmonix.html
+  - /integrations/cloudmonix/cloudmonix
 ---
 
 # SIGNL4 Integration with CloudMonix

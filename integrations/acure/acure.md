@@ -1,6 +1,11 @@
 ---
 title: Acure
 parent: Integrations
+description: Integrate Acure with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/acure/
+redirect_from:
+  - /integrations/acure/acure.html
+  - /integrations/acure/acure
 ---
 
 # SIGNL4 Integration with Acure

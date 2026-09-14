@@ -1,6 +1,11 @@
 ---
 title: SAP
 parent: Integrations
+description: Integrate SAP with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/sap/
+redirect_from:
+  - /integrations/sap/sap.html
+  - /integrations/sap/sap
 ---
 
 # SIGNL4 Integration with SAP

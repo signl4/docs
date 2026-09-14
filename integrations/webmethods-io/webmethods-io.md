@@ -1,6 +1,11 @@
 ---
 title: webMethods.io
 parent: Integrations
+description: Integrate webMethods.io with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/webmethods-io/
+redirect_from:
+  - /integrations/webmethods-io/webmethods-io.html
+  - /integrations/webmethods-io/webmethods-io
 ---
 
 # SIGNL4 Integration with Software AG Cloud webMethods.io

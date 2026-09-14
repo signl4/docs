@@ -1,6 +1,11 @@
 ---
 title: AppDynamics
 parent: Integrations
+description: Integrate AppDynamics with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/appdynamics/
+redirect_from:
+  - /integrations/appdynamics/appdynamics.html
+  - /integrations/appdynamics/appdynamics
 ---
 
 # SIGNL4 Integration with AppDynamics

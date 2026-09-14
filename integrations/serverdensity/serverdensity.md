@@ -1,6 +1,11 @@
 ---
 title: Server Density
 parent: Integrations
+description: Integrate Server Density with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/serverdensity/
+redirect_from:
+  - /integrations/serverdensity/serverdensity.html
+  - /integrations/serverdensity/serverdensity
 ---
 
 # SIGNL4 Integration with Server Density

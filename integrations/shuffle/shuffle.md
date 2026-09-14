@@ -2,6 +2,10 @@
 title: Shuffle
 parent: Integrations
 description: Integrate Shelly with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/shuffle/
+redirect_from:
+  - /integrations/shuffle/shuffle.html
+  - /integrations/shuffle/shuffle
 ---
 
 # SIGNL4 Integration with Shuffle

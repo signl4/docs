@@ -1,6 +1,11 @@
 ---
 title: Netdata
 parent: Integrations
+description: Integrate Netdata with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/netdata/
+redirect_from:
+  - /integrations/netdata/netdata.html
+  - /integrations/netdata/netdata
 ---
 
 # SIGNL4 Integration with Netdata

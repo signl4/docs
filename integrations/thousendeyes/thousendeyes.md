@@ -1,6 +1,11 @@
 ---
 title: ThousendEyes
 parent: Integrations
+description: Integrate ThousendEyes with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/thousendeyes/
+redirect_from:
+  - /integrations/thousendeyes/thousendeyes.html
+  - /integrations/thousendeyes/thousendeyes
 ---
 
 # SIGNL4 Integration with ThousendEyes

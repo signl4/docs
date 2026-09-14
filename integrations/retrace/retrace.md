@@ -1,6 +1,11 @@
 ---
 title: Retrace
 parent: Integrations
+description: Integrate Retrace with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/retrace/
+redirect_from:
+  - /integrations/retrace/retrace.html
+  - /integrations/retrace/retrace
 ---
 
 # SIGNL4 Integration with Retrace by Stackify

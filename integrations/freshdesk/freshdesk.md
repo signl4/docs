@@ -1,6 +1,11 @@
 ---
 title: Freshdesk
 parent: Integrations
+description: Integrate Freshdesk with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/freshdesk/
+redirect_from:
+  - /integrations/freshdesk/freshdesk.html
+  - /integrations/freshdesk/freshdesk
 ---
 
 # SIGNL4 Integration with Freshdesk

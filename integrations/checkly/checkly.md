@@ -1,6 +1,11 @@
 ---
 title: Checkly
 parent: Integrations
+description: Integrate Checkly with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/checkly/
+redirect_from:
+  - /integrations/checkly/checkly.html
+  - /integrations/checkly/checkly
 ---
 
 # SIGNL4 Integration with Checkly

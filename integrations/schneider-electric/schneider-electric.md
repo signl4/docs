@@ -1,6 +1,11 @@
 ---
 title: Schneider Electric
 parent: Integrations
+description: Integrate Schneider Electric with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/schneider-electric/
+redirect_from:
+  - /integrations/schneider-electric/schneider-electric.html
+  - /integrations/schneider-electric/schneider-electric
 ---
 
 # SIGNL4 Integration with Schneider Electric

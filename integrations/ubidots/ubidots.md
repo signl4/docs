@@ -1,6 +1,11 @@
 ---
 title: Ubidots
 parent: Integrations
+description: Integrate Ubidots with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/ubidots/
+redirect_from:
+  - /integrations/ubidots/ubidots.html
+  - /integrations/ubidots/ubidots
 ---
 
 # SIGNL4 Integration with Ubidots

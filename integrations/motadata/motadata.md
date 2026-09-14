@@ -1,6 +1,11 @@
 ---
 title: Motadata
 parent: Integrations
+description: Integrate Motadata with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/motadata/
+redirect_from:
+  - /integrations/motadata/motadata.html
+  - /integrations/motadata/motadata
 ---
 
 # SIGNL4 Integration with Motadata

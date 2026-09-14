@@ -1,6 +1,11 @@
 ---
 title: Nagios
 parent: Integrations
+description: Integrate Nagios with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/nagios/
+redirect_from:
+  - /integrations/nagios/nagios.html
+  - /integrations/nagios/nagios
 ---
 
 # SIGNL4 Integration with Nagios

@@ -1,6 +1,11 @@
 ---
 title: NetApp Cloud Insights
 parent: Integrations
+description: Integrate NetApp Cloud Insights with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/netapp-cloud-insights/
+redirect_from:
+  - /integrations/netapp-cloud-insights/netapp-cloud-insights.html
+  - /integrations/netapp-cloud-insights/netapp-cloud-insights
 ---
 
 # SIGNL4 Integration with NetApp Cloud Insights

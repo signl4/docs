@@ -1,6 +1,11 @@
 ---
 title: HetrixTools
 parent: Integrations
+description: Integrate HetrixTools with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/hetrixtools/
+redirect_from:
+  - /integrations/hetrixtools/hetrixtools.html
+  - /integrations/hetrixtools/hetrixtools
 ---
 
 # SIGNL4 Integration with HetrixTools

@@ -1,6 +1,11 @@
 ---
 title: GitHub Actions
 parent: Integrations
+description: Integrate GitHub Actions with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/github-actions/
+redirect_from:
+  - /integrations/github-actions/github-actions.html
+  - /integrations/github-actions/github-actions
 ---
 
 # SIGNL4 Integration with GitHub Actions

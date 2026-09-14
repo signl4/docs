@@ -1,6 +1,11 @@
 ---
 title: EventSentry
 parent: Integrations
+description: Integrate EventSentry with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/eventsentry/
+redirect_from:
+  - /integrations/eventsentry/eventsentry.html
+  - /integrations/eventsentry/eventsentry
 ---
 
 # SIGNL4 Integration with EventSentry

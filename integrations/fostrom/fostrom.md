@@ -1,6 +1,11 @@
 ---
 title: Fostrom
 parent: Integrations
+description: Integrate Fostrom with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/fostrom/
+redirect_from:
+  - /integrations/fostrom/fostrom.html
+  - /integrations/fostrom/fostrom
 ---
 
 # SIGNL4 Integration with Fostrom

@@ -1,6 +1,11 @@
 ---
 title: Gimasi Service Button
 parent: Integrations
+description: Integrate Gimasi Service Button with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/gimasi/
+redirect_from:
+  - /integrations/gimasi/gimasi.html
+  - /integrations/gimasi/gimasi
 ---
 
 # SIGNL4 Integration with Gimasi Service Button

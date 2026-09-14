@@ -1,6 +1,11 @@
 ---
 title: Web-IO from W&T
 parent: Integrations
+description: Integrate Web-IO from W&T with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/wut-web-io/
+redirect_from:
+  - /integrations/wut-web-io/wut-web-io.html
+  - /integrations/wut-web-io/wut-web-io
 ---
 
 # SIGNL4 Integration with Web-IO from Wiesemann and Theis 

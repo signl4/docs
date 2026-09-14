@@ -1,6 +1,11 @@
 ---
 title: CloudFit
 parent: Integrations
+description: Integrate CloudFit with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/cloudfit/
+redirect_from:
+  - /integrations/cloudfit/cloudfit.html
+  - /integrations/cloudfit/cloudfit
 ---
 
 # SIGNL4 Integration with CloudFit

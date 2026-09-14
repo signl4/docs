@@ -1,6 +1,11 @@
 ---
 title: WhatsUp Gold
 parent: Integrations
+description: Integrate WhatsUp Gold with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/whatsup-gold/
+redirect_from:
+  - /integrations/whatsup-gold/whatsup-gold.html
+  - /integrations/whatsup-gold/whatsup-gold
 ---
 # SIGNL4 Integration with WhatsUp Gold
 

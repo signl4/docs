@@ -1,6 +1,11 @@
 ---
 title: Instana
 parent: Integrations
+description: Integrate Instana with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/instana/
+redirect_from:
+  - /integrations/instana/instana.html
+  - /integrations/instana/instana
 ---
 
 # SIGNL4 Integration with Instana

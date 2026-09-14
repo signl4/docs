@@ -1,6 +1,11 @@
 ---
 title: HaloPSA
 parent: Integrations
+description: Integrate HaloPSA with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/halopsa/
+redirect_from:
+  - /integrations/halopsa/halopsa.html
+  - /integrations/halopsa/halopsa
 ---
 
 # SIGNL4 Integration with HaloPSA

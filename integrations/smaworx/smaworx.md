@@ -1,6 +1,11 @@
 ---
 title: SMAWORX
 parent: Integrations
+description: Integrate SMAWORX with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/smaworx/
+redirect_from:
+  - /integrations/smaworx/smaworx.html
+  - /integrations/smaworx/smaworx
 ---
 
 # SIGNL4 Integration with SMAWORX

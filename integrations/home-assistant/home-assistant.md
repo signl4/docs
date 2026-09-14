@@ -1,6 +1,11 @@
 ---
 title: Home Assistant
 parent: Integrations
+description: Integrate Home Assistant with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/home-assistant/
+redirect_from:
+  - /integrations/home-assistant/home-assistant.html
+  - /integrations/home-assistant/home-assistant
 ---
 
 # SIGNL4 Integration with Home Assistant

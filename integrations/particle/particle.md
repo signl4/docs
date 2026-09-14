@@ -1,6 +1,11 @@
 ---
 title: Particle
 parent: Integrations
+description: Integrate Particle with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/particle/
+redirect_from:
+  - /integrations/particle/particle.html
+  - /integrations/particle/particle
 ---
 
 # SIGNL4 Integration with Particle

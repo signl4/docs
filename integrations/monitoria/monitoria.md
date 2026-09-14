@@ -1,6 +1,11 @@
 ---
 title: Monitoria
 parent: Integrations
+description: Integrate Monitoria with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/monitoria/
+redirect_from:
+  - /integrations/monitoria/monitoria.html
+  - /integrations/monitoria/monitoria
 ---
 
 # SIGNL4 Integration with Monitoria

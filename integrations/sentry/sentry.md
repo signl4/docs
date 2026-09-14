@@ -1,6 +1,11 @@
 ---
 title: Sentry
 parent: Integrations
+description: Integrate Sentry with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/sentry/
+redirect_from:
+  - /integrations/sentry/sentry.html
+  - /integrations/sentry/sentry
 ---
 
 # SIGNL4 Integration with Sentry

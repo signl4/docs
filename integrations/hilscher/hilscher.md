@@ -1,6 +1,11 @@
 ---
 title: Hilscher
 parent: Integrations
+description: Integrate Hilscher with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/hilscher/
+redirect_from:
+  - /integrations/hilscher/hilscher.html
+  - /integrations/hilscher/hilscher
 ---
 
 # SIGNL4 Integration with Hilscher

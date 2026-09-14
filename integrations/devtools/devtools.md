@@ -1,6 +1,11 @@
 ---
 title: DevTools
 parent: Integrations
+description: Integrate DevTools with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/devtools/
+redirect_from:
+  - /integrations/devtools/devtools.html
+  - /integrations/devtools/devtools
 ---
 
 # SIGNL4 Integration with DevTools

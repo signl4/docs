@@ -1,6 +1,11 @@
 ---
 title: AWS CloudWatch
 parent: Integrations
+description: Integrate AWS CloudWatch with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/aws-cloudwatch/
+redirect_from:
+  - /integrations/aws-cloudwatch/aws-cloudwatch.html
+  - /integrations/aws-cloudwatch/aws-cloudwatch
 ---
 
 # SIGNL4 Integration with AWS CloudWatch

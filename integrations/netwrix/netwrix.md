@@ -1,6 +1,11 @@
 ---
 title: Netwrix
 parent: Integrations
+description: Integrate Netwrix with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/netwrix/
+redirect_from:
+  - /integrations/netwrix/netwrix.html
+  - /integrations/netwrix/netwrix
 ---
 
 # SIGNL4 Integration with Netwrix

@@ -1,6 +1,11 @@
 ---
 title: Terraform Provider for SIGNL4
 parent: Samples
+description: Manage SIGNL4 resources and configuration as code with Terraform.
+permalink: /samples/terraform/
+redirect_from:
+  - /samples/terraform/terraform.html
+  - /samples/terraform/terraform
 ---
 
 # Terraform Provider for SIGNL4

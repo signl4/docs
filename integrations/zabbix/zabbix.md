@@ -2,6 +2,10 @@
 title: Zabbix
 parent: Integrations
 description: Integrate Zabbix with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
+permalink: /integrations/zabbix/
+redirect_from:
+  - /integrations/zabbix/zabbix.html
+  - /integrations/zabbix/zabbix
 ---
 
 # SIGNL4 Integration with Zabbix
