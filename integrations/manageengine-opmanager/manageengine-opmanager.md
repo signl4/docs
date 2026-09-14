@@ -6,6 +6,7 @@ permalink: /integrations/manageengine-opmanager/
 redirect_from:
   - /integrations/manageengine-opmanager/manageengine-opmanager.html
   - /integrations/manageengine-opmanager/manageengine-opmanager
+  - /integrations/manageengine-opmanager/meopmanager-opmanager.md
 ---
 
 # SIGNL4 Integration with ManageEngine OpManager
