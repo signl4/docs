@@ -52,6 +52,8 @@ Since Zabbix 5.0 SIGNL4 is an integral part of Zabbix and available as a Media T
 
 With SIGNL4 it is also possible to acknowledge, annotate and close alerts directly from the SIGNL4 app. To forward this information back to Zabbix, you need to configure the Zabbix connector in your SIGNL4 portal under Integrations -> Gallery -> Zabbix (<-).
 
+> **Note:** For two-way integrations, SIGNL4 may need to send acknowledgements, status updates, or closures back to an on-premises system. This requires secure inbound connectivity, for example via a firewall, reverse proxy, VPN, tunnel, or gateway. [Learn more about back-channel connectivity](https://docs.signl4.com/samples/back-channel-connectivity/).
+
 With Zabbix 6.4 and higher the authentication method has changed. With SIGNL4 you need to use the Zabbix API Token instead of username and password. You can obtain the Zabbix API token as described [here](https://www.zabbix.com/documentation/current/en/manual/web_interface/frontend_sections/users/api_tokens). Please note that in this case the Apache Web server on Zabbix side needs to pass the Authorization header. If this should not be the case you can check this discussion [here](https://www.zabbix.com/forum/zabbix-troubleshooting-and-problems/465800-python-api-modules-not-working-with-6-4).
 
 For older Zabbix versions SIGNL4 provides a dedicated integration for Zabbix [here](https://www.zabbix.com/integrations/signl4). You can also find the integration scripts on [GitHub](https://github.com/signl4/signl4-integration-zabbix). Just go ahead, download the respective alert scripts from there and follow the instructions on the page.
