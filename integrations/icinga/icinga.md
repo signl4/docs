@@ -105,6 +105,8 @@ For two-way communication there is an Icinga connector app available in SIGNL4 u
 
 In order to use the Connector you need to make sure you have the Icinga API enabled and SIGNL4 alerting activated. The configuration of the Icinga connector app is straightforward. You just need the Icinga API username, password and the public-facing URL to your Icinga server.
 
+> **Note:** For two-way integrations, SIGNL4 may need to send acknowledgements, status updates, or closures back to an on-premises system. This requires secure inbound connectivity, for example via a firewall, reverse proxy, VPN, tunnel, or gateway. [Learn more about back-channel connectivity](https://docs.signl4.com/samples/back-channel-connectivity/).
+
 ![Icinga Two Way Integration with SIGNL4](icinga-two-way-integration-with-signl4.png)
 
 The alert in SIGNL4 might look like this.
