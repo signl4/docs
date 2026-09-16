@@ -55,6 +55,4 @@ _Note: All of the files contained in this article should be used for testing pur
 
 SIGNL4 will now route the alert to the team member on-call and/or On Duty. Further augmentation should be done through the Systems and Services section to color code and categorize alerts.
 
-![Sophos Alert 1](sophos-alert-1.png)
-
-![Sophos Alert 2](sophos-alert-2.png)
+![SIGNL4 Alert](https://docs.signl4.com/assets/images/signl4-alert.png)
