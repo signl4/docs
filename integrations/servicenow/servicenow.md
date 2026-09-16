@@ -102,8 +102,6 @@ In order for 2-way integration to work and for incidents to be updated in Servic
 
 ![SIGNL4 Connector for ServiceNow](signl4-servicenow-connector.png)
 
-> **Note:** For two-way integrations, SIGNL4 may need to send acknowledgements, status updates, or closures back to an on-premises system. This requires secure inbound connectivity, for example via a firewall, reverse proxy, VPN, tunnel, or gateway. [Learn more about back-channel connectivity](https://docs.signl4.com/samples/back-channel-connectivity/).
-
 ## Let’s go – Testing the configuration
 
 Now that you’ve created the SIGNL4 app in ServiceNow and also added the ServiceNow connector app to your SIGNL4 team, you’re finally ready to go. We’ll log a new incident, get it on the SIGNL4 app and will update it from there:
