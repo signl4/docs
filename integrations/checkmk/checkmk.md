@@ -23,6 +23,8 @@ For two-way communication there is a Checkmk connector app available in SIGNL4 u
 
 In order to use the Connector you need to make sure you have Checkmk 2.0 or higher installed and SIGNL4 alerting activated. The configuration of the Checkmk connector app is straightforward. You just need the Checkmk username, password and the public-facing URL to your Checkmk server. The user account needs to have the according access rights for the Checkmk REST API.
 
+> **Note:** For two-way integrations, SIGNL4 may need to send acknowledgements, status updates, or closures back to an on-premises system. This requires secure inbound connectivity, for example via a firewall, reverse proxy, VPN, tunnel, or gateway. [Learn more about back-channel connectivity](https://docs.signl4.com/samples/back-channel-connectivity/).
+
 The following video shows how to integrate SIGNL4 with Checkmk 2.x:
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4-HtakTR4SI?si=bxdbBf-40VLUF5Bi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
