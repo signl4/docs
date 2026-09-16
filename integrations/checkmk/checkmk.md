@@ -36,5 +36,4 @@ You can also find the integration scripts on GitHub: [https://github.com/signl4/
 
 The alert in SIGNL4 might look like this.
 
-![SIGNL4 Alert](signl4-checkmk.png)
-
+![SIGNL4 Alert](signl4-checkmk.webp)
