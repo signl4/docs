@@ -12,6 +12,8 @@ redirect_from:
 
 [xyOps](https://xyops.io/) is an automation and operations platform for running jobs, workflows, monitoring tasks and operational processes.
 
+![xyOps](xyops.webp)
+
 SIGNL4 extends xyOps with reliable mobile alerting, including app push, SMS, voice calls, automated escalations, on-call scheduling and mobile incident response. Using the SIGNL4 Action Plugin, xyOps can notify the right people when jobs or events fail and automatically resolve corresponding SIGNL4 alerts when the same event returns to a successful state.
 
 Some common use cases include:
