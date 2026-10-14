@@ -29,7 +29,7 @@ Common use cases include:
 
 ## How to Integrate
 
-CIQ Cloud includes a **SIGNL4 On-Call** integration. Setup primarily requires adding your SIGNL4 webhook address; CIQ Cloud then lets you choose which alerts should be forwarded.
+CIQ Cloud includes a **SIGNL4 On-Call** integration. Setup primarily requires adding your SIGNL4 webhook address. CIQ Cloud then lets you choose which alerts should be forwarded.
 
 ### 1. Get Your SIGNL4 Webhook Address
 
@@ -39,7 +39,7 @@ In SIGNL4, use your team's webhook endpoint. The address follows this pattern:
 https://connect.signl4.com/webhook/YOUR_SIGNL4_SECRET
 ```
 
-Replace `YOUR_SIGNL4_SECRET` with your actual SIGNL4 team secret. Keep this address private, as it allows alerts to be sent to your team.
+Replace `YOUR_SIGNL4_SECRET` with your actual SIGNL4 team or integration secret. Keep this address private, as it allows alerts to be sent to your team.
 
 ### 2. Configure the Connection in CIQ Cloud
 
