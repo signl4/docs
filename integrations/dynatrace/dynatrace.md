@@ -19,7 +19,7 @@ redirect_from:
 
 This is the easiest and most powerful (two-way) integration.
 
-In your SIGNL4 portal go to Teams -> Apps and activate the Dynatrace app. Here you just need to enter the mentioned parameters and that’s it. Basically you need the URL of your Dynatrace instance and the API key. All parameters are described more in detail directly in the app settings (click the question mark).
+In your SIGNL4 portal go to Integrations -> Gallery and activate the Dynatrace app. Here you just need to enter the mentioned parameters and that’s it. Basically you need the URL of your Dynatrace instance and the API key. All parameters are described more in detail directly in the app settings (click the question mark).
 
 When the setup is complete SIGNL4 will automatically pull new events from Dynatrace and create alerts accordingly.
 
