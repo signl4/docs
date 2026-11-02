@@ -83,6 +83,8 @@ For two-way communication there is a PRTG connector app available in SIGNL4 unde
 
 In order to use the Connector you need to make sure you have SIGNL4 alerting activated in PRTG. The configuration of the PRTG connector app is straightforward. You just need the PRTG username, password and the URL to your PRTG server. Please note that the URL needs to be reachable from the internet (e.g. port 443). The user account needs to have the according access rights for the PRTG API.
 
+> **Note:** For two-way integrations, SIGNL4 may need to send acknowledgements, status updates, or closures back to an on-premises system. This requires secure inbound connectivity, for example via a firewall, reverse proxy, VPN, tunnel, or gateway. [Learn more about back-channel connectivity](https://docs.signl4.com/samples/back-channel-connectivity/).
+
 ## Video Tutorial
 
 This video shows how it works.

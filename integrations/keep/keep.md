@@ -34,6 +34,8 @@ When you trigger a SIGNL4 alert from a new alert in Keep, it is recommended to s
 
 It is also possible to send status updates from SIGNL4 back to Keep, e.g. when an alert in SIGNL4 has been acknowledged, annotated or closed. For this to work you need to configure the back-channel connector app for Keep in SIGNL4. In the SIGNL4 web portal go to Integrations -> Gallery and look for the Keep (<-) connector. Please note that the arrow point to the left. Here you configure your API URL and your API Key. The other parameters are optional. You can find more information about the parameters by hovering over the (?) symbol. When ready, click Install and now status changes in SIGNL4 will reflect in the Keep alert.
 
+> **Note:** For two-way integrations, SIGNL4 may need to send acknowledgements, status updates, or closures back to an on-premises system. This requires secure inbound connectivity, for example via a firewall, reverse proxy, VPN, tunnel, or gateway. [Learn more about back-channel connectivity](https://docs.signl4.com/samples/back-channel-connectivity/).
+
 The alert in SIGNL4 might look like this.
 
 ![SIGNL4 Alert](signl4-keep.png)

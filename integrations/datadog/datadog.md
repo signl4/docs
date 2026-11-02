@@ -141,6 +141,8 @@ You need to configure the following.
 
 **Acknowledgement as Stable**: Acknowledgements set the incident status to Stable.
 
+> **Note:** For two-way integrations, SIGNL4 may need to send acknowledgements, status updates, or closures back to an on-premises system. This requires secure inbound connectivity, for example via a firewall, reverse proxy, VPN, tunnel, or gateway. [Learn more about back-channel connectivity](https://docs.signl4.com/samples/back-channel-connectivity/).
+
 ## Alternative Method (Email)
 
 Inside each monitor there is a section to include a message for an alert. Here is where you add the SIGNL4 email address.
