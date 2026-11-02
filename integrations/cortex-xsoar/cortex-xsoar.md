@@ -1,5 +1,5 @@
 ---
-title: Cortex XSOAR / XSIAM
+title: Cortex XSOAR / XSIAM + SIGNL4 Integration
 parent: Integrations
 description: Integrate Cortex XSOAR / XSIAM with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/cortex-xsoar/

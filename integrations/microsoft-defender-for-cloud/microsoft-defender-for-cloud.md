@@ -1,5 +1,5 @@
 ---
-title: Microsoft Defender for Cloud
+title: Microsoft Defender for Cloud + SIGNL4 Integration
 parent: Integrations
 description: Integrate Microsoft Defender for Cloud with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/microsoft-defender-for-cloud/

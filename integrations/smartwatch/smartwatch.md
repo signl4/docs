@@ -1,5 +1,5 @@
 ---
-title: Smartwatches and Fitness Bands
+title: Smartwatches and Fitness Bands + SIGNL4 Integration
 parent: Integrations
 description: Integrate Smartwatches and Fitness Bands with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/smartwatch/

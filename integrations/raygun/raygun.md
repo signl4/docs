@@ -1,5 +1,5 @@
 ---
-title: Raygun
+title: Raygun + SIGNL4 Integration
 parent: Integrations
 description: Integrate Raygun with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/raygun/

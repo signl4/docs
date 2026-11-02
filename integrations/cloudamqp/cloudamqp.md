@@ -1,5 +1,5 @@
 ---
-title: CloudAMQP
+title: CloudAMQP + SIGNL4 Integration
 parent: Integrations
 description: Integrate CloudAMQP with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/cloudamqp/

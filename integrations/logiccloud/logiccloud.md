@@ -1,5 +1,5 @@
 ---
-title: logiccloud
+title: logiccloud + SIGNL4 Integration
 parent: Integrations
 description: Integrate logiccloud with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/logiccloud/

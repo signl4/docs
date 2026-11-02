@@ -1,5 +1,5 @@
 ---
-title: Acronis
+title: Acronis + SIGNL4 Integration
 parent: Integrations
 description: Integrate Acronis with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/acronis/

@@ -1,5 +1,5 @@
 ---
-title: AVEVA CONNECT (formally Crosser)
+title: AVEVA CONNECT (formally Crosser) + SIGNL4 Integration
 parent: Integrations
 description: Integrate AVEVA CONNECT (formally Crosser) with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/crosser/

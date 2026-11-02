@@ -1,5 +1,5 @@
 ---
-title: UptimeRobot
+title: UptimeRobot + SIGNL4 Integration
 parent: Integrations
 description: Integrate UptimeRobot with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/uptimerobot/

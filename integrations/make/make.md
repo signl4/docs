@@ -1,5 +1,5 @@
 ---
-title: Make.com
+title: Make.com + SIGNL4 Integration
 parent: Integrations
 description: Integrate Make with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/make/

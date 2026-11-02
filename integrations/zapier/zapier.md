@@ -1,5 +1,5 @@
 ---
-title: Zapier
+title: Zapier + SIGNL4 Integration
 parent: Integrations
 description: Integrate Zapier with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/zapier/

@@ -1,5 +1,5 @@
 ---
-title: Telekom IoT Service Button
+title: Telekom IoT Service Button + SIGNL4 Integration
 parent: Integrations
 description: Integrate Telekom IoT Service Button with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/telekom-button/

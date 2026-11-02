@@ -1,5 +1,5 @@
 ---
-title: Amazon Alexa
+title: Amazon Alexa + SIGNL4 Integration
 parent: Integrations
 description: Integrate Amazon Alexa with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/amazon-alexa/

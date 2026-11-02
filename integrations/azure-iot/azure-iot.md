@@ -1,5 +1,5 @@
 ---
-title: Azure IoT
+title: Azure IoT + SIGNL4 Integration
 parent: Integrations
 description: Integrate Azure IoT with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/azure-iot/

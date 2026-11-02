@@ -1,5 +1,5 @@
 ---
-title: viaSocket
+title: viaSocket + SIGNL4 Integration
 parent: Integrations
 description: Integrate viaSocket with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/viasocket/

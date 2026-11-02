@@ -1,5 +1,5 @@
 ---
-title: ELEMENT IoT
+title: ELEMENT IoT + SIGNL4 Integration
 parent: Integrations
 description: Integrate ELEMENT IoT with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/element-iot/

@@ -1,5 +1,5 @@
 ---
-title: Surveillance Cameras
+title: Surveillance Cameras + SIGNL4 Integration
 parent: Integrations
 description: Integrate Surveillance Cameras with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/surveillance-cameras/

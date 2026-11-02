@@ -1,5 +1,5 @@
 ---
-title: n8n
+title: n8n + SIGNL4 Integration
 parent: Integrations
 description: Integrate n8n with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/n8n/

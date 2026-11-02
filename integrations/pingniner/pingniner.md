@@ -1,5 +1,5 @@
 ---
-title: Pingniner
+title: Pingniner + SIGNL4 Integration
 parent: Integrations
 description: Integrate Pingniner with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/pingniner/
