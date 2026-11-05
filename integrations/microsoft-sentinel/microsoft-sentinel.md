@@ -1,5 +1,6 @@
 ---
-title: Microsoft Sentinel + SIGNL4 Integration
+title: Microsoft Sentinel
+title_category: Microsoft Sentinel + SIGNL4 Integration
 parent: Integrations
 description: Integrate Microsoft Sentinel with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/microsoft-sentinel/

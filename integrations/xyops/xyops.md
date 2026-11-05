@@ -1,5 +1,6 @@
 ---
 title: xyOps
+title_category: xyOps + SIGNL4 Integration
 parent: Integrations
 description: Integrate xyOps with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements, automated escalation and alert resolution.
 permalink: /integrations/xyops/

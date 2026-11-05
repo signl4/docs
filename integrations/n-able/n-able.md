@@ -1,5 +1,6 @@
 ---
-title: N-able + SIGNL4 Integration
+title: N-able
+title_category: N-able + SIGNL4 Integration
 parent: Integrations
 description: Integrate N-able with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/n-able/

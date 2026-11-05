@@ -1,5 +1,6 @@
 ---
 title: i-Vertix
+title_category: i-Vertix + SIGNL4 Integration
 parent: Integrations
 description: Integrate i-Vertix with SIGNL4 for mobile monitoring alerts, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/i-vertix/

@@ -1,5 +1,6 @@
 ---
-title: Netreo + SIGNL4 Integration
+title: Netreo
+title_category: Netreo + SIGNL4 Integration
 parent: Integrations
 description: Integrate Netreo with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/netreo/

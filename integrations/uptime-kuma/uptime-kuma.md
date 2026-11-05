@@ -1,5 +1,6 @@
 ---
-title: Uptime Kuma + SIGNL4 Integration
+title: Uptime Kuma
+title_category: Uptime Kuma + SIGNL4 Integration
 parent: Integrations
 description: Integrate Uptime Kuma with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/uptime-kuma/

@@ -1,5 +1,6 @@
 ---
-title: ThingsBoard + SIGNL4 Integration
+title: ThingsBoard
+title_category: ThingsBoard + SIGNL4 Integration
 parent: Integrations
 description: Integrate ThingsBoard with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/thingsboard/

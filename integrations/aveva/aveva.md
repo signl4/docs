@@ -1,5 +1,6 @@
 ---
 title: AVEVA
+title_category: AVEVA + SIGNL4 Integration
 parent: Integrations
 description: Integrate AVEVA with SIGNL4 for reliable mobile alerting, on-call scheduling and automated escalation.
 permalink: /integrations/aveva/

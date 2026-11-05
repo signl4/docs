@@ -1,5 +1,6 @@
 ---
-title: Slack + SIGNL4 Integration
+title: Slack
+title_category: Slack + SIGNL4 Integration
 parent: Integrations
 description: Integrate Slack with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/slack/

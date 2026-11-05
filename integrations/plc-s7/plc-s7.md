@@ -1,5 +1,6 @@
 ---
-title: PLC (S7) + SIGNL4 Integration
+title: PLC (S7)
+title_category: PLC (S7) + SIGNL4 Integration
 parent: Integrations
 description: Integrate PLC (S7) with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/plc-s7/

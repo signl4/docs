@@ -1,5 +1,6 @@
 ---
-title: AWS IoT Button + SIGNL4 Integration
+title: AWS IoT Button
+title_category: AWS IoT Button + SIGNL4 Integration
 parent: Integrations
 description: Integrate AWS IoT Button with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/aws-iot-button/

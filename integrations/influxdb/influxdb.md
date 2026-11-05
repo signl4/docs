@@ -1,5 +1,6 @@
 ---
-title: InfluxDB + SIGNL4 Integration
+title: InfluxDB
+title_category: InfluxDB + SIGNL4 Integration
 parent: Integrations
 description: Integrate InfluxDB with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/influxdb/

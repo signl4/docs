@@ -1,5 +1,6 @@
 ---
-title: CloudStats + SIGNL4 Integration
+title: CloudStats
+title_category: CloudStats + SIGNL4 Integration
 parent: Integrations
 description: Integrate CloudStats with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/cloudstats/

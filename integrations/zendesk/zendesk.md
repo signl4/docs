@@ -1,5 +1,6 @@
 ---
-title: Zendesk + SIGNL4 Integration
+title: Zendesk
+title_category: Zendesk + SIGNL4 Integration
 parent: Integrations
 description: Integrate Zendesk with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/zendesk/

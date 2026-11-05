@@ -1,5 +1,6 @@
 ---
-title: REST API + SIGNL4 Integration
+title: REST API
+title_category: REST API + SIGNL4 Integration
 parent: Integrations
 description: Integrate REST API with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/rest-api/

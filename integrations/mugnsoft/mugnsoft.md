@@ -1,5 +1,6 @@
 ---
 title: Mugnsoft
+title_category: Mugnsoft + SIGNL4 Integration
 parent: Integrations
 description: Integrate Mugnsoft with SIGNL4 for reliable mobile alerting, on-call scheduling, acknowledgements, automated escalation, and alert resolution.
 permalink: /integrations/mugnsoft/

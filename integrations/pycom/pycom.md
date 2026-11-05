@@ -1,5 +1,6 @@
 ---
-title: Pycom + SIGNL4 Integration
+title: Pycom
+title_category: Pycom + SIGNL4 Integration
 parent: Integrations
 description: Integrate Pycom with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/pycom/

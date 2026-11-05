@@ -1,5 +1,6 @@
 ---
 title: Reply
+title_category: Reply + SIGNL4 Integration
 parent: Integrations
 description: Integrate Reply-built monitoring, security and IT automation workflows with SIGNL4 for mobile alerting, on-call scheduling and automated escalation.
 permalink: /integrations/reply/

@@ -1,5 +1,6 @@
 ---
 title: Netskope
+title_category: Netskope + SIGNL4 Integration
 parent: Integrations
 description: Integrate Netskope with SIGNL4 for reliable mobile cybersecurity alerts, automated escalation, and on-call incident response.
 permalink: /integrations/netskope/

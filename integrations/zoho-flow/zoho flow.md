@@ -1,5 +1,6 @@
 ---
-title: Zoho Flow + SIGNL4 Integration
+title: Zoho Flow
+title_category: Zoho Flow + SIGNL4 Integration
 parent: Integrations
 description: Integrate Zoho Flow with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/zoho-flow/

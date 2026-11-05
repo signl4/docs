@@ -1,5 +1,6 @@
 ---
-title: Email + SIGNL4 Integration
+title: Email
+title_category: Email + SIGNL4 Integration
 parent: Integrations
 description: Integrate Email with SIGNL4 for reliable mobile alerting, on-call routing, acknowledgements, and automated escalation.
 permalink: /integrations/email/

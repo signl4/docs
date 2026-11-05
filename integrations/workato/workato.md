@@ -1,5 +1,6 @@
 ---
-title: Workato + SIGNL4 Integration
+title: Workato
+title_category: Workato + SIGNL4 Integration
 parent: Integrations
 description: Integrate Workato with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/workato/

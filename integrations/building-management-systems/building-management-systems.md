@@ -1,5 +1,6 @@
 ---
-title: Building Management Systems + SIGNL4 Integration
+title: Building Management Systems
+title_category: Building Management Systems + SIGNL4 Integration
 parent: Integrations
 description: Integrate Building Management Systems with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/building-management-systems/

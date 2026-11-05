@@ -1,5 +1,6 @@
 ---
-title: Gatus + SIGNL4 Integration
+title: Gatus
+title_category: Gatus + SIGNL4 Integration
 parent: Integrations
 description: Integrate Gatus with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/gatus/

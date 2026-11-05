@@ -1,5 +1,6 @@
 ---
-title: Salesforce + SIGNL4 Integration
+title: Salesforce
+title_category: Salesforce + SIGNL4 Integration
 parent: Integrations
 description: Integrate Salesforce with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/salesforce/

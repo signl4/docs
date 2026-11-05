@@ -1,5 +1,6 @@
 ---
-title: Micro Focus OMi + SIGNL4 Integration
+title: Micro Focus OMi
+title_category: Micro Focus OMi + SIGNL4 Integration
 parent: Integrations
 description: Integrate Micro Focus OMi with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/micro-focus-omi/

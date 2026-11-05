@@ -1,5 +1,6 @@
 ---
 title: Zscaler
+title_category: Zscaler + SIGNL4 Integration
 parent: Integrations
 description: Integrate Zscaler ZIA and ZDX with SIGNL4 for reliable mobile security and digital experience alerts, on-call scheduling and automated escalation.
 permalink: /integrations/zscaler/

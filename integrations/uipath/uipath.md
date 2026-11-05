@@ -1,5 +1,6 @@
 ---
-title: UiPath + SIGNL4 Integration
+title: UiPath
+title_category: UiPath + SIGNL4 Integration
 parent: Integrations
 description: Integrate UiPath with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/uipath/

@@ -1,5 +1,6 @@
 ---
-title: BMC Helix Operations Management + SIGNL4 Integration
+title: BMC Helix Operations Management
+title_category: BMC Helix Operations Management + SIGNL4 Integration
 parent: Integrations
 description: Integrate BMC Helix Operations Management with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/bmc-helix-om/

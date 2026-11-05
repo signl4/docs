@@ -1,5 +1,6 @@
 ---
-title: Tray.io + SIGNL4 Integration
+title: Tray.io
+title_category: Tray.io + SIGNL4 Integration
 parent: Integrations
 description: Integrate Tray.io with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/tray-io/

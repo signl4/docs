@@ -1,5 +1,6 @@
 ---
-title: ManageEngine OpManager + SIGNL4 Integration
+title: ManageEngine OpManager
+title_category: ManageEngine OpManager + SIGNL4 Integration
 parent: Integrations
 description: Integrate ManageEngine OpManager with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/manageengine-opmanager/

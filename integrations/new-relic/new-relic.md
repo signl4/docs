@@ -1,5 +1,6 @@
 ---
-title: New Relic + SIGNL4 Integration
+title: New Relic
+title_category: New Relic + SIGNL4 Integration
 parent: Integrations
 description: Integrate New Relic with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/new-relic/

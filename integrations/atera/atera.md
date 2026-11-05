@@ -1,5 +1,6 @@
 ---
-title: Atera + SIGNL4 Integration
+title: Atera
+title_category: Atera + SIGNL4 Integration
 parent: Integrations
 description: Integrate Atera with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/atera/

@@ -1,5 +1,6 @@
 ---
 title: Fortinet
+title_category: Fortinet + SIGNL4 Integration
 parent: Integrations
 description: Integrate Fortinet FortiGate with SIGNL4 for reliable mobile security alerting, on-call scheduling and automated escalation.
 permalink: /integrations/fortinet/

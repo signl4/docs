@@ -1,5 +1,6 @@
 ---
-title: Netwrix + SIGNL4 Integration
+title: Netwrix
+title_category: Netwrix + SIGNL4 Integration
 parent: Integrations
 description: Integrate Netwrix with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/netwrix/

@@ -1,5 +1,6 @@
 ---
-title: Pulseway + SIGNL4 Integration
+title: Pulseway
+title_category: Pulseway + SIGNL4 Integration
 parent: Integrations
 description: Integrate Pulseway with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/pulseway/

@@ -1,5 +1,6 @@
 ---
-title: Nagios + SIGNL4 Integration
+title: Nagios
+title_category: Nagios + SIGNL4 Integration
 parent: Integrations
 description: Integrate Nagios with SIGNL4 for reliable mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/nagios/

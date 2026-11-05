@@ -1,5 +1,6 @@
 ---
-title: Industrial Shields + SIGNL4 Integration
+title: Industrial Shields
+title_category: Industrial Shields + SIGNL4 Integration
 parent: Integrations
 description: Integrate Industrial Shields with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/industrial-shields/

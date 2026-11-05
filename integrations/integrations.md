@@ -1,5 +1,6 @@
 ---
 title: Integrations
+title_category: Integrations + SIGNL4 Integration
 has_children: true
 description: Browse integrations that connect SIGNL4 with monitoring, IT service management, IoT and business applications.
 permalink: /integrations/

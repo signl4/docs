@@ -1,5 +1,6 @@
 ---
-title: CALIMA + SIGNL4 Integration
+title: CALIMA
+title_category: CALIMA + SIGNL4 Integration
 parent: Integrations
 description: Integrate CALIMA with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/calima/

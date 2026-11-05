@@ -1,5 +1,6 @@
 ---
-title: Catchpoint + SIGNL4 Integration
+title: Catchpoint
+title_category: Catchpoint + SIGNL4 Integration
 parent: Integrations
 description: Integrate Catchpoint with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/catchpoint/

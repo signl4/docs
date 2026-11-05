@@ -1,5 +1,6 @@
 ---
 title: CrowdStrike
+title_category: CrowdStrike + SIGNL4 Integration
 parent: Integrations
 description: Integrate CrowdStrike Falcon with SIGNL4 for reliable mobile security alerts, on-call scheduling, and automated escalation.
 permalink: /integrations/crowdstrike/

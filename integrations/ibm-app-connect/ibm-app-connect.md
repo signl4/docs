@@ -1,5 +1,6 @@
 ---
-title: IBM App Connect + SIGNL4 Integration
+title: IBM App Connect
+title_category: IBM App Connect + SIGNL4 Integration
 parent: Integrations
 description: Integrate IBM App Connect with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/ibm-app-connect/

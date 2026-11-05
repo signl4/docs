@@ -1,5 +1,6 @@
 ---
 title: Cluster Reply
+title_category: Cluster Reply + SIGNL4 Integration
 parent: Integrations
 description: Integrate Microsoft Azure solutions implemented by Cluster Reply with SIGNL4 for mobile incident alerting, on-call scheduling and automated escalation.
 permalink: /integrations/cluster-reply/

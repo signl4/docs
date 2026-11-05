@@ -1,5 +1,6 @@
 ---
-title: TensorFlow + SIGNL4 Integration
+title: TensorFlow
+title_category: TensorFlow + SIGNL4 Integration
 parent: Integrations
 description: Integrate TensorFlow with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/tensorflow/

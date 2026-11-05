@@ -1,5 +1,6 @@
 ---
 title: CIQ Cloud
+title_category: CIQ Cloud + SIGNL4 Integration
 parent: Integrations
 description: Integrate CIQ Cloud with SIGNL4 for reliable mobile alerting, on-call scheduling and automated escalation.
 permalink: /integrations/ciq-cloud/

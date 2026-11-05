@@ -1,5 +1,6 @@
 ---
-title: Flic Button + SIGNL4 Integration
+title: Flic Button
+title_category: Flic Button + SIGNL4 Integration
 parent: Integrations
 description: Integrate Flic Button with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/flic/

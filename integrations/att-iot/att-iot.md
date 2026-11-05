@@ -1,5 +1,6 @@
 ---
-title: AT&T IoT + SIGNL4 Integration
+title: AT&T IoT
+title_category: AT&T IoT + SIGNL4 Integration
 parent: Integrations
 description: Integrate AT&T IoT with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/att-iot/

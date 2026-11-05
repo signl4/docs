@@ -1,5 +1,6 @@
 ---
-title: Ignition + SIGNL4 Integration
+title: Ignition
+title_category: Ignition + SIGNL4 Integration
 parent: Integrations
 description: Integrate Ignition with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/ignition/

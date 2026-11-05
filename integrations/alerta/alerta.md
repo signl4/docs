@@ -1,5 +1,6 @@
 ---
-title: Alertra + SIGNL4 Integration
+title: Alertra
+title_category: Alertra + SIGNL4 Integration
 parent: Integrations
 description: Integrate Alertra with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/alerta/

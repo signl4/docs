@@ -1,5 +1,6 @@
 ---
-title: Sumo Logic + SIGNL4 Integration
+title: Sumo Logic
+title_category: Sumo Logic + SIGNL4 Integration
 parent: Integrations
 description: Integrate Sumo Logic with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/sumologic/

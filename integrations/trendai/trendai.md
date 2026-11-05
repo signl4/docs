@@ -1,5 +1,6 @@
 ---
 title: TrendAI
+title_category: TrendAI + SIGNL4 Integration
 parent: Integrations
 description: Integrate TrendAI Vision One with SIGNL4 for reliable mobile security alerts, on-call scheduling and automated escalation.
 permalink: /integrations/trendai/

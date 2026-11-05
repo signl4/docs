@@ -1,5 +1,6 @@
 ---
-title: Microsoft Teams + SIGNL4 Integration
+title: Microsoft Teams
+title_category: Microsoft Teams + SIGNL4 Integration
 parent: Integrations
 description: Integrate Microsoft Teams with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/microsoft-teams/

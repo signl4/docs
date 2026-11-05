@@ -1,5 +1,6 @@
 ---
-title: Grafana + SIGNL4 Integration
+title: Grafana
+title_category: Grafana + SIGNL4 Integration
 parent: Integrations
 description: Integrate Grafana with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/grafana/

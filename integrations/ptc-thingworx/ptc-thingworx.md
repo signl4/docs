@@ -1,5 +1,6 @@
 ---
-title: PTC ThingWorx + SIGNL4 Integration
+title: PTC ThingWorx
+title_category: PTC ThingWorx + SIGNL4 Integration
 parent: Integrations
 description: Integrate PTC ThingWorx with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/ptc-thingworx/

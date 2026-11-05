@@ -1,5 +1,6 @@
 ---
-title: FortiMonitor + SIGNL4 Integration
+title: FortiMonitor
+title_category: FortiMonitor + SIGNL4 Integration
 parent: Integrations
 description: Integrate FortiMonitor with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/fortimonitor/

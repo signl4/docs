@@ -1,5 +1,6 @@
 ---
-title: Schneider Electric + SIGNL4 Integration
+title: Schneider Electric
+title_category: Schneider Electric + SIGNL4 Integration
 parent: Integrations
 description: Integrate Schneider Electric with SIGNL4 for mobile alerting, on-call scheduling, acknowledgements and automated escalation.
 permalink: /integrations/schneider-electric/
