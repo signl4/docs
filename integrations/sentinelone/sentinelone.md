@@ -8,6 +8,7 @@ redirect_from:
   - /integrations/sentinelone/sentinelone.html
   - /integrations/sentinelone/sentinelone
 ---
+
 # SIGNL4 Integration with SentinelOne
 
 [SentinelOne Singularity](https://www.sentinelone.com/) helps security teams prevent, detect, investigate, and respond to threats across endpoints and other environments. With the **Singularity XDR Webhook** integration available through the SentinelOne Singularity Marketplace, you can send selected security threat events to [SIGNL4](https://www.signl4.com/) over HTTPS.
