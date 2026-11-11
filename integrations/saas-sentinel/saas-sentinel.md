@@ -103,7 +103,9 @@ SaaS Sentinel stores the webhook address encrypted. Once saved, the existing sec
 
 *Configured SIGNL4 integration with the enabled test-alert button and a successful delivery status.*
 
-<!-- Optional: Add signl4-cybersecurity.webp here as a mobile-alert illustration. -->
+The alert in SIGNL4 might look like this.
+
+![SIGNL4 Alert](signl4-cybersecurity.webp)
 
 ### 4. Automatic Alert Closure
 
