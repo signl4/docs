@@ -37,6 +37,22 @@ cURL with attachment:
 curl -X POST "https://connect.signl4.com/webhook/{team-secret}"  -F "Title=Camera Alert" -F "Message=Nice view from the office." -F "File=@office-view.jpg" -H "Content-Type: multipart/form-data"
 ```
 
+cURL with retry:
+
+```bash
+curl --fail --silent --show-error \
+  --retry 5 \
+  --retry-connrefused \
+  --retry-delay 10 \
+  --connect-timeout 10 \
+  --max-time 30 \
+  -H "Content-Type: application/json" \
+  -d '{"Title":"Temperature Alert","Message":"Motor overheating"}' \
+  "<https://connect.signl4.com/webhook/YOUR_TEAM_SECRET>"
+```
+
+If you're looking for a way to queue and automatically retry failed HTTP alerts with cURL, check out this [guide](https://docs.signl4.com/samples/curl-http-queue).
+
 ## Bash Script
 
 ```bash
