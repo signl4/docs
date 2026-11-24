@@ -11,7 +11,7 @@ redirect_from:
 
 # SIGNL4 Integration with SIINEOS
 
-[SIINEOS](https://www.inhub.de/en/products/software-siineos) by [in.hub](https://www.inhub.de/en) is a lightweight, Linux-based Industrial IoT (IIoT) operating system designed for edge devices. It enables secure remote monitoring, management, and automation of industrial processes, integrating seamlessly with cloud platforms and IIoT applications.
+[SIINEOS](https://inhub.de/siineos) by [in.hub](https://www.inhub.de/en) is a lightweight, Linux-based Industrial IoT (IIoT) operating system designed for edge devices. It enables secure remote monitoring, management, and automation of industrial processes, integrating seamlessly with cloud platforms and IIoT applications.
 
 ![in.hub SIINEOS](inhub-siineos.png)
 
