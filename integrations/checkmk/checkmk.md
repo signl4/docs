@@ -29,6 +29,8 @@ For version-specific settings and testing options, see [Checkmk's SIGNL4 notific
 
 ### Example alert in SIGNL4
 
+The alert in the SIGN4 mobile app might look like this.
+
 ![SIGNL4 Alert](signl4-checkmk.webp)
 
 ## Two-Way Integration
